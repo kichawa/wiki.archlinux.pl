@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="http://wiki.archlinux.pl/Iptables"><div style="background:#fff;border:1px solid #999;margin:-1px -1px 0;padding:0;"><div style="background:#ddd;border:1px solid #999;color:#000;font:13px arial,sans-serif;font-weight:normal;margin:12px;padding:8px;text-align:left">To jest kopia z pamięci podręcznej Google adresu <a href="http://wiki.archlinux.pl/Iptables" style="text-decoration:underline;color:#00c">http://wiki.archlinux.pl/Iptables</a>. Zdjęcie przedstawia stan strony z 27 Lip 2011 12:48:10 GMT. <a href="http://wiki.archlinux.pl/Iptables" style="text-decoration:underline;color:#00c">Aktualna strona</a> może wyglądać inaczej. <a href="http://www.google.com/intl/pl/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Więcej informacji</a><br><br><div style="float:right"><a href="http://webcache.googleusercontent.com/search?q=cache:cxuM6B_N-_oJ:wiki.archlinux.pl/Iptables+http://wiki.archlinux.pl+Iptables&amp;hl=pl&amp;client=firefox-a&amp;gl=pl&strip=1" style="text-decoration:underline;color:#00c">Wersja tekstowa</a></div>
+<div>Te wyszukiwane hasła są podświetlone: <span style="background:#a0ffff;color:black;font-weight:bold">iptables</span>&nbsp;Znaleziono tyko w linkach do tej strony: <span style="font-weight:bold">http</span>&nbsp;<span style="font-weight:bold">wiki</span>&nbsp;<span style="font-weight:bold">archlinux</span>&nbsp;<span style="font-weight:bold">pl</span>&nbsp;&nbsp;</div></div></div><div style="position:relative">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pl" dir="ltr">
+<head>
+<title>Iptables – wiki.archlinux.pl</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.0" />
+<link rel="alternate" type="application/x-wiki" title="Edytuj" href="/index.php?title=Iptables&amp;action=edit" />
+<link rel="edit" title="Edytuj" href="/index.php?title=Iptables&amp;action=edit" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="wiki.archlinux.pl (pl)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/index.php?title=Iptables&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" />
+<link rel="alternate" type="application/atom+xml" title="Kanał Atom wiki.archlinux.pl" href="/index.php?title=Specjalna:Ostatnie_zmiany&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/archlinux/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/archlinux/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/archlinux/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/skins/archlinux/archnavbar.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/archlinux/arch.css?270" media="screen" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Archlinux.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="archlinux",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.archlinux.pl",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Iptables",
+wgTitle="Iptables",
+wgAction="view",
+wgArticleId=161,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="pl",
+wgContentLanguage="pl",
+wgBreakFrames=false,
+wgCurRevisionId=2683,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=[",	.", " 	,"],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Strona główna",
+wgFormattedNamespaces={"-2": "Media", "-1": "Specjalna", "0": "", "1": "Dyskusja", "2": "Użytkownik", "3": "Dyskusja użytkownika", "4": "wiki.archlinux.pl", "5": "Dyskusja wiki.archlinux.pl", "6": "Plik", "7": "Dyskusja pliku", "8": "MediaWiki", "9": "Dyskusja MediaWiki", "10": "Szablon", "11": "Dyskusja szablonu", "12": "Pomoc", "13": "Dyskusja pomocy", "14": "Kategoria", "15": "Dyskusja kategorii"},
+wgNamespaceIds={"media": -2, "specjalna": -1, "": 0, "dyskusja": 1, "użytkownik": 2, "dyskusja_użytkownika": 3, "wiki.archlinux.pl": 4, "dyskusja_wiki.archlinux.pl": 5, "plik": 6, "dyskusja_pliku": 7, "mediawiki": 8, "dyskusja_mediawiki": 9, "szablon": 10, "dyskusja_szablonu": 11, "pomoc": 12, "dyskusja_pomocy": 13, "kategoria": 14, "dyskusja_kategorii": 15, "grafika": 6, "dyskusja_grafiki": 7, "image": 6, "image_talk": 7},
+wgSiteName="wiki.archlinux.pl",
+wgCategories=["HOWTO", "Sieci", "Bezpieczeństwo"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=archlinux&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Iptables skin-archlinux">
+<div id="archnavbar"><!-- Arch Linux global navigation bar -->
+	<div id="archnavbarlogo">
+		<p><a id="logo" href="http://archlinux.pl"></a></p>
+	</div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-start"><a href="http://archlinux.pl">Start</a></li><li id="anb-pakiety"><a href="http://archlinux.pl/?page=Packages">Pakiety</a></li><li id="anb-forum"><a href="http://bbs.archlinux.pl">Forum</a></li><li id="anb-wiki" class="anb-selected"><a href="http://wiki.archlinux.pl">Wiki</a></li><li id="anb-planeta"><a href="http://planeta.archlinux.pl">Planeta</a></li><li id="anb-pobierz"><a href="http://wiki.archlinux.pl/Pobieranie">Pobierz</a></li>		</ul>
+	</div>
+</div><!-- #archnavbar -->
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading"><b style="color:black;background-color:#a0ffff">Iptables</b></h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">Z wiki.archlinux.pl</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Skocz do: <a href="#column-one">nawigacji</a>, <a href="#searchInput">wyszukiwania</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Spis treści</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Wprowadzenie"><span class="tocnumber">1</span> <span class="toctext">Wprowadzenie</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Zasada_dzia.C5.82ania"><span class="tocnumber">2</span> <span class="toctext">Zasada działania</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Instalacja"><span class="tocnumber">3</span> <span class="toctext">Instalacja</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Regu.C5.82y"><span class="tocnumber">4</span> <span class="toctext">Reguły</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Dopasowywanie_pakiet.C3.B3w"><span class="tocnumber">5</span> <span class="toctext">Dopasowywanie pakietów</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Tworzenie_firewalla"><span class="tocnumber">6</span> <span class="toctext">Tworzenie firewalla</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Ufw_.28Uncomplicated_Firewall.29"><span class="tocnumber">7</span> <span class="toctext">Ufw (Uncomplicated Firewall)</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Zako.C5.84czenie"><span class="tocnumber">8</span> <span class="toctext">Zakończenie</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Zobacz_r.C3.B3wnie.C5.BC"><span class="tocnumber">9</span> <span class="toctext">Zobacz również</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "pokaż"; var tocHideText = "ukryj"; showTocToggle(); } </script>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=1" title="Edytuj sekcję: Wprowadzenie">edytuj</a>]</span> <span class="mw-headline" id="Wprowadzenie"> Wprowadzenie </span></h2>
+<p><b style="color:black;background-color:#a0ffff">Iptables</b> to filtr pakietów internetowych wykorzystywany jako sieciowa zapora lub programowy ruter. Został napisany w 1999 roku przez Rusty'ego Russela. Wchodzi w skład jądra Linuksa od wersji 2.4, zatem w Archu jest podstawowym narzędziem do kontrolowania połączeń z Internetem. W przeciwieństwie do zapór ogniowych spotykanych w środowisku Windows, <b style="color:black;background-color:#a0ffff">Iptables</b> nie posiada żadnego graficznego interfejsu użytkownika. Filtry konfiguruje się, definiując stosowne reguły bezpośrednio w konsoli systemu operacyjnego. Istnieją jednak dodatkowe projekty umożliwiające graficzne konfigurowanie zapory, lecz wymagają one ściągnięcia dodatkowych pakietów.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=2" title="Edytuj sekcję: Zasada działania">edytuj</a>]</span> <span class="mw-headline" id="Zasada_dzia.C5.82ania"> Zasada działania </span></h2>
+<p>Funkcjonowanie <b style="color:black;background-color:#a0ffff">Iptables</b> opiera się o tzw. łańcuchy. Każdy pakiet, który zostaje odebrany przez interfejs sieciowy, kierowany jest do odpowiedniego łańcucha reguł. <b style="color:black;background-color:#a0ffff">Iptables</b> po kolei próbuje dopasować znajdujące się w łańcuchu reguły. Gdy mu się to udaje, wykonuje zdefiniowaną dla danej reguły czynność (przyjąć, odmówić, zignorować itd.).
+</p><p><b style="color:black;background-color:#a0ffff">Iptables</b> posiada trzy predefiniowane łańcuchy, lecz użytkownik może tworzyć też własne. Różnica pomiędzy nimi polega tylko na tym, że jeśli pakiet dotrze do końca predefiniowanego łańcucha, o jego losie decyduje ustalona przez administratora polityka, natomiast po dotarciu do końca łańcucha użytkownika pakiet wraca z powrotem do łańcucha nadrzędnego. 
+</p><p>Predefiniowane łańcuchy to:
+</p><p><b><code>INPUT</code></b> - tu trafiają pakiety przybywające z zewnątrz do interfejsu sieciowego. Umożliwia filtrowanie nadchodzącego ruchu.
+</p><p><b><code>OUTPUT</code></b> - tu trafia pakiet przed wysłaniem go z naszego komputera w świat.
+</p><p><b><code>FORWARD</code></b> - jeżeli nasz komputer pełni funkcję bramy dla sieci lokalnej, trafiają tu pakiety przechodzące przez nasz komputer jedynie "tranzytem". Domyślnie łańcuch ten jest zawsze zablokowany.
+</p><p>Teraz: jeśli pan Józef chce nawiązać połączenie z naszym komputerem, wysyła odpowiednie pakiety, które trafiają do łańcucha <code>INPUT</code>. Gdy <b style="color:black;background-color:#a0ffff">Iptables</b> je przepuści, może je dopiero wtedy przejąć jakiś proces systemowy i wygenerować w odpowiedzi inne pakiety. Te trafiają do łańcucha <code>OUTPUT</code> i jeśli wszystko jest z nimi OK, są wysyłane z powrotem do komputera pana Józefa.
+</p><p>Inny przykład: mamy w firmie niewielką sieć lokalną złożoną z 10 komputerów i centralnego serwera pełniącego funkcję bramy. Sekretarka wysyła z jednego z komputerów e-mail. Pakiety z wiadomością nie są przeznaczone dla naszego serwera, przechodzą one jedynie przez niego w związku z tym, że posiada on połączenie z Internetem, dlatego <b style="color:black;background-color:#a0ffff">Iptables</b> kieruje je do łańcucha <code>FORWARD</code>. Odpowiedź serwera przechodzi tą samą drogą.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=3" title="Edytuj sekcję: Instalacja">edytuj</a>]</span> <span class="mw-headline" id="Instalacja"> Instalacja </span></h2>
+<p>Aby móc konfigurować zaporę w Arch Linuksie, musimy wykonać dwie czynności. Po pierwsze, instalujemy <b style="color:black;background-color:#a0ffff">Iptables</b>:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=iptables" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">iptables</b></a></tt></code></div>
+<p>Po drugie, dopisujemy demona do pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/rc.conf</span>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/rc.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">DAEMONS=(... <b style="color:black;background-color:#a0ffff">iptables</b> ...)</pre>
+<p>Do sterowania <b style="color:black;background-color:#a0ffff">Iptables</b> używamy odpowiedniego demona:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># /etc/rc.d/<b style="color:black;background-color:#a0ffff">iptables</b> start            # Uruchom filtrowanie pakietów<br /># /etc/rc.d/<b style="color:black;background-color:#a0ffff">iptables</b> stop             # Zatrzymaj filtrowanie pakietów<br /># /etc/rc.d/<b style="color:black;background-color:#a0ffff">iptables</b> restart          # Przeładuj reguły<br /># /etc/rc.d/<b style="color:black;background-color:#a0ffff">iptables</b> save             # Zapisz aktualnie dodane reguły</code></div>
+<p>W Arch Linuksie, w przeciwieństwie do wielu innych dystrybucji, regułek <b style="color:black;background-color:#a0ffff">Iptables</b> nie umieszcza się bezpośrednio w skryptach startowych. Możemy wpisać je ręcznie z konsoli, a po zakończeniu ich ustalania wydać ostatnie z czterech poleceń - cała lista zostanie zapisana w bardziej czytelnym dla komputera formacie i ładowana przy starcie systemu (pod warunkiem oczywiście, że dodamy wywołanie demona do <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/rc.conf</span>). Z drugiej strony, można pokusić się o napisanie skryptu do przeładowywania reguł zapory tak, aby można było np. szybko blokować wybrane adresy IP lub dodawać porty do odblokowania.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=4" title="Edytuj sekcję: Reguły">edytuj</a>]</span> <span class="mw-headline" id="Regu.C5.82y"> Reguły </span></h2>
+<p>Regułami zapory zarządza się z konsoli programem <b style="color:black;background-color:#a0ffff">Iptables</b>, na przykład:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A INPUT -p tcp -j ACCEPT</code></div>
+<p>Składnia polecenia jest następująca:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -F                             # Czyści wszystkie reguły.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -F INPUT                       # Czyści wszystkie reguły w łańcuchu INPUT i analogicznie, innych.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -L                             # Wyświetla aktualnie załadowane reguły zapory.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -L -v                          # Wyświetla aktualnie załadowane reguły zapory, tylko bardziej szczegółowiej.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -N łańcuch                     # Tworzy nowy łańcuch. Dla odróżnienia, łańcuchy użytkownika zapisywane są małymi literami.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A łańcuch reguła              # Dodaje regułę do łańcucha na jego koniec.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -I łańcuch pozycja reguła      # Dodaje regułę do łańcucha na wskazaną pozycję.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -D łańcuch pozycja             # Kasuje w podanym łańcuchu regułę o wskazanym numerze.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -D łańcuch reguła              # Kasuje w podanym łańcuchu regułę o wskazanym numerze, lecz zamiast numeru trzeba podać pełną zawartość
+                                            reguły.
+# <b style="color:black;background-color:#a0ffff">iptables</b> -P łańcuch operacja            # Domyślna polityka dla niedopasowanych pakietów w podanym łańcuchu.</code></div>
+<p>Tak więc zaczynamy od czyszczenia obecnej listy:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -F</code></div>
+<p>Następnie informujemy, że domyślnie wszystkie pakiety w każdym łańcuchu mają być odrzucane, definiując domyślną politykę:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -P INPUT DROP
+# <b style="color:black;background-color:#a0ffff">iptables</b> -P OUTPUT DROP
+# <b style="color:black;background-color:#a0ffff">iptables</b> -P FORWARD DROP</code></div>
+<p>Spróbujmy teraz odblokować parę portów, jako że aktualnie pozbawiliśmy się całkowicie łączności ze światem. Na pierwszy ogień serwery WWW oraz DNS:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A INPUT -p tcp --sport 80 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A OUTPUT -p tcp --dport 80 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A INPUT -p udp --sport 53 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A OUTPUT -p udp --dport 53 -j ACCEPT</code></div>
+<p>Zdefiniowane przez nas reguły składają się z trzech części: wskazania protokołu (tcp, udp, icmp), portu, oraz co należy zrobić z dopasowanym pakietem. 
+</p><p>Dozwolone operacje to:
+</p><p><b><code>ACCEPT</code></b> - pakiet przechodzi
+</p><p><b><code>REJECT</code></b> - pakiet nie przechodzi, a zapora zwraca przez ICMP informację o niepowodzeniu
+</p><p><b><code>DROP</code></b> - pakiet nie przechodzi, a nadawca nie jest o tym powiadamiany
+</p><p>Lista opcji, jakich można użyć w regule, jest znacznie dłuższa: możemy wybierać pakiety według adresu IP, interfejsu sieciowego czy też bardziej zaawansowanych opcji dostarczanych przez rozliczne moduły.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=5" title="Edytuj sekcję: Dopasowywanie pakietów">edytuj</a>]</span> <span class="mw-headline" id="Dopasowywanie_pakiet.C3.B3w"> Dopasowywanie pakietów </span></h2>
+<p>Poznaliśmy dotąd jedynie podstawowe opcje związane z filtrowaniem pakietów. Przypomnijmy:
+</p><p><b><code>-p protokół</code></b> - pozwala filtrować pakiety określonego protokołu warstwy transportowej: TCP, UDP, ICMP itd.
+</p><p><b><code>--dport port</code></b> - ten przełącznik dozwolony jest tylko, gdy korzystamy z przełącznika <code>-p</code> (mogą wszak istnieć protokoły, w których nie ma czegoś takiego, jak porty i wtedy nie miałoby to sensu). Pozwala wybrać pakiety, które mają ustalony port docelowy, np. 80. Można także podać nazwę usługi odpowiedzialnej za dany protokół, np. <code>--dport http</code> wybierze nam pakiety pracujące na porcie 80, na którym komunikuje się HTTP. Można też podawać zakres: <code>--dport 80:100</code> wybierze nam pakiety na portach od 80 do 100, włącznie.
+</p><p><b><code>--sport port</code></b> - przełącznik ten działa podobnie do poprzedniego, lecz dotyczy portu źródłowego, z którego pakiet został wysłany.
+</p><p>Na przykład <code>-s adres</code> - wybiera pakiet wysłany z podanego adresu IP. Można podać pełen adres IP, np. 192.168.34.45 lub tylko jego fragment wraz z maską 192.168.0.0/16 (niezmienne jest pierwsze 16 bitów adresu). Maskę można też podać w innej formie: 192.168.0.0/255.255.0.0. Przełącznik ten przydaje się przy blokowaniu dostępu z jakiegoś adresu IP, który nam się szczególnie naprzykrza lub jeśli mamy co do płynących stamtąd pakietów jakieś specjalne plany.
+</p><p><b><code>-d adres</code></b> - jw. tyle że dotyczy docelowego adresu IP.
+</p><p><b><code>-i interfejs</code></b> - wybiera pakiet przychodzący z podanego interfejsu sieciowego. Nazwę interfejsu możemy poprzedzić wykrzyknikiem, np. <code>-i&nbsp;! eth0</code>, który oznacza negację - w tym wypadku do reguły będą pasować wszystkie pakiety, które nie przyszły do nas z eth0. Pamiętaj, że interfejsu wejściowego nie mają zdefiniowane pakiety w łańcuchu <code>OUTPUT</code>, dlatego jeśli wraz z nim użyjemy tego przełącznika, mamy zagwarantowane, że do tak zdefiniowanej reguły nie będzie pasować żaden pakiet.
+</p><p><b><code>-o interfejs</code></b> - jw. tyle że dotyczy interfejsu wyjściowego. Interfejs ten nie jest zdefiniowany w pakietach z łańcucha <code>INPUT</code> i wraz z nim nie powinniśmy używać tego przełącznika.
+</p><p>Dodatkowe moduły zwiększają znacznie liczbę przełączników, umożliwiając np. filtrowanie według flag pakietu czy nawet pod względem zawartości, co umożliwia wyeliminowanie przez firewall niektórych wirusów! Moduł "limit" umożliwia określenie maksymalnej liczby pakietów danego typu w wybranej jednostce czasu, jakie mogą zostać przepuszczone, co może być przydatne przy konfigurowaniu zabezpieczenia przed atakiem DoS. Oto kilka prostych przykładów użycia wybranych przełączników:
+</p><p>Odrzucenie wszystkich pakietów z podanego adresu IP:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A INPUT -s 12.34.56.78 -j DROP</code></div>
+<p>Ograniczenie maksymalnej liczby przychodzących pingów na "eth0" do jednego na sekundę:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A INPUT -p icmp -i eth0 -m limit --limit 1/s -j ACCEPT</code></div>
+<p>Odblokowanie pętli zwrotnej (loopback), czyli 127.0.0.1:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A INPUT -i lo -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A OUTPUT -o lo -j ACCEPT</code></div>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=6" title="Edytuj sekcję: Tworzenie firewalla">edytuj</a>]</span> <span class="mw-headline" id="Tworzenie_firewalla"> Tworzenie firewalla </span></h2>
+<p>Przy tworzeniu własnego firewalla warto utworzyć sobie kilka prywatnych łańcuchów, ustalić przeznaczenie, kierować tam pakiety o określonej charakterystyce, by później już na spokojnie decydować, które z nich przyjąć, a które odrzucić. Oto przykład takiego działania - nasz komputer pełni funkcję bramy dla dwóch sieci lokalnych podłączonych za jego pośrednictwem do Internetu. Znajdują się w nim trzy karty sieciowe: "eth0", "eth1" oraz "eth2", z czego pierwsza prowadzi w świat, a dwie następne do sieci wewnętrznych. Zauważmy, że pakiety mogą być tutaj przekierowywane na dwa sposoby:
+</p>
+<ul><li> Z jednej z sieci lokalnych do Internetu i na odwrót.
+</li><li> Między obiema sieciami lokalnymi.
+</li></ul>
+<p>Pokażę teraz, w jaki sposób można elegancko ustalać osobne reguły dla każdej z tych dwóch sytuacji za pomocą własnych łańcuchów. Pierwsze, co robimy, to oczywiście zakładamy nowe łańcuchy i ustawiamy stosowną politykę dla <code>FORWARD</code> tak, aby niepasujące pakiety były odrzucane:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -N net_global
+# <b style="color:black;background-color:#a0ffff">iptables</b> -N net_local
+# <b style="color:black;background-color:#a0ffff">iptables</b> -P FORWARD DROP</code></div>
+<p>Teraz musimy ustalić, jakie pakiety będą trafiać do każdego z tych dwóch łańcuchów. Przekierowanie robi się tak samo, jak ustala, co robić z pasującym do reguły pakietem - poprzez przełącznik <code>-j</code>.
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A FORWARD -i eth0 -o ! eth0 -j net_global
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A FORWARD -i ! eth0 -o eth0 -j net_global
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A FORWARD -i ! eth0 -o ! eth0 -j net_local</code></div>
+<p>Regułki te mówią kolejno:
+</p>
+<ol><li> Przekaż pakiet idący z "eth0" (Internet) do dowolnej innej karty sieciowej do łańcucha <code>net_global</code>, bowiem jest to połączenie z Internetu do sieci lokalnej.
+</li><li> Przekaż pakiet idący do "eth0" z dowolnej innej karty sieciowej także do łańcucha <code>net_global</code>, gdyż jest to połączenie z sieci lokalnej do Internetu.
+</li><li> Przekaż pakiet, którego miejscem źródłowym i docelowym jest karta sieciowa inna, niż "eth0" do <code>net_local</code> - jest to połączenie między komputerami w obu naszych sieciach lokalnych.
+</li></ol>
+<p>Teraz reguły filtrowania portów przypisane do <code>net_global</code> będą dotyczyć zawsze połączeń mających związek z Internetem bez konieczności podawania przy każdej z nich wszystkich tych dodatkowych parametrów, podobnie jak pakiety lokalne. Możemy umożliwić sieciom lokalnym korzystanie z DNS i WWW:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A net_global -p tcp --dport 80 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A net_global -p udp --dport 53 -j ACCEPT</code></div>
+<p>Zaś jeśli sieci chcą się porozumieć ze sobą nawzajem, możemy dać im nieco więcej przywilejów, np. odblokowane porty od 1024 do 65535:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># <b style="color:black;background-color:#a0ffff">iptables</b> -A net_local -p tcp --dport 80 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A net_local -p udp --dport 53 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A net_local -p tcp --dport 1024:65535 -j ACCEPT
+# <b style="color:black;background-color:#a0ffff">iptables</b> -A net_local -p udp --dport 1024:65535 -j ACCEPT</code></div>
+<p>Analogicznie można zróżnicować połączenia bezpośrednio z serwerem zależnie od tego, czy pochodzą one z sieci wewnętrznej, czy z Internetu.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=7" title="Edytuj sekcję: Ufw (Uncomplicated Firewall)">edytuj</a>]</span> <span class="mw-headline" id="Ufw_.28Uncomplicated_Firewall.29"> Ufw (Uncomplicated Firewall) </span></h2>
+<p><a href="/Ufw" title="Ufw">Ufw</a> (Uncomplicated Firewall) jest nakładką na <b style="color:black;background-color:#a0ffff">Iptables</b> do łatwiejszego zarządzania ścianą ogniową NetFilter. UFW dostarcza interfejs wiersza poleceń ze składnią podobną do OpenBSD's Packet Filter. Szczególnie dobrze nadaje się jako ściana ogniowa dla hostów.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=8" title="Edytuj sekcję: Zakończenie">edytuj</a>]</span> <span class="mw-headline" id="Zako.C5.84czenie"> Zakończenie </span></h2>
+<p><b style="color:black;background-color:#a0ffff">Iptables</b> jest niezwykle potężnym narzędziem zabezpieczającym wiele serwerów. Poznanie wszystkich jego możliwości przekracza ramy tego artykułu, dlatego zachęcam do własnych poszukiwań i odkryć. Mam jednak nadzieję, że tekst ten pomógł Ci zrozumieć działanie tego pakietu oraz ochronić swój komputer przed intruzami.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Iptables&amp;action=edit&amp;section=9" title="Edytuj sekcję: Zobacz również">edytuj</a>]</span> <span class="mw-headline" id="Zobacz_r.C3.B3wnie.C5.BC">Zobacz również </span></h2>
+<ul><li> <a href="http://debian.one.pl/howto/iptables/iptables2-pl.html" class="external text" rel="nofollow">Poradnik budowania firewalla na <b style="color:black;background-color:#a0ffff">Iptables</b></a>
+</li><li> <a href="/Zapory_sieciowe" title="Zapory sieciowe">Zapory sieciowe</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 234/1000000
+Post-expand include size: 4316/2097152 bytes
+Template argument size: 937/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key archlinux_db-wiki_:pcache:idhash:161-0!1!0!!pl!2 and timestamp 20110707123336 -->
+<div class="printfooter">
+Źródło „<a href="http://wiki.archlinux.pl/Iptables">http://wiki.archlinux.pl/<b style="color:black;background-color:#a0ffff">Iptables</b></a>”</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/Specjalna:Kategorie" title="Specjalna:Kategorie">Kategorie</a>: <span dir='ltr'><a href="/Kategoria:HOWTO" title="Kategoria:HOWTO">HOWTO</a></span> | <span dir='ltr'><a href="/Kategoria:Sieci" title="Kategoria:Sieci">Sieci</a></span> | <span dir='ltr'><a href="/Kategoria:Bezpiecze%C5%84stwo" title="Kategoria:Bezpieczeństwo">Bezpieczeństwo</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Widok</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/Iptables" title="Zobacz stronę treści [c]" accesskey="c">Strona</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Dyskusja:Iptables&amp;action=edit&amp;redlink=1" title="Dyskusja o zawartości tej strony. [t]" accesskey="t">Dyskusja</a></li>
+				 <li id="ca-edit"><a href="/index.php?title=Iptables&amp;action=edit" title="Możesz edytować tę stronę. Przed zapisaniem zmian użyj przycisku podgląd. [e]" accesskey="e">Edytuj</a></li>
+				 <li id="ca-history"><a href="/index.php?title=Iptables&amp;action=history" title="Starsze wersje tej strony. [h]" accesskey="h">Historia i autorzy</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Osobiste</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Specjalna:Zaloguj&amp;returnto=Iptables" title="Zachęcamy do zalogowania się, choć nie jest to obowiązkowe. [o]" accesskey="o">Logowanie i rejestracja</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/skins/common/images/wiki.png);" href="/Strona_g%C5%82%C3%B3wna" title="Strona główna"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Nawigacja</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/Strona_g%C5%82%C3%B3wna" title="Przejdź na stronę główną [z]" accesskey="z">Strona główna</a></li>
+				<li id="n-portal"><a href="/wiki.archlinux.pl:Portal_spo%C5%82eczno%C5%9Bci" title="O projekcie, co możesz zrobić, gdzie możesz znaleźć informacje">Portal społeczności</a></li>
+				<li id="n-currentevents"><a href="/wiki.archlinux.pl:Aktualno%C5%9Bci" title="Informacje o aktualnych wydarzeniach">Bieżące wydarzenia</a></li>
+				<li id="n-recentchanges"><a href="/Specjalna:Ostatnie_zmiany" title="Lista ostatnich zmian na wiki.archlinux.pl. [r]" accesskey="r">Ostatnie zmiany</a></li>
+				<li id="n-randompage"><a href="/Specjalna:Losowa_strona" title="Pokaż stronę wybraną losowo [x]" accesskey="x">Losowa strona</a></li>
+				<li id="n-help"><a href="/Pomoc:Spis_tre%C5%9Bci" title="Tutaj możesz się wielu rzeczy dowiedzieć.">Pomoc</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Szukaj</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Specjalna:Szukaj"/>
+				<input id="searchInput" title="Przeszukaj wiki.archlinux.pl" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Przejdź" title="Przejdź do strony o dokładnie takim tytule, o ile istnieje" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Szukaj" title="Szukaj wprowadzonego tekstu w treści stron" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Narzędzia</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Specjalna:Linkuj%C4%85ce/Iptables" title="Pokaż listę wszystkich stron linkujących do tej strony [j]" accesskey="j">Linkujące</a></li>
+				<li id="t-recentchangeslinked"><a href="/Specjalna:Zmiany_w_linkuj%C4%85cych/Iptables" title="Ostatnie zmiany w stronach, do których ta strona linkuje [k]" accesskey="k">Zmiany w dolinkowanych</a></li>
+<li id="t-specialpages"><a href="/Specjalna:Strony_specjalne" title="Lista wszystkich specjalnych stron [q]" accesskey="q">Strony specjalne</a></li>
+				<li id="t-print"><a href="/index.php?title=Iptables&amp;printable=yes" rel="alternate" title="Wersja do wydruku [p]" accesskey="p">Wersja do druku</a></li>				<li id="t-permalink"><a href="/index.php?title=Iptables&amp;oldid=2683" title="Stały link do tej wersji strony">Link do tej wersji</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"><img src="/skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> Tę stronę ostatnio zmodyfikowano 11:24, 15 mar 2011.</li>
+		<li id="viewcount">Tę stronę obejrzano 1378 razy.</li>
+		<li id="copyright">Treść udostępniana na licencji <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" class="external ">GNU Free Documentation License 1.2</a>.</li>
+		<li id="privacy"><a href="/wiki.archlinux.pl:Zasady_ochrony_prywatno%C5%9Bci" title="wiki.archlinux.pl:Zasady ochrony prywatności">Zasady ochrony prywatności</a></li>
+		<li id="about"><a href="/wiki.archlinux.pl:O_wiki.archlinux.pl" title="wiki.archlinux.pl:O wiki.archlinux.pl">O wiki.archlinux.pl</a></li>
+		<li id="disclaimer"><a href="/wiki.archlinux.pl:Informacje_prawne" title="wiki.archlinux.pl:Informacje prawne">Informacje prawne</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.317 secs. --></body></html>

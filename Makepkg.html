@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="http://wiki.archlinux.pl/Makepkg"><div style="background:#fff;border:1px solid #999;margin:-1px -1px 0;padding:0;"><div style="background:#ddd;border:1px solid #999;color:#000;font:13px arial,sans-serif;font-weight:normal;margin:12px;padding:8px;text-align:left">To jest kopia z pamięci podręcznej Google adresu <a href="http://wiki.archlinux.pl/Makepkg" style="text-decoration:underline;color:#00c">http://wiki.archlinux.pl/Makepkg</a>. Zdjęcie przedstawia stan strony z 11 Lip 2011 20:11:51 GMT. <a href="http://wiki.archlinux.pl/Makepkg" style="text-decoration:underline;color:#00c">Aktualna strona</a> może wyglądać inaczej. <a href="http://www.google.com/intl/pl/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Więcej informacji</a><br><br><div style="float:right"><a href="http://webcache.googleusercontent.com/search?q=cache:5Rk0RDMbz0gJ:wiki.archlinux.pl/Makepkg+wiki.archlinux.pl+Makepkg&amp;hl=pl&amp;client=firefox-a&amp;gl=pl&strip=1" style="text-decoration:underline;color:#00c">Wersja tekstowa</a></div>
+<div>Te wyszukiwane hasła są podświetlone: <span style="background:#ffff66;color:black;font-weight:bold">wiki</span>&nbsp;<span style="background:#ffff66;color:black;font-weight:bold">archlinux</span>&nbsp;<span style="background:#ffff66;color:black;font-weight:bold">pl</span>&nbsp;<span style="background:#a0ffff;color:black;font-weight:bold">makepkg</span>&nbsp;&nbsp;</div></div></div><div style="position:relative">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pl" dir="ltr">
+<head>
+<title>Makepkg – wiki.archlinux.pl</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.0" />
+<link rel="alternate" type="application/x-wiki" title="Edytuj" href="/index.php?title=Makepkg&amp;action=edit" />
+<link rel="edit" title="Edytuj" href="/index.php?title=Makepkg&amp;action=edit" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="wiki.archlinux.pl (pl)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/index.php?title=Makepkg&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" />
+<link rel="alternate" type="application/atom+xml" title="Kanał Atom wiki.archlinux.pl" href="/index.php?title=Specjalna:Ostatnie_zmiany&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/archlinux/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/archlinux/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/archlinux/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/skins/archlinux/archnavbar.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/archlinux/arch.css?270" media="screen" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Archlinux.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="archlinux",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.archlinux.pl",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Makepkg",
+wgTitle="Makepkg",
+wgAction="view",
+wgArticleId=381,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="pl",
+wgContentLanguage="pl",
+wgBreakFrames=false,
+wgCurRevisionId=3059,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=[",	.", " 	,"],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Strona główna",
+wgFormattedNamespaces={"-2": "Media", "-1": "Specjalna", "0": "", "1": "Dyskusja", "2": "Użytkownik", "3": "Dyskusja użytkownika", "4": "wiki.archlinux.pl", "5": "Dyskusja wiki.archlinux.pl", "6": "Plik", "7": "Dyskusja pliku", "8": "MediaWiki", "9": "Dyskusja MediaWiki", "10": "Szablon", "11": "Dyskusja szablonu", "12": "Pomoc", "13": "Dyskusja pomocy", "14": "Kategoria", "15": "Dyskusja kategorii"},
+wgNamespaceIds={"media": -2, "specjalna": -1, "": 0, "dyskusja": 1, "użytkownik": 2, "dyskusja_użytkownika": 3, "wiki.archlinux.pl": 4, "dyskusja_wiki.archlinux.pl": 5, "plik": 6, "dyskusja_pliku": 7, "mediawiki": 8, "dyskusja_mediawiki": 9, "szablon": 10, "dyskusja_szablonu": 11, "pomoc": 12, "dyskusja_pomocy": 13, "kategoria": 14, "dyskusja_kategorii": 15, "grafika": 6, "dyskusja_grafiki": 7, "image": 6, "image_talk": 7},
+wgSiteName="wiki.archlinux.pl",
+wgCategories=["HOWTO", "Zarządzanie pakietami"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=archlinux&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Makepkg skin-archlinux">
+<div id="archnavbar"><!-- Arch Linux global navigation bar -->
+	<div id="archnavbarlogo">
+		<p><a id="logo" href="http://archlinux.pl"></a></p>
+	</div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-start"><a href="http://archlinux.pl">Start</a></li><li id="anb-pakiety"><a href="http://archlinux.pl/?page=Packages">Pakiety</a></li><li id="anb-forum"><a href="http://bbs.archlinux.pl">Forum</a></li><li id="anb-wiki" class="anb-selected"><a href="http://wiki.archlinux.pl">Wiki</a></li><li id="anb-planeta"><a href="http://planeta.archlinux.pl">Planeta</a></li><li id="anb-pobierz"><a href="http://wiki.archlinux.pl/Pobieranie">Pobierz</a></li>		</ul>
+	</div>
+</div><!-- #archnavbar -->
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading"><b style="color:black;background-color:#a0ffff">Makepkg</b></h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">Z <b style="color:black;background-color:#ffff66">wiki.archlinux.pl</b></h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Skocz do: <a href="#column-one">nawigacji</a>, <a href="#searchInput">wyszukiwania</a></div>
+		<!-- start content -->
+<p><br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Spis treści</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Wprowadzenie"><span class="tocnumber">1</span> <span class="toctext">Wprowadzenie</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Konfiguracja"><span class="tocnumber">2</span> <span class="toctext">Konfiguracja</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Pobieranie_plik.C3.B3w_.C5.BAr.C3.B3d.C5.82owych"><span class="tocnumber">2.1</span> <span class="toctext">Pobieranie plików źródłowych</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Kontrola_procesu_kompilacji"><span class="tocnumber">2.2</span> <span class="toctext">Kontrola procesu kompilacji</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Najcz.C4.99.C5.9Bciej_u.C5.BCywane_prze.C5.82.C4.85czniki_w_zmiennych_CXXFLAGS.2FCFLAGS"><span class="tocnumber">2.2.1</span> <span class="toctext">Najczęściej używane przełączniki w zmiennych CXXFLAGS/CFLAGS</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Proces_budowy_pakietu"><span class="tocnumber">2.3</span> <span class="toctext">Proces budowy pakietu</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Zawarto.C5.9B.C4.87_pakietu"><span class="tocnumber">2.4</span> <span class="toctext">Zawartość pakietu</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Rozmieszczenie_plik.C3.B3w_.C5.BAr.C3.B3d.C5.82owych_i_wynikowych"><span class="tocnumber">2.5</span> <span class="toctext">Rozmieszczenie plików źródłowych i wynikowych</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Rozszerzenia_plik.C3.B3w_pakiet.C3.B3w"><span class="tocnumber">2.6</span> <span class="toctext">Rozszerzenia plików pakietów</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Zmienne_.C5.9Brodowiskowe"><span class="tocnumber">2.7</span> <span class="toctext">Zmienne środowiskowe</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#U.C5.BCytkowanie"><span class="tocnumber">3</span> <span class="toctext">Użytkowanie</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Szybki_kurs"><span class="tocnumber">3.1</span> <span class="toctext">Szybki kurs</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Zarz.C4.85dzanie_uprawnieniami"><span class="tocnumber">3.2</span> <span class="toctext">Zarządzanie uprawnieniami</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Opcje_dost.C4.99pne_z_linii_polece.C5.84"><span class="tocnumber">3.3</span> <span class="toctext">Opcje dostępne z linii poleceń</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Zobacz_r.C3.B3wnie.C5.BC"><span class="tocnumber">4</span> <span class="toctext">Zobacz również</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "pokaż"; var tocHideText = "ukryj"; showTocToggle(); } </script>
+<h2><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=1" title="Edytuj sekcję: Wprowadzenie">edytuj</a>]</span> <span class="mw-headline" id="Wprowadzenie"> Wprowadzenie </span></h2>
+<p>Skrypt <b style="color:black;background-color:#a0ffff">makepkg</b> używany jest do budowania pakietów oprogramowania przygotowanych do instalacji przy pomocy <a href="/Pacman" title="Pacman">pacmana</a>. Automatyzuje on proces budowy pakietu poprzez pobranie oraz sprawdzenie poprawności plików źródłowych, sprawdzenie zależności, konfigurację procesu kompilacji, samą kompilację, instalację do katalogu tymczasowego, utworzenie oraz dołączenie plików opisujących pakiet a w końcu zarchiwizowanie wszystkiego w jeden plik.
+</p><p><span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> znajduje się w pakiecie <tt><a href="http://www.archlinux.org/packages/?q=pacman" class="external text" rel="nofollow">pacman</a></tt>.
+</p>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #F6F6BB; border: thin solid #EAEA7B"><strong>  </strong>Opisane w tym artykule opcje obsługujące podpisywanie pakietów nie są dostępne w pacmanie 3.5.1</div>
+<h2><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=2" title="Edytuj sekcję: Konfiguracja">edytuj</a>]</span> <span class="mw-headline" id="Konfiguracja"> Konfiguracja </span></h2>
+<p>Główny plik konfiguracji to <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</span>. W tym pliku zapisujemy globalne, domyślne ustawienia kompilacji oraz budowy pakietów. Oprócz samego <span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> skorzystają z nich między innymi narzędzia make, kompilator oraz linker. Program interpretuje również ustawienia zapisane przez użytkowników w ich katalogach domowych w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">~/.<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</span>. Ustawienia użytkownika nadpiszą ustawienia globalne.
+</p><p>Poniżej znajduje się opis zmiennych używanych w pliku konfiguracji z zachowaniem podziału na grupy.
+</p>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=3" title="Edytuj sekcję: Pobieranie plików źródłowych">edytuj</a>]</span> <span class="mw-headline" id="Pobieranie_plik.C3.B3w_.C5.BAr.C3.B3d.C5.82owych"> Pobieranie plików źródłowych </span></h3>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+#########################################################################
+# SOURCE ACQUISITION
+#########################################################################
+#
+#-- The download utilities that <b style="color:black;background-color:#a0ffff">makepkg</b> should use to acquire sources
+#  Format: 'protocol::agent'
+DLAGENTS=('ftp::/usr/bin/wget -c --passive-ftp -t 3 --waitretry=3 -O %o %u'
+          'http::/usr/bin/wget -c -t 3 --waitretry=3 -O %o %u'
+          'https::/usr/bin/wget -c -t 3 --waitretry=3 --no-check-certificate -O %o %u'
+          'rsync::/usr/bin/rsync -z %u %o'
+          'scp::/usr/bin/scp -C %u %o')
+
+# Other common tools:
+# /usr/bin/snarf
+# /usr/bin/lftpget -c
+# /usr/bin/curl
+...
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">DLAGENTS</span>&nbsp;</dt><dd> Lista programów które zostaną użyte do pobrania plików źródłowych. Format zmiennej na tej liście to <span style="font-family: monospace; color: #000055; white-space: nowrap">protokół::polecenie</span>. W poleceniu użyć można zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">%u</span> która zostanie zastąpiona adresem URL pliku źródłowego (jedną z wartości z listy <span style="font-family: monospace; color: #000055; white-space: nowrap">sources</span> w <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>) oraz/lub zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">%o</span> która zastąpiona zostanie nazwą częściowo pobranego pliku (<span style="font-family: monospace; color: #005500; white-space: nowrap">.part</span>) w przypadku gdy pobieranie zostało wznowione.
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=4" title="Edytuj sekcję: Kontrola procesu kompilacji">edytuj</a>]</span> <span class="mw-headline" id="Kontrola_procesu_kompilacji"> Kontrola procesu kompilacji </span></h3>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #B7D99B; border: thin solid #518B20"><strong> Wskazówka: </strong>Wartości tych zmiennych mogą zostać zignorowane przez pliki Makefile dostarczone z kodem źródłowym lub plik PKGBUILD</div>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+#########################################################################
+# ARCHITECTURE, COMPILE FLAGS
+#########################################################################
+#
+CARCH=&quot;i686&quot;
+CHOST=&quot;i686-pc-linux-gnu&quot;
+
+#-- Exclusive: will only run on i686
+# -march (or -mcpu) builds exclusively for an architecture
+# -mtune optimizes for an architecture, but builds for whole processor family
+CFLAGS=&quot;-march=i686 -mtune=generic -O2 -pipe&quot;
+CXXFLAGS=&quot;-march=i686 -mtune=generic -O2 -pipe&quot;
+LDFLAGS=&quot;-Wl,--hash-style=gnu -Wl,--as-needed&quot;
+#-- Make Flags: change this for DistCC/SMP systems
+#MAKEFLAGS=&quot;-j2&quot;
+...
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">CARCH oraz CHOST</span>&nbsp;</dt><dd> Architektura systemu dla którego zostaną zbudowane pakiety (32/64 bitowa Intel/AMD, PPC itp). Zmienne te ustawiane są automatycznie w czasie instalacji systemu.
+</dd></dl>
+<table style="background-color: #FFF4F4; border: solid 1px #C22D2D; padding: 6pt; margin: 1em auto; width: 80%">
+
+<tr>
+<td style="width: 47px"> <a href="/Plik:600px-Warning.svg.png" class="image" title="Uwaga!"><img alt="Uwaga!" src="/images/thumb/6/61/600px-Warning.svg.png/42px-600px-Warning.svg.png" width="42" height="35" /></a>
+</td><td> <span style="color: #C22D2D"><b>Uwaga!</b></span><br />Nie wolno eksperymentować z wartościami tych zmiennych. Może to zniszczyć twój system. Jeśli nie jesteś pewien tego co robisz <b>nie zmieniaj</b> żadnej z tych wartości.
+</td></tr></table>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">CFLAGS oraz CXXFLAGS</span>&nbsp;</dt><dd> Opcje ustawione w zmiennych CFLAGS oraz CXXFLAGS odnoszą się do (odpowiednio) gcc oraz g++. Domyślne wartości tych zmiennych pozwalają zbudować pakiet możliwy do zainstalowania na większości maszyn. Poprzez ich modyfikacje uzyskać <i>można</i> wzrost wydajności budowanego oprogramowania, w większości przypadków ludzkie zmysły nie są jednak w stanie dostrzec tak niewielkich różnic. Pakiety kompilowane z optymalizacją dla określonego typu procesora mogą nie uruchomić się na maszynach z innym typem CPU.
+</dd></dl>
+<h4><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=5" title="Edytuj sekcję: Najczęściej używane przełączniki w zmiennych CXXFLAGS/CFLAGS">edytuj</a>]</span> <span class="mw-headline" id="Najcz.C4.99.C5.9Bciej_u.C5.BCywane_prze.C5.82.C4.85czniki_w_zmiennych_CXXFLAGS.2FCFLAGS"> Najczęściej używane przełączniki w zmiennych CXXFLAGS/CFLAGS </span></h4>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-O</span>&nbsp;</dt><dd> Użycie tej opcji spowoduje przeprowadzenie przez kompilator podstawowych optymalizacji prędkości wykonywania kodu wynikowego. Nie ma wielkiego wpływu na sam czas kompilacji. Opcja ta jest rzadko stosowana.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-O2</span>&nbsp;</dt><dd> Kompilator przeprowadzi bardziej zaawansowaną optymalizację kodu wynikowego. Zestaw optymalizacji dobrany zostanie pod kątem wydajności oraz stabilności działania pliku wynikowego. Jest to najczęściej stosowana opcja z tej klasy, większość dystrybucji kompiluje oprogramowanie z jej użyciem.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-O3</span>&nbsp;</dt><dd> Optymalizacja wydajności pliku wynikowego kosztem jego rozmiaru oraz stabilności działania. Wpływ tego przełącznika na faktyczną wydajność i stabilność programu wyprodukowanego przez kompilator w dużej mierze zależy od kompilowanego kodu. Udokumentowane zostały zarówno przypadki zwiększenia jak i zmniejszenia wydajności po jego zastosowaniu. Zanotowano również niepowodzenia samego procesu kompilacji. Generalnie odradza się jego użycie gdy ważna jest stabilność działania oprogramowania - oficjalne pakiety dystrybucji, programy działające na serwerach etc. Zwiększa się również rozmiar pliku wynikowego, co generalnie wpływa negatywnie na wydajność działania - wydłuża czas ładowania programu z dysku twardego, zwiększa zużycie pamięci RAM, zmniejsza efektywność działania procesora poprzez większe zużycie pamięci podręcznej.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-Os</span>&nbsp;</dt><dd> Stosunkowo rzadko używana optymalizacja skierowana na zmniejszenie pliku wynikowego. Powoduje użycie wszystkich optymalizacji które włącza <span style="font-family: monospace; color: #000055; white-space: nowrap">-O2</span> a które nie zwiększają rozmiaru pliku binarnego. Może być efektywna w przypadku kompilacji dużego oprogramowania np <tt><a href="http://www.archlinux.org/packages/?q=Firefox" class="external text" rel="nofollow">Firefox</a></tt> - mniejszy rozmiar pliku oznacza szybszy czas załadowania programu z dysku twardego, mniejsze zużycie pamięci RAM oraz zwiększenie efektywności wykorzystania pamięci podręcznej procesora.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-march oraz -mtune</span>&nbsp;</dt><dd> Optymalizacja dla typu procesora. Rodzaj procesora podajemy jako parametr do przełącznika. Listę prawidłowych wartości znajduje się w <a href="http://gcc.gnu.org/onlinedocs/gcc/i386-and-x86_002d64-Options.html" class="external text" rel="nofollow">dokumentacji</a> gcc. Użycie <span style="font-family: monospace; color: #000055; white-space: nowrap">-march</span> spowoduje automatyczne użycie <span style="font-family: monospace; color: #000055; white-space: nowrap">-mtune</span>. Parametr <span style="font-family: monospace; color: #000055; white-space: nowrap">native</span> spowoduje automatyczne wykrycie typu procesora.
+</dd></dl>
+</dd><dd><div style="padding: 5px; margin: 0.50em 0; background-color: #FFDDDD; border: thin solid #FFBBBB"><strong> Ostrzeżenie: </strong>Pakiety budowane dla konkretnego typu procesora mogą nie działać na innych CPU</div>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-fomit-frame-pointer</span>&nbsp;</dt><dd> Przełącznik mogący przyśpieszyć działanie skompilowanego programu. Wyłączy ustawianie jednego z rejestrów procesora na tzw ramkę umożliwiając jego wykorzystanie do innego celu. Rozmiar pliku binarnego może nieznacznie wzrosnąć, utrudnione również będzie jego debugowanie.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-pipe</span>&nbsp;</dt><dd> Wyłączy używanie plików tymczasowych, zamiast nich używana będzie pamięć RAM. Może znacznie przyśpieszyć czas kompilacji, szczególnie na starszych/wolniejszych dyskach twardych. Kompilacja może nie powieść się na systemach z małą ilością pamięci operacyjnej.
+</dd></dl>
+</dd></dl>
+<dl><dd>Pełną listę opcji zawiera <a href="http://gcc.gnu.org/onlinedocs/" class="external text" rel="nofollow">dokumentacja</a> gcc. Wiele informacji znajdziesz w <a href="http://www.gentoo.org/doc/en/gcc-optimization.xml" class="external text" rel="nofollow">dokumentacji</a> oraz na <a href="http://en.gentoo-wiki.com/wiki/Safe_Cflags" class="external text" rel="nofollow">wiki</a> dystrybucji Gentoo.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">LDFLAGS</span>&nbsp;</dt><dd> Opcje dla linkera (<span style="font-family: monospace; color: #000055; white-space: nowrap">ld</span>). Zaleca się pozostawienie domyślnych wartości tych ustawień.
+</dd></dl>
+<dl><dd>Krótkie omówienie flag używanych w tej zmiennej:
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--as-needed</span>&nbsp;</dt><dd> Do pliku wynikowego dołączone zostaną jedynie biblioteki faktycznie w nim używane. W celu obejścia problemów ze źle działającymi linkerami lub systemami nie wykorzystującymi formatu ELF wiele popularnych bibliotek niejako na wyrost dołącza dodatkowe zależności. Użycie tej flagi pozwoli wyłączyć takie zachowanie linkera. Może to spowodować niższe zużycie pamięci operacyjnej oraz szybsze uruchamianie się aplikacji - wyłącznie wymagane biblioteki ładowane będą podczas jej uruchamiania.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-O1</span>&nbsp;</dt><dd> Linker przeprowadzi podstawowe optymalizacje. Wydłuży to czas pracy linkera, może zwiększyć wydajność budowanego programu. Na chwilę obecną wyższe stopnie optymalizacji nie są dostępne.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--hash-style=gnu</span>&nbsp;</dt><dd> Usprawnia sposób w jaki biblioteki dołączane są do pliku wynikowego podczas jego działania poprzez dołączenie do niego dodatkowych informacji przyśpieszających ten proces.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-Wl</span>&nbsp;</dt><dd> Jest to opcja <span style="font-family: monospace; color: #000055; white-space: nowrap">gcc</span> nakazująca mu przekazanie flagi do linkera. Sam <span style="font-family: monospace; color: #000055; white-space: nowrap">gcc</span> nie podejmie dzięki temu próby zinterpretowania nieznanej sobie flagi.
+</dd></dl>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">MAKEFLAGS</span>&nbsp;</dt><dd> W zmiennej MAKEFLAGS podajemy dodatkowe opcje dla programu <span style="font-family: monospace; color: #000055; white-space: nowrap">make</span>. Użytkownikom maszyn z wieloma procesorami lub procesorów z wieloma rdzeniami pozwoli to uruchomić wiele zadań <span style="font-family: monospace; color: #000055; white-space: nowrap">make</span> równocześnie. Zakłada się, że użycie przełącznika <span style="font-family: monospace; color: #000055; white-space: nowrap">-j2</span> plus 1 dla każdego dodatkowego rdzenia lub procesora jest dobrą praktyką. Może to skrócić czas kompilacji, należy jednak pamiętać o możliwości wystąpienia problemów w przypadku użycia wartości innych niż domyślne. Wartość <span style="font-family: monospace; color: #000055; white-space: nowrap">-j3</span> uważa się za stosunkowo bezpieczną.
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=6" title="Edytuj sekcję: Proces budowy pakietu">edytuj</a>]</span> <span class="mw-headline" id="Proces_budowy_pakietu"> Proces budowy pakietu </span></h3>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+#########################################################################
+# BUILD ENVIRONMENT
+#########################################################################
+#
+# Defaults: BUILDENV=(fakeroot !distcc color !ccache)
+#  A negated environment option will do the opposite of the comments below.
+#
+#-- fakeroot: Allow building packages as a non-root user
+#-- distcc:   Use the Distributed C/C++/ObjC compiler
+#-- color:    Colorize output messages
+#-- ccache:   Use ccache to cache compilation
+#
+BUILDENV=(fakeroot !distcc color !ccache)
+#
+#-- If using DistCC, your MAKEFLAGS will also need modification. In addition,
+#-- specify a space-delimited list of hosts running in the DistCC cluster.
+#DISTCC_HOSTS=&quot;&quot;
+#
+#-- Specify a key to use for package signing
+#GPGKEY=&quot;&quot;
+...
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">BUILDENV</span>&nbsp;</dt><dd> Lista opcji pozwalających przygotować proces budowy pakietów. Wyłączenia funkcjonalności dokonujemy umieszczając przed nią znak wykrzyknika. Są to ustawienia domyślne, autor pliku <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a> może nadpisać je własnymi ustawieniami. Zaleca się użycie negacji zamiast usuwania opcji z tej listy.
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">fakeroot</span>&nbsp;</dt><dd> Pakiety mogą być budowane przez użytkowników bez praw administratora. Wymaga pakietu <tt><a href="http://www.archlinux.org/packages/?q=fakeroot" class="external text" rel="nofollow">fakeroot</a></tt>. <b style="color:black;background-color:#a0ffff">Makepkg</b> wykorzysta <span style="font-family: monospace; color: #000055; white-space: nowrap">fakeroot</span> wyłącznie do wykonania funkcji <span style="font-family: monospace; color: #000055; white-space: nowrap">package()</span> jeśli utworzymy taką w naszym <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>. Pozwala to zwiększyć bezpieczeństwo procesu budowy pakietu oraz ominąć problemy niezgodności fakeroot z niektórymi programami.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">distcc</span>&nbsp;</dt><dd> Użyj do kompilacji narzędzia <span style="font-family: monospace; color: #000055; white-space: nowrap">distcc</span>.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">color</span>&nbsp;</dt><dd> Wyświetlane będą kolorowe komunikaty.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">ccache</span>&nbsp;</dt><dd> Użyj do kompilacji narzędzia <span style="font-family: monospace; color: #000055; white-space: nowrap">ccache</span>.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">check</span>&nbsp;</dt><dd> Wykonaj funkcję <span style="font-family: monospace; color: #000055; white-space: nowrap">check()</span> z pliku PKGBUILD
+</dd></dl>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">DISTCC_HOSTS</span>&nbsp;</dt><dd> Lista adresów maszyn oferujących usługę distcc.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">GPGKEY</span>&nbsp;</dt><dd> Klucz którym podpisywane będą pakiety.
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=7" title="Edytuj sekcję: Zawartość pakietu">edytuj</a>]</span> <span class="mw-headline" id="Zawarto.C5.9B.C4.87_pakietu"> Zawartość pakietu </span></h3>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+#########################################################################
+# GLOBAL PACKAGE OPTIONS
+#   These are default values for the options=() settings
+#########################################################################
+#
+# Default: OPTIONS=(strip docs libtool emptydirs zipman purge)
+#  A negated option will do the opposite of the comments below.
+#
+#-- strip:     Strip symbols from binaries/libraries in STRIP_DIRS
+#-- docs:      Save doc directories specified by DOC_DIRS
+#-- libtool:   Leave libtool (.la) files in packages
+#-- emptydirs: Leave empty directories in packages
+#-- zipman:    Compress manual (man and info) pages in MAN_DIRS with gzip
+#-- purge:     Remove files specified by PURGE_TARGETS
+#
+OPTIONS=(strip docs libtool emptydirs zipman purge)
+
+#-- File integrity checks to use. Valid: md5, sha1, sha256, sha384, sha512
+INTEGRITY_CHECK=(md5)
+#-- Options to be used when stripping binaries. See `man strip' for details.
+STRIP_BINARIES=&quot;--strip-all&quot;
+#-- Options to be used when stripping shared libraries. See `man strip' for details.
+STRIP_SHARED=&quot;--strip-unneeded&quot;
+#-- Options to be used when stripping static libraries. See `man strip' for details.
+STRIP_STATIC=&quot;--strip-debug&quot;
+#-- Manual (man and info) directories to compress (if zipman is specified)
+MAN_DIRS=({usr{,/local}{,/share},opt/*}/{man,info})
+#-- Doc directories to remove (if !docs is specified)
+DOC_DIRS=(usr/{,local/}{,share/}{doc,gtk-doc} opt/*/{doc,gtk-doc})
+#-- Files to be removed from all packages (if purge is specified)
+PURGE_TARGETS=(usr/{,share}/info/dir .packlist *.pod)
+...
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">OPTIONS</span>&nbsp;</dt><dd> Wartości domyślne dla listy <span style="font-family: monospace; color: #000055; white-space: nowrap">options</span> w pliku <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>. Podobnie jak w przypadku zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">BUILDENV</span> wykrzyknik służy do zanegowania działania opcji.
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">strip</span>&nbsp;</dt><dd> Usuń symbole z plików wykonywalnych oraz bibliotek.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">docs</span>&nbsp;</dt><dd> Nie usuwaj katalogów z dokumentacją (katalogów ze ścieżek zapisanych w zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">DOC_DIRS</span>).
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">libtool</span>&nbsp;</dt><dd> Nie usuwaj plików narzędzia libtool (pliki .la). Zanegowanie tej opcji spowoduje ich usunięcie.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">emptydirs</span>&nbsp;</dt><dd> Nie usuwaj pustych katalogów
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">zipman</span>&nbsp;</dt><dd> Skompresuj pliki pomocy (man oraz info) używając gzip. Ścieżki w których znajdują się manuale określa zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">MAN_DIRS</span>
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">purge</span>&nbsp;</dt><dd> Usuń pliki opisane zmienną <span style="font-family: monospace; color: #000055; white-space: nowrap">PURGE_TARGETS</span>.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">buildflags</span>&nbsp;</dt><dd> Ustaw wartości zmiennych <span style="font-family: monospace; color: #000055; white-space: nowrap">CFLAGS</span>, <span style="font-family: monospace; color: #000055; white-space: nowrap">CXXFLAGS</span> oraz <span style="font-family: monospace; color: #000055; white-space: nowrap">LDFLAGS</span>. Użycie zanegowanej formy tej opcji spowoduje ich wyczyszczenie przed rozpoczęciem kompilacji źródeł.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">makeflags</span>&nbsp;</dt><dd> Ustaw zmienną <span style="font-family: monospace; color: #000055; white-space: nowrap">MAKEFLAGS</span>. Użycie zanegowanej formy tej opcji spowoduje jej wyczyszczenie przed rozpoczęciem kompilacji źródeł.
+</dd></dl>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">INTEGRITY_CHECK</span>&nbsp;</dt><dd> Lista algorytmów których <span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> używać będzie do tworzenia oraz sprawdzania sum kontrolnych plików źródłowych. Podajemy jeden lub więcej z obsługiwanych algorytmów: md5, sha1, sha256, sha384, sha512.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">STRIP_BINARIES, STRIP_SHARED oraz STRIP_STATIC</span>&nbsp;</dt><dd> Zmienne te zawierają parametry używane podczas usuwania symboli z plików wykonywalnych, bibliotek dzielonych oraz bibliotek statycznych. Będą one przekazane do programu <span style="font-family: monospace; color: #000055; white-space: nowrap">strip</span>.
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=8" title="Edytuj sekcję: Rozmieszczenie plików źródłowych i wynikowych">edytuj</a>]</span> <span class="mw-headline" id="Rozmieszczenie_plik.C3.B3w_.C5.BAr.C3.B3d.C5.82owych_i_wynikowych"> Rozmieszczenie plików źródłowych i wynikowych </span></h3>
+<p>Możliwe jest określenie katalogów w których <span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> przechowywać będzie pobrane pliki źródłowe, zbudowane pakiety oraz ustawienie podpisu osoby budującej pakiet. Domyślnym zachowaniem <span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> jest zapisanie plików źródłowych oraz wynikowych do aktualnego katalogu roboczego.
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+#########################################################################
+# PACKAGE OUTPUT
+#########################################################################
+#
+# Default: put built package and cached source in build directory
+#
+#-- Destination: specify a fixed directory where all packages will be placed
+#PKGDEST=/home/packages
+#-- Source cache: specify a fixed directory where source files will be cached
+#SRCDEST=/home/sources
+#-- Source packages: specify a fixed directory where all src packages will be placed
+#SRCPKGDEST=/home/srcpackages
+#-- Packager: name/email of the person or organization building packages
+#PACKAGER=&quot;John Doe &lt;john@doe.com&gt;&quot;
+...
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">PKGDEST</span>&nbsp;</dt><dd> Ścieżka w której umieszczony zostanie pomyślnie zbudowany pakiet.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">SRCDEST</span>&nbsp;</dt><dd> W tym katalogu <span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> przechowywać będzie pobrane pliki źródłowe.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">SRCPKGDEST</span>&nbsp;</dt><dd> Ścieżka w której zapisywane będą pakiety źródłowe.
+</dd><dd>Pakiet źródłowy to archiwum z rozszerzeniem <span style="font-family: monospace; color: #005500; white-space: nowrap">.src.tar.gz</span>. Zawiera ono pliki potrzebne do budowy pakietu - <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>, pliki <span style="font-family: monospace; color: #005500; white-space: nowrap">.install</span>, patche itp. Archiwum takie zawierać może również pobrany kod źródłowy. Tworzymy je używając opcji <span style="font-family: monospace; color: #000055; white-space: nowrap">--source</span> lub <span style="font-family: monospace; color: #000055; white-space: nowrap">--allsource</span>.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">PACKAGER</span>&nbsp;</dt><dd> Podpis autora paczki. Zawartość pola <span style="font-family: monospace; color: #000055; white-space: nowrap">packager</span> w zbudowanym pakiecie (a właściwie w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">.PKGINFO</span> będącym częścią pakietu) ustawiona zostanie na wartość tej zmiennej.
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=9" title="Edytuj sekcję: Rozszerzenia plików pakietów">edytuj</a>]</span> <span class="mw-headline" id="Rozszerzenia_plik.C3.B3w_pakiet.C3.B3w"> Rozszerzenia plików pakietów </span></h3>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+#########################################################################
+# EXTENSION DEFAULTS
+#########################################################################
+#
+# WARNING: Do NOT modify these variables unless you know what you are
+#          doing.
+#
+PKGEXT='.pkg.tar.xz'
+SRCEXT='.src.tar.gz'
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">PKGEXT oraz SRCEXT</span>&nbsp;</dt><dd> Określają rodzaj kompresji która użyta zostanie podczas tworzenia pakietów. Może przyjąć jedną z wartości: <span style="font-family: monospace; color: #005500; white-space: nowrap">.tar</span>, <span style="font-family: monospace; color: #005500; white-space: nowrap">.tar.gz</span>, <span style="font-family: monospace; color: #005500; white-space: nowrap">.tar.bz2</span>, <span style="font-family: monospace; color: #005500; white-space: nowrap">.tar.xz</span>.
+</dd></dl>
+<dl><dd><div style="padding: 5px; margin: 0.50em 0; background-color: #FFDDDD; border: thin solid #FFBBBB"><strong> Ostrzeżenie: </strong>Nie zmieniaj domyślnych wartości tych zmiennych</div>
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=10" title="Edytuj sekcję: Zmienne środowiskowe">edytuj</a>]</span> <span class="mw-headline" id="Zmienne_.C5.9Brodowiskowe"> Zmienne środowiskowe </span></h3>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">PACMAN</span>&nbsp;</dt><dd> Polecenie które będzie używane do sprawdzania zależności, instalacji oraz usuwania pakietów. Musi ono interpretować opcje -Qq, -Rns, -S, -T oraz -U w taki sposób jaki robi to <span style="font-family: monospace; color: #000055; white-space: nowrap">pacman</span>. Jeśli zmienna nie jest ustawiona lub jest pusta <span style="font-family: monospace; color: #000055; white-space: nowrap"><b style="color:black;background-color:#a0ffff">makepkg</b></span> użyje pacmana (polecenia <span style="font-family: monospace; color: #000055; white-space: nowrap">pacman</span>).
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">PKGDEST=&quot;/path/to/folder&quot;</span>&nbsp;</dt><dd> Ścieżka w której zapisane zostaną gotowe pakiety.
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">SRCDEST=&quot;/path/to/folder&quot;</span>&nbsp;</dt><dd> Ścieżka w której zapisane zostaną pobrane archiwa ze źródłami.
+</dd></dl>
+</dd></dl>
+<h2><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=11" title="Edytuj sekcję: Użytkowanie">edytuj</a>]</span> <span class="mw-headline" id="U.C5.BCytkowanie"> Użytkowanie </span></h2>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=12" title="Edytuj sekcję: Szybki kurs">edytuj</a>]</span> <span class="mw-headline" id="Szybki_kurs"> Szybki kurs </span></h3>
+<p>Przed przystąpieniem budowy pakietu należy upewnić się, że w systemie zainstalowany jest pakiet <a href="http://www.archlinux.org/groups/i686/base-devel/" class="external text" rel="nofollow">"base-devel"</a>, jeśli nie jest wydajemy jako root polecenie:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=base-devel" class="external text" rel="nofollow">base-devel</a></tt></code></div>
+<p>Aby zbudować pakiet należy stworzyć własny <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>, lub pobrać gotowy z <a href="/ABS" title="ABS" class="mw-redirect">ABS</a>, <a href="/Arch_User_Repository" title="Arch User Repository">AUR</a> lub innego źródła.
+</p>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #FFDDDD; border: thin solid #FFBBBB"><strong> Ostrzeżenie: </strong>Nie należy budować/instalować pakietów pochodzących z nie zaufanych źródeł!</div>
+<p>Sam proces budowy pakietu rozpoczynamy przechodząc do katalogu w którym znajduje się PKGBUILD, następnie wydając polecenie:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto">$ <b style="color:black;background-color:#a0ffff">makepkg</b></code></div>
+<p>Program sprawdzi następnie czy zależności dla budowanego pakietu są zainstalowane. Jeśli wykryje brak któregoś z wymaganych pakietów wyświetli odpowiedni komunikat oraz zakończy pracę (pakiet nie zostanie zbudowany). Aby automatycznie pobrać i zainstalować zależności używamy opcji <span style="font-family: monospace; color: #000055; white-space: nowrap">-s</span>:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto">$ <b style="color:black;background-color:#a0ffff">makepkg</b> -s</code></div>
+<p>Proszę zauważyć, że pakiety zależności muszą być dostępne w używanych <a href="/Pacman#Repozytoria" title="Pacman">repozytoriach</a>.
+</p><p>Kiedy już wszystkie zależności zostały zainstalowane a pakiet prawidłowo zbudowany możemy zainstalować go poleceniem
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -U nazwa-wersja.pkg.tar.xz</code></div>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=13" title="Edytuj sekcję: Zarządzanie uprawnieniami">edytuj</a>]</span> <span class="mw-headline" id="Zarz.C4.85dzanie_uprawnieniami"> Zarządzanie uprawnieniami </span></h3>
+<p>Aby umożliwić instalację zależności (opcja <span style="font-family: monospace; color: #000055; white-space: nowrap">-s</span>) użytkownikowi bez praw administratora należy zainstalować program <a href="/Sudo" title="Sudo">sudo</a> oraz dopisać poniższą linię do pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/sudoers</span>:
+</p>
+<pre>NAZWA_UŻYTKOWNIKA ALL=(ALL) NOPASSWD: /usr/bin/pacman
+</pre>
+<p>Więcej informacji znajduje się w artykule <a href="/Sudo" title="Sudo">sudo</a>.
+</p>
+<h3><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=14" title="Edytuj sekcję: Opcje dostępne z linii poleceń">edytuj</a>]</span> <span class="mw-headline" id="Opcje_dost.C4.99pne_z_linii_polece.C5.84"> Opcje dostępne z linii poleceń </span></h3>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-A, --ignorearch</span>&nbsp;</dt><dd> Nie zatrzymuj pracy programu kiedy plik <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a> nie zawiera zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">arch</span>.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-c, --clean</span>&nbsp;</dt><dd> Usuń plik robocze po zbudowaniu pakietu
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-C, --cleancache</span>&nbsp;</dt><dd> Usuń pliki źródłowe z pamięci podręcznej
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-d, --nodeps</span>&nbsp;</dt><dd> Nie sprawdzaj zależności
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-e, --noextract</span>&nbsp;</dt><dd> Nie rozpakowuj źródeł (użyj istniejącego katalogu src/)
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-f, --force</span>&nbsp;</dt><dd> Nadpisuje istniejące pakiety. Domyślnym zachowaniem <b style="color:black;background-color:#a0ffff">makepkg</b> jest przerwanie pracy w przypadku kiedy wykryje on plik zbudowanego wcześniej pakietu.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--forcever</span>&nbsp;</dt><dd> Przełącznik używany przez <b style="color:black;background-color:#a0ffff">makepkg</b> do ustawiania rozwojowej wersji pakietu. Nie powinien być bezpośrednio wykorzystywany przez użytkownika.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-g, --geninteg</span>&nbsp;</dt><dd> Utwórz sumy kontrolne dla wszystkich plików źródłowych znajdujących się na liście <span style="font-family: monospace; color: #000055; white-space: nowrap">sources</span> w pliku <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-h, --help</span>&nbsp;</dt><dd> Wyświetli pomoc
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-i, --install</span>&nbsp;</dt><dd> Zainstaluj pakiet po udanej budowie
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-L, --log</span>&nbsp;</dt><dd> Stwórz dziennik budowy pakietu
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-m, --nocolor</span>&nbsp;</dt><dd> Wyłącz kolorowe komunikaty
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-o, --nobuild</span>&nbsp;</dt><dd> Tylko pobierz i rozpakuj pliki
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-p &lt;plik&gt;</span>&nbsp;</dt><dd> Użyj wskazanego skryptu budowy (zamiast <span style="font-family: monospace; color: #005500; white-space: nowrap">PKGBUILD</span>)
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-r, --rmdeps</span>&nbsp;</dt><dd> Usuń zainstalowane zależności po udanym budowaniu
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-R, --repackage</span>&nbsp;</dt><dd> Przepakuj zawartość pakietu bez ponownego budowania
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">-s, --syncdeps</span>&nbsp;</dt><dd> Pobierz i zainstaluj brakujące zależności.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--allsource</span>&nbsp;</dt><dd> Generuje archiwum źródłowe zawierające pobrane źródła
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--asroot</span>&nbsp;</dt><dd> Pozwól <b style="color:black;background-color:#a0ffff">makepkg</b> pracować jako root
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--config &lt;plik&gt;</span>&nbsp;</dt><dd> Użyj wskazanego pliku konfiguracyjnego (zamiast <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/<b style="color:black;background-color:#a0ffff">makepkg</b>.conf</span>). Plik konfiguracji użytkownika jest również interpretowany i ma większy priorytet niż wskazany tą opcją plik.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--holdver</span>&nbsp;</dt><dd> Zapobiega automatycznemu podnoszeniu wersji dla rozwojowych PKGBUILDów
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--pkg &lt;lista&gt;</span>&nbsp;</dt><dd> Buduj tylko podane pakiety z rozdzielonego pakietu
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--skipinteg</span>&nbsp;</dt><dd> Nie przerywaj pracy jeżeli sumy kontrolne nie istnieją
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--source</span>&nbsp;</dt><dd> Generuje archiwum źródłowe bez pobranych źródeł
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--check</span>&nbsp;</dt><dd> Wymusza wywołanie funkcji <span style="font-family: monospace; color: #000055; white-space: nowrap">check()</span> z pliku PKGBUILD.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--nocheck</span>&nbsp;</dt><dd> Nie wywołuj funkcji <span style="font-family: monospace; color: #000055; white-space: nowrap">check()</span> z pliku PKGBUILD.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--sign</span>&nbsp;</dt><dd> Wymuś podpisanie pakietu
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--nosign</span>&nbsp;</dt><dd> Nie podpisuj pakietu.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--key</span>&nbsp;</dt><dd> Klucz którym zostanie podpisany pakiet. Nie podanie tej wartości spowoduje użycie klucza domyślnego.
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--noconfirm</span>&nbsp;</dt><dd> Nie pytaj o potwierdzenie przy rozwiązywaniu zależności
+</dd><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">--noprogressbar</span>&nbsp;</dt><dd> Nie pokazuj paska postępu przy pobieraniu plików
+</dd></dl>
+<h2><span class="editsection">[<a href="/index.php?title=Makepkg&amp;action=edit&amp;section=15" title="Edytuj sekcję: Zobacz również">edytuj</a>]</span> <span class="mw-headline" id="Zobacz_r.C3.B3wnie.C5.BC"> Zobacz również </span></h2>
+<ul><li> <a href="/Pacman" title="Pacman">Pacman</a>
+</li><li> <a href="/PKGBUILD" title="PKGBUILD">PKGBUILD</a>
+</li><li> Podręcznik systemowe: <a href="http://www.archlinux.org/pacman/makepkg.8.html" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">makepkg</b></a>, <a href="http://www.archlinux.org/pacman/makepkg.conf.5.html" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">makepkg</b>.conf</a>, <a href="http://linux.die.net/man/1/strip" class="external text" rel="nofollow">strip</a>, <a href="http://linux.die.net/man/1/ld" class="external text" rel="nofollow">ld</a>
+</li><li> Dokumentacje: <a href="http://gcc.gnu.org/onlinedocs/" class="external text" rel="nofollow">gcc</a>, <a href="http://www.gnu.org/software/make/manual/make.html" class="external text" rel="nofollow">make</a>, <a href="http://www.gnu.org/software/libtool/manual/html_node/index.html" class="external text" rel="nofollow">libtool</a>
+</li></ul>
+<dl><dd>
+</dd></dl>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 1315/1000000
+Post-expand include size: 19560/2097152 bytes
+Template argument size: 3389/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key archlinux_db-wiki_:pcache:idhash:381-0!1!0!!pl!2 and timestamp 20110711200953 -->
+<div class="printfooter">
+Źródło „<a href="http://wiki.archlinux.pl/Makepkg">http://<b style="color:black;background-color:#ffff66">wiki.archlinux.pl</b>/<b style="color:black;background-color:#a0ffff">Makepkg</b></a>”</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/Specjalna:Kategorie" title="Specjalna:Kategorie">Kategorie</a>: <span dir='ltr'><a href="/Kategoria:HOWTO" title="Kategoria:HOWTO">HOWTO</a></span> | <span dir='ltr'><a href="/Kategoria:Zarz%C4%85dzanie_pakietami" title="Kategoria:Zarządzanie pakietami">Zarządzanie pakietami</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Widok</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/Makepkg" title="Zobacz stronę treści [c]" accesskey="c">Strona</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Dyskusja:Makepkg&amp;action=edit&amp;redlink=1" title="Dyskusja o zawartości tej strony. [t]" accesskey="t">Dyskusja</a></li>
+				 <li id="ca-edit"><a href="/index.php?title=Makepkg&amp;action=edit" title="Możesz edytować tę stronę. Przed zapisaniem zmian użyj przycisku podgląd. [e]" accesskey="e">Edytuj</a></li>
+				 <li id="ca-history"><a href="/index.php?title=Makepkg&amp;action=history" title="Starsze wersje tej strony. [h]" accesskey="h">Historia i autorzy</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Osobiste</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Specjalna:Zaloguj&amp;returnto=Makepkg" title="Zachęcamy do zalogowania się, choć nie jest to obowiązkowe. [o]" accesskey="o">Logowanie i rejestracja</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/skins/common/images/wiki.png);" href="/Strona_g%C5%82%C3%B3wna" title="Strona główna"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Nawigacja</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/Strona_g%C5%82%C3%B3wna" title="Przejdź na stronę główną [z]" accesskey="z">Strona główna</a></li>
+				<li id="n-portal"><a href="/wiki.archlinux.pl:Portal_spo%C5%82eczno%C5%9Bci" title="O projekcie, co możesz zrobić, gdzie możesz znaleźć informacje">Portal społeczności</a></li>
+				<li id="n-currentevents"><a href="/wiki.archlinux.pl:Aktualno%C5%9Bci" title="Informacje o aktualnych wydarzeniach">Bieżące wydarzenia</a></li>
+				<li id="n-recentchanges"><a href="/Specjalna:Ostatnie_zmiany" title="Lista ostatnich zmian na wiki.archlinux.pl. [r]" accesskey="r">Ostatnie zmiany</a></li>
+				<li id="n-randompage"><a href="/Specjalna:Losowa_strona" title="Pokaż stronę wybraną losowo [x]" accesskey="x">Losowa strona</a></li>
+				<li id="n-help"><a href="/Pomoc:Spis_tre%C5%9Bci" title="Tutaj możesz się wielu rzeczy dowiedzieć.">Pomoc</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Szukaj</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Specjalna:Szukaj"/>
+				<input id="searchInput" title="Przeszukaj wiki.archlinux.pl" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Przejdź" title="Przejdź do strony o dokładnie takim tytule, o ile istnieje" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Szukaj" title="Szukaj wprowadzonego tekstu w treści stron" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Narzędzia</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Specjalna:Linkuj%C4%85ce/Makepkg" title="Pokaż listę wszystkich stron linkujących do tej strony [j]" accesskey="j">Linkujące</a></li>
+				<li id="t-recentchangeslinked"><a href="/Specjalna:Zmiany_w_linkuj%C4%85cych/Makepkg" title="Ostatnie zmiany w stronach, do których ta strona linkuje [k]" accesskey="k">Zmiany w dolinkowanych</a></li>
+<li id="t-specialpages"><a href="/Specjalna:Strony_specjalne" title="Lista wszystkich specjalnych stron [q]" accesskey="q">Strony specjalne</a></li>
+				<li id="t-print"><a href="/index.php?title=Makepkg&amp;printable=yes" rel="alternate" title="Wersja do wydruku [p]" accesskey="p">Wersja do druku</a></li>				<li id="t-permalink"><a href="/index.php?title=Makepkg&amp;oldid=3059" title="Stały link do tej wersji strony">Link do tej wersji</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"><img src="/skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> Tę stronę ostatnio zmodyfikowano 22:25, 17 kwi 2011.</li>
+		<li id="viewcount">Tę stronę obejrzano 803 razy.</li>
+		<li id="copyright">Treść udostępniana na licencji <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" class="external ">GNU Free Documentation License 1.2</a>.</li>
+		<li id="privacy"><a href="/wiki.archlinux.pl:Zasady_ochrony_prywatno%C5%9Bci" title="wiki.archlinux.pl:Zasady ochrony prywatności">Zasady ochrony prywatności</a></li>
+		<li id="about"><a href="/wiki.archlinux.pl:O_wiki.archlinux.pl" title="wiki.archlinux.pl:O wiki.archlinux.pl">O <b style="color:black;background-color:#ffff66">wiki.archlinux.pl</b></a></li>
+		<li id="disclaimer"><a href="/wiki.archlinux.pl:Informacje_prawne" title="wiki.archlinux.pl:Informacje prawne">Informacje prawne</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 1.423 secs. --></body></html>

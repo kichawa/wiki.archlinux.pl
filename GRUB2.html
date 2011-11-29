@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="http://wiki.archlinux.pl/index.php?title=GRUB2&amp;oldid=3245"><div style="background:#fff;border:1px solid #999;margin:-1px -1px 0;padding:0;"><div style="background:#ddd;border:1px solid #999;color:#000;font:13px arial,sans-serif;font-weight:normal;margin:12px;padding:8px;text-align:left">To jest kopia z pamięci podręcznej Google adresu <a href="http://wiki.archlinux.pl/index.php?title=GRUB2&oldid=3245" style="text-decoration:underline;color:#00c">http://wiki.archlinux.pl/index.php?title=GRUB2&amp;oldid=3245</a>. Zdjęcie przedstawia stan strony z 11 Lip 2011 12:26:24 GMT. <a href="http://wiki.archlinux.pl/index.php?title=GRUB2&oldid=3245" style="text-decoration:underline;color:#00c">Aktualna strona</a> może wyglądać inaczej. <a href="http://www.google.com/intl/pl/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Więcej informacji</a><br><br><div style="float:right"><a href="http://webcache.googleusercontent.com/search?q=cache:odWwTCmr3VkJ:wiki.archlinux.pl/index.php%3Ftitle%3DGRUB2%26oldid%3D3245+http://wiki.archlinux.pl+GRUB2&amp;hl=pl&amp;client=firefox-a&amp;gl=pl&strip=1" style="text-decoration:underline;color:#00c">Wersja tekstowa</a></div>
+<div>Te wyszukiwane hasła są podświetlone: <span style="background:#a0ffff;color:black;font-weight:bold">grub2</span>&nbsp;Znaleziono tyko w linkach do tej strony: <span style="font-weight:bold">http</span>&nbsp;<span style="font-weight:bold">wiki</span>&nbsp;<span style="font-weight:bold">archlinux</span>&nbsp;<span style="font-weight:bold">pl</span>&nbsp;&nbsp;</div></div></div><div style="position:relative">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pl" dir="ltr">
+<head>
+<title>GRUB2 – wiki.archlinux.pl</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.0" />
+<link rel="alternate" type="application/x-wiki" title="Edytuj" href="/index.php?title=GRUB2&amp;action=edit" />
+<link rel="edit" title="Edytuj" href="/index.php?title=GRUB2&amp;action=edit" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="wiki.archlinux.pl (pl)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/index.php?title=GRUB2&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" />
+<link rel="alternate" type="application/atom+xml" title="Kanał Atom wiki.archlinux.pl" href="/index.php?title=Specjalna:Ostatnie_zmiany&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/archlinux/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/archlinux/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/archlinux/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/skins/archlinux/archnavbar.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/archlinux/arch.css?270" media="screen" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Archlinux.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="archlinux",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.archlinux.pl",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="GRUB2",
+wgTitle="GRUB2",
+wgAction="view",
+wgArticleId=169,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="pl",
+wgContentLanguage="pl",
+wgBreakFrames=false,
+wgCurRevisionId=3245,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=[",	.", " 	,"],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Strona główna",
+wgFormattedNamespaces={"-2": "Media", "-1": "Specjalna", "0": "", "1": "Dyskusja", "2": "Użytkownik", "3": "Dyskusja użytkownika", "4": "wiki.archlinux.pl", "5": "Dyskusja wiki.archlinux.pl", "6": "Plik", "7": "Dyskusja pliku", "8": "MediaWiki", "9": "Dyskusja MediaWiki", "10": "Szablon", "11": "Dyskusja szablonu", "12": "Pomoc", "13": "Dyskusja pomocy", "14": "Kategoria", "15": "Dyskusja kategorii"},
+wgNamespaceIds={"media": -2, "specjalna": -1, "": 0, "dyskusja": 1, "użytkownik": 2, "dyskusja_użytkownika": 3, "wiki.archlinux.pl": 4, "dyskusja_wiki.archlinux.pl": 5, "plik": 6, "dyskusja_pliku": 7, "mediawiki": 8, "dyskusja_mediawiki": 9, "szablon": 10, "dyskusja_szablonu": 11, "pomoc": 12, "dyskusja_pomocy": 13, "kategoria": 14, "dyskusja_kategorii": 15, "grafika": 6, "dyskusja_grafiki": 7, "image": 6, "image_talk": 7},
+wgSiteName="wiki.archlinux.pl",
+wgCategories=["HOWTO", "Procesy ładowania systemu"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=archlinux&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-GRUB2 skin-archlinux">
+<div id="archnavbar"><!-- Arch Linux global navigation bar -->
+	<div id="archnavbarlogo">
+		<p><a id="logo" href="http://archlinux.pl"></a></p>
+	</div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-start"><a href="http://archlinux.pl">Start</a></li><li id="anb-pakiety"><a href="http://archlinux.pl/?page=Packages">Pakiety</a></li><li id="anb-forum"><a href="http://bbs.archlinux.pl">Forum</a></li><li id="anb-wiki" class="anb-selected"><a href="http://wiki.archlinux.pl">Wiki</a></li><li id="anb-planeta"><a href="http://planeta.archlinux.pl">Planeta</a></li><li id="anb-pobierz"><a href="http://wiki.archlinux.pl/Pobieranie">Pobierz</a></li>		</ul>
+	</div>
+</div><!-- #archnavbar -->
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading"><b style="color:black;background-color:#a0ffff">GRUB2</b></h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">Z wiki.archlinux.pl</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">Wersja <a href="/U%C5%BCytkownik:EROSMRW" title="Użytkownik:EROSMRW" class="mw-userlink">EROSMRW</a>  <span class="mw-usertoollinks">(<a href="/Dyskusja_u%C5%BCytkownika:EROSMRW" title="Dyskusja użytkownika:EROSMRW">dyskusja</a> | <a href="/Specjalna:Wk%C5%82ad/EROSMRW" title="Specjalna:Wkład/EROSMRW">edycje</a>)</span> z dnia 05:14, 9 cze 2011</div>
+
+				<div id="mw-revision-nav">(<a href="/index.php?title=GRUB2&amp;diff=prev&amp;oldid=3245" title="GRUB2">różn.</a>) <a href="/index.php?title=GRUB2&amp;direction=prev&amp;oldid=3245" title="GRUB2">← poprzednia wersja</a> | przejdź do aktualnej wersji (różn.) | następna wersja → (różn.)</div>
+			</div>
+		<div id="jump-to-nav">Skocz do: <a href="#column-one">nawigacji</a>, <a href="#searchInput">wyszukiwania</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Spis treści</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Wprowadzenie"><span class="tocnumber">1</span> <span class="toctext">Wprowadzenie</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Instalacja"><span class="tocnumber">2</span> <span class="toctext">Instalacja</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Je.C5.9Bli_posiadasz_BIOS"><span class="tocnumber">2.1</span> <span class="toctext">Jeśli posiadasz BIOS</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Tablica_partycji_GUID_.28GPT.29"><span class="tocnumber">2.1.1</span> <span class="toctext">Tablica partycji GUID (GPT)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-5"><a href="#Je.C5.9Bli_posiadasz_EFI"><span class="tocnumber">2.2</span> <span class="toctext">Jeśli posiadasz EFI</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#R.C4.99czna_kompilacja"><span class="tocnumber">2.3</span> <span class="toctext">Ręczna kompilacja</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Konfiguracja"><span class="tocnumber">3</span> <span class="toctext">Konfiguracja</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Skrypt_grub-mkconfig"><span class="tocnumber">3.1</span> <span class="toctext">Skrypt grub-mkconfig</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Plik_konfiguracyjny_grub.cfg"><span class="tocnumber">3.2</span> <span class="toctext">Plik konfiguracyjny grub.cfg</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Dodanie_innego_systemu_do_GRUB2"><span class="tocnumber">3.3</span> <span class="toctext">Dodanie innego systemu do <b style="color:black;background-color:#a0ffff">GRUB2</b></span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Konfiguracja_przy_pomocy_grub-mkconfig"><span class="tocnumber">3.3.1</span> <span class="toctext">Konfiguracja przy pomocy grub-mkconfig</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Inny_Linux"><span class="tocnumber">3.3.2</span> <span class="toctext">Inny Linux</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#System_Windows"><span class="tocnumber">3.3.3</span> <span class="toctext">System Windows</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Wy.C5.82.C4.85czanie_zb.C4.99dnych_modu.C5.82.C3.B3w"><span class="tocnumber">3.4</span> <span class="toctext">Wyłączanie zbędnych modułów</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Wizualna_konfiguracja_GRUB2"><span class="tocnumber">4</span> <span class="toctext">Wizualna konfiguracja <b style="color:black;background-color:#a0ffff">GRUB2</b></span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Zobacz_r.C3.B3wnie.C5.BC"><span class="tocnumber">5</span> <span class="toctext">Zobacz również</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "pokaż"; var tocHideText = "ukryj"; showTocToggle(); } </script>
+<h2><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=1" title="Edytuj sekcję: Wprowadzenie">edytuj</a>]</span> <span class="mw-headline" id="Wprowadzenie"> Wprowadzenie </span></h2>
+<p><b style="color:black;background-color:#a0ffff">GRUB2</b> jest następcą <a href="/GRUB" title="GRUB">GRUB</a>, a zatem również jest programem rozruchowym, który sprawuje kontrolę nad procesami zachodzącymi w trakcie uruchamiania jądra i systemu. 
+</p><p>Warto wiedzieć:
+</p>
+<ul><li> Istnieją różnice w poleceniach <b style="color:black;background-color:#a0ffff">GRUB2</b> w stosunku do jego poprzednika. Przeczytasz o nich pod <a href="http://grub.enbug.org/CommandList" class="external text" rel="nofollow">tym</a> adresem.
+</li><li> <b style="color:black;background-color:#a0ffff">Grub2</b>  jest modułowy i nie wymaga już <code>stage 1.5 </code>. W rezultacie sam bootloader jest ograniczony - moduły są ładowane z dysku twardego w przypadku rozszerzonych funkcji (np. LVM lub RAID).
+</li><li> Zmieniło się również nazewnictwo partycji. Zamiast od 0, jak to było w GRUB-ie, teraz jest od 1.
+</li></ul>
+<h2><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=2" title="Edytuj sekcję: Instalacja">edytuj</a>]</span> <span class="mw-headline" id="Instalacja"> Instalacja </span></h2>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=3" title="Edytuj sekcję: Jeśli posiadasz BIOS">edytuj</a>]</span> <span class="mw-headline" id="Je.C5.9Bli_posiadasz_BIOS"> Jeśli posiadasz BIOS </span></h4>
+<p>Instalacja jest prosta i sprowadza się do wydania polecenia:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=grub2-bios" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">grub2</b>-bios</a></tt></code></div>
+<p>Dodatkowo, <b style="color:black;background-color:#a0ffff">GRUB2</b> musi być zainstalowany do sektora rozruchowego dysku lub partycji, aby służyć jako bootloader. Na przykład:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># modprobe dm-mod<br /># grub_bios-install --boot-directory=/boot --no-floppy --recheck /dev/sda<br /># cp /usr/share/grub/{unicode.pf2,ascii.pf2} /boot/grub/</code></div>
+<p>Aby wygenerować <code>core.img</code> sam plik bez konieczności umieszczania <b style="color:black;background-color:#a0ffff">GRUB2</b> w MBR:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># grub_bios-install --grub-setup=/bin/true --boot-directory=/boot --no-floppy --recheck /dev/sda</code></div>
+<p>Wpisu <code>- no-floppy</code> używasz w przypadku, gdy nie posiadasz stacji dyskietek. Wykonywanie <code>grub-install</code> bez <code>- no-floppy</code> może prowadzić do powstania problemu wykrywania ścieżki dyskietki przez <b style="color:black;background-color:#a0ffff">GRUB2</b> w przypadku, gdy stacji dyskietek nie ma. Problem ten może wyglądać tak:
+</p>
+<div style="padding: 0.5em; line-height: 1.1em; background-color: #333; color: #fff; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># grub_bios-install --grub-setup=/bin/true --boot-directory=/boot --recheck /dev/sda</code></div>
+<pre style="white-space: pre-wrap; overflow-x: auto; border-top: none; margin-top: 0">grub-probe: error: Cannot get the real path of '/dev/fd0'
+Auto-detection of a filesystem module failed.
+Please specify the module with the option '--modules' explicitly.</pre>
+<h6><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=4" title="Edytuj sekcję: Tablica partycji GUID (GPT)">edytuj</a>]</span> <span class="mw-headline" id="Tablica_partycji_GUID_.28GPT.29"> Tablica partycji GUID (GPT) </span></h6>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Tablica partycji GUID jest sposobem zapisu informacji o partycjach na dysku twardym. W strukturze logicznej, przypomina rozszerzone (extended) partycje MBR czyli starego typu.</div>
+<p>Jeżeli używasz tego sposobu partycjonowania, pamiętaj o utworzeniu <code>core.img</code> na partycji (wystarczy taka o pojemności 1MB), która posiada system plików <code>EF02</code> i flagę <code>bios_grub</code>. Ważne jest, aby była ona zlokowana przed partycją <code>boot</code>. <a href="/GRUB" title="GRUB">GRUB</a> oraz SYSLINUX nie wymagają tej partycji.
+</p>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #FFDDDD; border: thin solid #FFBBBB"><strong> Ostrzeżenie: </strong>Ta partycja powinna być utworzona przed użyciem poleceń <code>grub2_bios</code> lub <code>grub-install-setup</code>.</div>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=5" title="Edytuj sekcję: Jeśli posiadasz EFI">edytuj</a>]</span> <span class="mw-headline" id="Je.C5.9Bli_posiadasz_EFI"> Jeśli posiadasz EFI </span></h4>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Jeżeli chodzi o interfejs EFI, pomoże tu krótka informacja z Wikipedii:
+<p><i>Extensible Firmware Interface (EFI) – interfejs pomiędzy systemem operacyjnym a firmware, opracowywany jako następca BIOS-u w komputerach osobistych. Pomysł EFI został opracowany w firmie Intel. Obecnie prace nad systemem koordynowane są przez organizację Unified EFI Forum. Jedną z cech EFI jest możliwość pisania dlań sterowników. W takim wypadku sterownik jest niezależny od systemu operacyjnego.</i>
+</p>
+Jeżeli chcesz dowiedzieć się więcej o EFI, przejdź <a href="http://pl.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface" class="external text" rel="nofollow">do strony Wikipedii</a>.</div>
+<p>W tym przypadku wybierasz pakiet pod swoją architekturę:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=grub2-efi-i386" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">grub2</b>-efi-i386</a></tt><br /># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=grub2-efi-x86_64" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">grub2</b>-efi-x86_64</a></tt></code></div>
+<p>Zamontuj partycję systemową EFI w <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/efi</span>. Powinna zawierać system plików FAT32 oraz rozmiar conajmniej 200 MB. Jeżeli posiadasz taką partycję w innym punkcie montowania, zastąp <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/efi</span> poniższymipoleceniami ten punkt:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># mkdir -p /boot/efi/efi                # Jeśli katalog nie istnieje<br /># modprobe dm-mod</code></div>
+<p>Poniższy przykład zakłada, że używasz <tt><a href="http://www.archlinux.org/packages/?q=grub2-efi-x86_64" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">grub2</b>-efi-x86_64</a></tt> (dla <tt><a href="http://www.archlinux.org/packages/?q=grub2-efi-i386" class="external text" rel="nofollow"><b style="color:black;background-color:#a0ffff">grub2</b>-efi-i386</a></tt>, zastąp <code>x86_64</code> treścią <code>i386</code>) 
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># grub_efi_x86_64-install --boot-directory=/boot/efi/efi --bootloader-id=grub --no-floppy --recheck</code></div>
+<p>Jak pewnie zauważyłeś, nie ma na końcu polecenia ścieżki do urządzenia (np. <code>/dev/sda</code>). Otóż nie ma, ponieważ jest ona niepotrzebna. Jeżeli wpiszesz, powinna zostać zignorowana przez skrypt instalacyjny.
+</p><p>Następnie skopiuj pliki wymagane do trybu graficznego (inaczej nie zobaczysz informacji o bootowaniu):
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># cp /usr/share/grub/{unicode.pf2,ascii.pf2} /boot/efi/efi/grub/</code></div>
+<p><code>grub_efi_x86_64-install</code> automatycznie wygeneruje <code>grub.efi</code> podczas konfigurowania katalogu <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/efi/efi/grub/</span>. Jeśli chcesz, możesz utworzyć niestandardowy <code><b style="color:black;background-color:#a0ffff">grub2</b>.efi</code> przy użyciu:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># grub-mkimage -d /usr/lib/grub/x86_64-efi -O x86_64-efi -p &quot;&quot; -o /boot/efi/efi/grub/<b style="color:black;background-color:#a0ffff">grub2</b>.efi &lt;Twoja_lista_modułów_GRUB2&gt;</code></div>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #F6F6BB; border: thin solid #EAEA7B"><strong> Do zrobienia: </strong> Dokończyć tłumaczenie <a href="https://wiki.archlinux.org/index.php/GRUB2#Bootloader_Installation_for_UEFI_systems" class="external free" rel="nofollow">https://wiki.archlinux.org/index.php/<b style="color:black;background-color:#a0ffff">GRUB2</b>#Bootloader_Installation_for_UEFI_systems</a>.</div>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=6" title="Edytuj sekcję: Ręczna kompilacja">edytuj</a>]</span> <span class="mw-headline" id="R.C4.99czna_kompilacja"> Ręczna kompilacja </span></h4>
+<p>Polecenia kompilacji <b style="color:black;background-color:#a0ffff">GRUB2</b>:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># ./autogen.sh<br /># ./configure --with-platform=pc --prefix=/usr<br /># make<br /># make install</code></div>
+<h2><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=7" title="Edytuj sekcję: Konfiguracja">edytuj</a>]</span> <span class="mw-headline" id="Konfiguracja"> Konfiguracja </span></h2>
+<p>Pliki konfiguracyjne <b style="color:black;background-color:#a0ffff">GRUB2</b> znajdują się w katalogu <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/default/grub and /etc/grub.d/*</span>. Są one używane do generowania pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/grub/grub.cfg</span>, choć także i jego edytować, wprowadzając swoje zmiany.
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=8" title="Edytuj sekcję: Skrypt grub-mkconfig">edytuj</a>]</span> <span class="mw-headline" id="Skrypt_grub-mkconfig"> Skrypt grub-mkconfig  </span></h4>
+<p>Skrypt <code>grub-mkconfig</code> używany jest do generowania  pilku <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/grub/grub.cfg</span>. Przykład użycia:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># grub-mkconfig -o /boot/grub/grub.cfg</code></div>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=9" title="Edytuj sekcję: Plik konfiguracyjny grub.cfg">edytuj</a>]</span> <span class="mw-headline" id="Plik_konfiguracyjny_grub.cfg"> Plik konfiguracyjny grub.cfg </span></h4>
+<p>Podstawowy plik <b style="color:black;background-color:#a0ffff">GRUB2</b> korzysta z następujących opcji:
+</p>
+<ul><li> (hdx, y) to partycja na dysku Y X, numery partycji zaczynają się od 1, numery dysku zaczynają się od 0.
+</li><li> Ustaw <code>set default=numer_partycji</code>, który określa któwy wpis rozruchowy ma być domyślny.
+</li><li> Ustaw <code>set timeout=M</code>, gdzie M to czas oczekiwania w sekundach na wybór wpisu rozruchowego w oknie GRUB-a.
+</li><li> Wpis <code>set root=(hdX,Y)</code> określa partycję boot, gdzie jądro i moduły GRUB-a są przechowywane (boot nie musi być na osobnej partycji, a może po prostu w katalogu "root" na partycji <code>/</code>).
+</li></ul>
+<p>Przykład pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/grub/grub.cfg</span> (z oddzielną partycją <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot</span>):
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/boot/grub/grub.cfg</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+# Config file for <b style="color:black;background-color:#a0ffff">GRUB2</b> - The GNU GRand Unified Bootloader
+# /boot/grub/grub.cfg
+
+# DEVICE NAME CONVERSIONS
+#
+#  Linux           Grub
+# -------------------------
+#  /dev/fd0        (fd0)
+#  /dev/sda        (hd0)
+#  /dev/sdb2       (hd1,2)
+#  /dev/sda3       (hd0,3)
+#
+
+# Timeout for menu
+set timeout=5
+
+# Set default boot entry as Entry 0
+set default=0
+
+# (0) Arch Linux
+menuentry &quot;Arch Linux&quot; {
+set root=(hd0,1)
+linux /vmlinuz26 root=/dev/sda3 ro
+initrd /kernel26.img
+}
+
+## (1) Windows
+#menuentry &quot;Windows&quot; {
+#set root=(hd0,3)
+#chainloader +1
+#}
+</pre>
+<p>Jesli nie używasz oddzielnej partycji <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot</span>, musisz poinformować o tym GRUB-a dodając odpowiedni wpis w wierszach <code>linux</code> oraz <code>initrd</code>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/boot/grub/grub.cfg</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+ # (0) Arch Linux
+ menuentry &quot;Arch Linux&quot; {
+ set root=(hd0,1)
+ linux /boot/vmlinuz26 root=/dev/sda1 ro
+ initrd /boot/kernel26.img
+ }</pre>
+<p>A tu juz kolejny przykład pliku konfiguracyjnego z oddzielną partycją <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot</span>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/boot/grub/grub.cfg</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+set timeout=1
+set default=0
+
+insmod part_gpt
+insmod part_msdos
+insmod fat
+insmod ext2
+insmod btrfs
+insmod search_fs_file
+insmod search_fs_uuid
+insmod search_label
+insmod linux
+insmod chain
+set pager=1
+
+
+# DEVICE DETAILS: /dev/sda1 UUID=63e441b2-a884-4522-9e25-d8efff817374 LABEL=BOOT_ARCH
+# DEVICE DETAILS: /dev/sda2 UUID=21cc3ca6-646f-4f73-a138-4d8479a788ad LABEL=SWAP_ARCH
+# DEVICE DETAILS: /dev/sda3 UUID=45a42b6a-cd97-4ba1-94e9-05427de05559 LABEL=ROOT_ARCH
+# DEVICE DETAILS: /dev/sda4 UUID=53b8073f-8681-4a61-9673-f79a968d42db LABEL=HOME_ARCH
+
+
+# (0) Arch Linux
+menuentry &quot;Arch Linux&quot; {
+    set root=(hd0,msdos1)
+    linux (${root})//vmlinuz26 root=/dev/sda3 rootfstype=btrfs ro nomodeset add_efi_memmap resume=/dev/sda2 fastboot logo.nologo quiet ipv6.disable=1
+    initrd (${root})//kernel26.img
+}
+
+
+# (1) Arch Linux Fallback
+menuentry &quot;Arch Linux Fallback&quot; {
+    set root=(hd0,msdos1)
+    linux (${root})//vmlinuz26 root=/dev/sda3 rootfstype=btrfs ro nomodeset add_efi_memmap
+    initrd (${root})//kernel26-fallback.img
+}
+</pre>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=10" title="Edytuj sekcję: Dodanie innego systemu do GRUB2">edytuj</a>]</span> <span class="mw-headline" id="Dodanie_innego_systemu_do_GRUB2"> Dodanie innego systemu do <b style="color:black;background-color:#a0ffff">GRUB2</b> </span></h4>
+<h5><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=11" title="Edytuj sekcję: Konfiguracja przy pomocy grub-mkconfig">edytuj</a>]</span> <span class="mw-headline" id="Konfiguracja_przy_pomocy_grub-mkconfig"> Konfiguracja przy pomocy grub-mkconfig </span></h5>
+<p>Najlepszym sposobem, aby dodać inne wpisy, edytuj plik  <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/grub.d/40_custom</span> i wprowadź zmiany. Wpisy w tym pliku będą automatycznie dodawane podczas korzystania z <code>grub-mkconfig</code>. Po dodaniu nowych linii, uruchom:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># grub-mkconfig -o /boot/grub/grub.cfg</code></div>
+<p>Zaktualizujesz dzięki temu plik <span style="font-family: monospace; color: #005500; white-space: nowrap">/boot/grub/grub.cfg</span>.
+</p>
+<h5><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=12" title="Edytuj sekcję: Inny Linux">edytuj</a>]</span> <span class="mw-headline" id="Inny_Linux"> Inny Linux </span></h5>
+<p>Zakładjąc, że kolejna dystrybucja znajduje się na partycji  <code>sda2</code>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/boot/grub/grub.cfg</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+menuentry &quot;nazwa dystrybucji&quot; {
+set root=(hd0,2)
+linux /boot/vmlinuz (opcje)
+initrd /boot/initrd.img (W przypadku drugiego jądra systemu)
+}</pre>
+<h5><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=13" title="Edytuj sekcję: System Windows">edytuj</a>]</span> <span class="mw-headline" id="System_Windows"> System Windows </span></h5>
+<p>Zakładjąc, że Windows znajduje się na partycji  <code>sda3</code>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/boot/grub/grub.cfg</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+# (2) Windows XP
+menuentry &quot;Windows XP&quot; {
+set root=(hd0,3)
+chainloader (hd0,3)+1
+}</pre>
+<h4><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=14" title="Edytuj sekcję: Wyłączanie zbędnych modułów">edytuj</a>]</span> <span class="mw-headline" id="Wy.C5.82.C4.85czanie_zb.C4.99dnych_modu.C5.82.C3.B3w"> Wyłączanie zbędnych modułów </span></h4>
+<p>Jeżeli chcesz, aby dany moduł nie ładował się wraz z systemem, dodaj odpowiedni wpis (<code>modprobe.blacklist=...</code>)do linii z kernelem, na przykład:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/boot/grub/grub.cfg</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+ # (0) Arch Linux
+ menuentry &quot;Arch Linux&quot; {
+ set root=(hd0,1)
+ linux /boot/vmlinuz26 root=/dev/sda1 ro modprobe.blacklist=moduł1,moduł2,moduł3
+ initrd /boot/kernel26.img
+ }</pre>
+<h2><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=15" title="Edytuj sekcję: Wizualna konfiguracja GRUB2">edytuj</a>]</span> <span class="mw-headline" id="Wizualna_konfiguracja_GRUB2"> Wizualna konfiguracja <b style="color:black;background-color:#a0ffff">GRUB2</b> </span></h2>
+<p>Przykładowa konfiguracja plików w katalogu <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/default/grub and /etc/grub.d/*</span>:
+</p>
+<pre>GRUB_GFXMODE=1024x768x24
+GRUB_GFXPAYLOAD_LINUX=keep
+GRUB_BACKGROUND="/ścieżka/do/tapety"
+GRUB_THEME=""/ścieżka/do/gfxtheme"
+</pre>
+<p>Zmiana koloru tekstu
+</p>
+<pre>GRUB_COLOR_NORMAL="white/black"
+GRUB_COLOR_HIGHLIGHT="white/blue"
+</pre>
+<p>Ustawienie czasu widoku menu oraz opcji jego ukrycia
+</p>
+<pre>GRUB_HIDDEN_TIMEOUT=1
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+</pre>
+<p>Ustawienie rozpoznawania partycji
+</p>
+<pre>Dla /dev/xxx
+GRUB_DISABLE_LINUX_UUID=true
+Dla UUID
+GRUB_DISABLE_LINUX_UUID=false
+</pre>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong> Należy pamiętac o wykonaniu <code> # grub-mkconfig -o /boot/grub/grub.cfg</code> po każdej zmianie.</div>
+<h2><span class="editsection">[<a href="/index.php?title=GRUB2&amp;action=edit&amp;section=16" title="Edytuj sekcję: Zobacz również">edytuj</a>]</span> <span class="mw-headline" id="Zobacz_r.C3.B3wnie.C5.BC"> Zobacz również </span></h2>
+<ul><li> <a href="http://www.gnu.org/software/grub/manual/grub.html" class="external text" rel="nofollow">Strona projektu</a>
+</li><li> <a href="http://grub.enbug.org/TestingOnX86" class="external text" rel="nofollow">Wiki <b style="color:black;background-color:#a0ffff">GRUB2</b></a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 608/1000000
+Post-expand include size: 13324/2097152 bytes
+Template argument size: 5346/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key archlinux_db-wiki_:pcache:idhash:169-0!1!0!!pl!2 and timestamp 20110710201806 -->
+<div class="printfooter">
+Źródło „<a href="http://wiki.archlinux.pl/GRUB2">http://wiki.archlinux.pl/<b style="color:black;background-color:#a0ffff">GRUB2</b></a>”</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/Specjalna:Kategorie" title="Specjalna:Kategorie">Kategorie</a>: <span dir='ltr'><a href="/Kategoria:HOWTO" title="Kategoria:HOWTO">HOWTO</a></span> | <span dir='ltr'><a href="/Kategoria:Procesy_%C5%82adowania_systemu" title="Kategoria:Procesy ładowania systemu">Procesy ładowania systemu</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Widok</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/GRUB2" title="Zobacz stronę treści [c]" accesskey="c">Strona</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Dyskusja:GRUB2&amp;action=edit&amp;redlink=1" title="Dyskusja o zawartości tej strony. [t]" accesskey="t">Dyskusja</a></li>
+				 <li id="ca-edit"><a href="/index.php?title=GRUB2&amp;action=edit" title="Możesz edytować tę stronę. Przed zapisaniem zmian użyj przycisku podgląd. [e]" accesskey="e">Edytuj</a></li>
+				 <li id="ca-history"><a href="/index.php?title=GRUB2&amp;action=history" title="Starsze wersje tej strony. [h]" accesskey="h">Historia i autorzy</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Osobiste</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Specjalna:Zaloguj&amp;returnto=GRUB2&amp;returntoquery=oldid%3D3245" title="Zachęcamy do zalogowania się, choć nie jest to obowiązkowe. [o]" accesskey="o">Logowanie i rejestracja</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/skins/common/images/wiki.png);" href="/Strona_g%C5%82%C3%B3wna" title="Strona główna"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Nawigacja</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/Strona_g%C5%82%C3%B3wna" title="Przejdź na stronę główną [z]" accesskey="z">Strona główna</a></li>
+				<li id="n-portal"><a href="/wiki.archlinux.pl:Portal_spo%C5%82eczno%C5%9Bci" title="O projekcie, co możesz zrobić, gdzie możesz znaleźć informacje">Portal społeczności</a></li>
+				<li id="n-currentevents"><a href="/wiki.archlinux.pl:Aktualno%C5%9Bci" title="Informacje o aktualnych wydarzeniach">Bieżące wydarzenia</a></li>
+				<li id="n-recentchanges"><a href="/Specjalna:Ostatnie_zmiany" title="Lista ostatnich zmian na wiki.archlinux.pl. [r]" accesskey="r">Ostatnie zmiany</a></li>
+				<li id="n-randompage"><a href="/Specjalna:Losowa_strona" title="Pokaż stronę wybraną losowo [x]" accesskey="x">Losowa strona</a></li>
+				<li id="n-help"><a href="/Pomoc:Spis_tre%C5%9Bci" title="Tutaj możesz się wielu rzeczy dowiedzieć.">Pomoc</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Szukaj</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Specjalna:Szukaj"/>
+				<input id="searchInput" title="Przeszukaj wiki.archlinux.pl" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Przejdź" title="Przejdź do strony o dokładnie takim tytule, o ile istnieje" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Szukaj" title="Szukaj wprowadzonego tekstu w treści stron" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Narzędzia</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Specjalna:Linkuj%C4%85ce/GRUB2" title="Pokaż listę wszystkich stron linkujących do tej strony [j]" accesskey="j">Linkujące</a></li>
+				<li id="t-recentchangeslinked"><a href="/Specjalna:Zmiany_w_linkuj%C4%85cych/GRUB2" title="Ostatnie zmiany w stronach, do których ta strona linkuje [k]" accesskey="k">Zmiany w dolinkowanych</a></li>
+<li id="t-specialpages"><a href="/Specjalna:Strony_specjalne" title="Lista wszystkich specjalnych stron [q]" accesskey="q">Strony specjalne</a></li>
+				<li id="t-print"><a href="/index.php?title=GRUB2&amp;oldid=3245&amp;printable=yes" rel="alternate" title="Wersja do wydruku [p]" accesskey="p">Wersja do druku</a></li>				<li id="t-permalink"><a href="/index.php?title=GRUB2&amp;oldid=3245" title="Stały link do tej wersji strony">Link do tej wersji</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"><img src="/skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">Treść udostępniana na licencji <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" class="external ">GNU Free Documentation License 1.2</a>.</li>
+		<li id="privacy"><a href="/wiki.archlinux.pl:Zasady_ochrony_prywatno%C5%9Bci" title="wiki.archlinux.pl:Zasady ochrony prywatności">Zasady ochrony prywatności</a></li>
+		<li id="about"><a href="/wiki.archlinux.pl:O_wiki.archlinux.pl" title="wiki.archlinux.pl:O wiki.archlinux.pl">O wiki.archlinux.pl</a></li>
+		<li id="disclaimer"><a href="/wiki.archlinux.pl:Informacje_prawne" title="wiki.archlinux.pl:Informacje prawne">Informacje prawne</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.039 secs. --></body></html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="http://wiki.archlinux.pl/Music_Player_Daemon"><div style="background:#fff;border:1px solid #999;margin:-1px -1px 0;padding:0;"><div style="background:#ddd;border:1px solid #999;color:#000;font:13px arial,sans-serif;font-weight:normal;margin:12px;padding:8px;text-align:left">To jest kopia z pamięci podręcznej Google adresu <a href="http://wiki.archlinux.pl/Music_Player_Daemon" style="text-decoration:underline;color:#00c">http://wiki.archlinux.pl/Music_Player_Daemon</a>. Zdjęcie przedstawia stan strony z 19 Lip 2011 19:56:48 GMT. <a href="http://wiki.archlinux.pl/Music_Player_Daemon" style="text-decoration:underline;color:#00c">Aktualna strona</a> może wyglądać inaczej. <a href="http://www.google.com/intl/pl/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Więcej informacji</a><br><br><div style="float:right"><a href="http://webcache.googleusercontent.com/search?q=cache:B35pWt4WYg0J:wiki.archlinux.pl/Music_Player_Daemon+http://wiki.archlinux.pl+Music+Player+Daemon&amp;hl=pl&amp;client=firefox-a&amp;gl=pl&strip=1" style="text-decoration:underline;color:#00c">Wersja tekstowa</a></div>
+<div>Te wyszukiwane hasła są podświetlone: <span style="background:#a0ffff;color:black;font-weight:bold">music</span>&nbsp;<span style="background:#99ff99;color:black;font-weight:bold">player</span>&nbsp;<span style="background:#ff9999;color:black;font-weight:bold">daemon</span>&nbsp;Znaleziono tyko w linkach do tej strony: <span style="font-weight:bold">http</span>&nbsp;<span style="font-weight:bold">wiki</span>&nbsp;<span style="font-weight:bold">archlinux</span>&nbsp;<span style="font-weight:bold">pl</span>&nbsp;&nbsp;</div></div></div><div style="position:relative">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pl" dir="ltr">
+<head>
+<title>Music Player Daemon – wiki.archlinux.pl</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.0" />
+<link rel="alternate" type="application/x-wiki" title="Edytuj" href="/index.php?title=Music_Player_Daemon&amp;action=edit" />
+<link rel="edit" title="Edytuj" href="/index.php?title=Music_Player_Daemon&amp;action=edit" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="wiki.archlinux.pl (pl)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/index.php?title=Music_Player_Daemon&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" />
+<link rel="alternate" type="application/atom+xml" title="Kanał Atom wiki.archlinux.pl" href="/index.php?title=Specjalna:Ostatnie_zmiany&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/archlinux/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/archlinux/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/archlinux/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/skins/archlinux/archnavbar.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/archlinux/arch.css?270" media="screen" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Archlinux.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="archlinux",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.archlinux.pl",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Music_Player_Daemon",
+wgTitle="Music Player Daemon",
+wgAction="view",
+wgArticleId=309,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="pl",
+wgContentLanguage="pl",
+wgBreakFrames=false,
+wgCurRevisionId=2763,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=[",	.", " 	,"],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Strona główna",
+wgFormattedNamespaces={"-2": "Media", "-1": "Specjalna", "0": "", "1": "Dyskusja", "2": "Użytkownik", "3": "Dyskusja użytkownika", "4": "wiki.archlinux.pl", "5": "Dyskusja wiki.archlinux.pl", "6": "Plik", "7": "Dyskusja pliku", "8": "MediaWiki", "9": "Dyskusja MediaWiki", "10": "Szablon", "11": "Dyskusja szablonu", "12": "Pomoc", "13": "Dyskusja pomocy", "14": "Kategoria", "15": "Dyskusja kategorii"},
+wgNamespaceIds={"media": -2, "specjalna": -1, "": 0, "dyskusja": 1, "użytkownik": 2, "dyskusja_użytkownika": 3, "wiki.archlinux.pl": 4, "dyskusja_wiki.archlinux.pl": 5, "plik": 6, "dyskusja_pliku": 7, "mediawiki": 8, "dyskusja_mediawiki": 9, "szablon": 10, "dyskusja_szablonu": 11, "pomoc": 12, "dyskusja_pomocy": 13, "kategoria": 14, "dyskusja_kategorii": 15, "grafika": 6, "dyskusja_grafiki": 7, "image": 6, "image_talk": 7},
+wgSiteName="wiki.archlinux.pl",
+wgCategories=["HOWTO", "Demony i usługi", "Audio"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=archlinux&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Music_Player_Daemon skin-archlinux">
+<div id="archnavbar"><!-- Arch Linux global navigation bar -->
+	<div id="archnavbarlogo">
+		<p><a id="logo" href="http://archlinux.pl"></a></p>
+	</div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-start"><a href="http://archlinux.pl">Start</a></li><li id="anb-pakiety"><a href="http://archlinux.pl/?page=Packages">Pakiety</a></li><li id="anb-forum"><a href="http://bbs.archlinux.pl">Forum</a></li><li id="anb-wiki" class="anb-selected"><a href="http://wiki.archlinux.pl">Wiki</a></li><li id="anb-planeta"><a href="http://planeta.archlinux.pl">Planeta</a></li><li id="anb-pobierz"><a href="http://wiki.archlinux.pl/Pobieranie">Pobierz</a></li>		</ul>
+	</div>
+</div><!-- #archnavbar -->
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading"><b style="color:black;background-color:#a0ffff">Music</b> <b style="color:black;background-color:#99ff99">Player</b> <b style="color:black;background-color:#ff9999">Daemon</b></h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">Z wiki.archlinux.pl</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Skocz do: <a href="#column-one">nawigacji</a>, <a href="#searchInput">wyszukiwania</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Spis treści</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Wprowadzenie"><span class="tocnumber">1</span> <span class="toctext">Wprowadzenie</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Cechy_MPD"><span class="tocnumber">1.1</span> <span class="toctext">Cechy MPD</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#Instalacja"><span class="tocnumber">2</span> <span class="toctext">Instalacja</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Wst.C4.99pna_konfiguracja"><span class="tocnumber">2.1</span> <span class="toctext">Wstępna konfiguracja</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Edycja_mpd.conf"><span class="tocnumber">2.2</span> <span class="toctext">Edycja mpd.conf</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Opcje_dodatkowe"><span class="tocnumber">3</span> <span class="toctext">Opcje dodatkowe</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Klienci_MPD"><span class="tocnumber">4</span> <span class="toctext">Klienci MPD</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Strumieniowanie"><span class="tocnumber">5</span> <span class="toctext">Strumieniowanie</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Resampling"><span class="tocnumber">6</span> <span class="toctext">Resampling</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Wsp.C3.B3.C5.82praca_z_conky"><span class="tocnumber">7</span> <span class="toctext">Współpraca z conky</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Scrobblowanie_Last.FM"><span class="tocnumber">8</span> <span class="toctext">Scrobblowanie Last.FM</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Mpdscribble"><span class="tocnumber">8.1</span> <span class="toctext">Mpdscribble</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Lastfmsubmitd"><span class="tocnumber">8.2</span> <span class="toctext">Lastfmsubmitd</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Scrobby"><span class="tocnumber">8.3</span> <span class="toctext">Scrobby</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Globalne_skr.C3.B3ty_klawiszowe"><span class="tocnumber">9</span> <span class="toctext">Globalne skróty klawiszowe</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Zobacz_r.C3.B3wnie.C5.BC"><span class="tocnumber">10</span> <span class="toctext">Zobacz również</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "pokaż"; var tocHideText = "ukryj"; showTocToggle(); } </script>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=1" title="Edytuj sekcję: Wprowadzenie">edytuj</a>]</span> <span class="mw-headline" id="Wprowadzenie"> Wprowadzenie </span></h2>
+<p><b style="color:black;background-color:#a0ffff">Music</b> <b style="color:black;background-color:#99ff99">Player</b> <b style="color:black;background-color:#ff9999">Daemon</b> (MPD) to odtwarzacz muzyczny z rodziny klient-serwer. Sam program MPD służy jako serwer do którego podłączać mogą się klienci. Działa w tle, jako demon, przechowując zbiór plików muzycznych w bazie i odtwarzając pliki na podstawie zdefiniowanych playlist. Sam serwer MPD nie jest "pełnoprawnym" odtwarzaczem jak chociażby <a href="http://amarok.kde.org/" class="external text" rel="nofollow">Amarok</a>, <a href="http://projects.gnome.org/rhythmbox/index.html" class="external text" rel="nofollow">Rhythmbox</a> czy <a href="http://banshee.fm/" class="external text" rel="nofollow">Banshee</a>. Rolę odtwarzaczy spełniają wspomniani wcześniej klienci. To oni manipulują playlistami i samym odtwarzaniem.
+Architektura klient-serwer niesie ze sobą szereg udogodnień w porównaniu z typowymi odtwarzaczami. Klienci mogą komunikować się z serwerem zarówno lokalnie jak i przez sieć, czy to LAN czy nawet Internet. Jako że MPD działa jako demon odtwarzanie nie wymaga środowiska graficznego. Różni klienci mogą służyć różnym celom i podłączać się do serwera odtwarzając przy tym swoje playlisty zdefiniowane przez różne konta użytkowników.
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=2" title="Edytuj sekcję: Cechy MPD">edytuj</a>]</span> <span class="mw-headline" id="Cechy_MPD"> Cechy MPD </span></h4>
+<ul><li> Odtwarza formaty: Ogg Vorbis, FLAC, WavPack, MP2, MP3, MP4/AAC, MOD, Musepack, wave i inne wspomagane przez FFmpeg
+</li><li> Zdalna kontrola przez sieć (IPv4 oraz IPv6)
+</li><li> Odtwarza strumienie HTTP dla plików: FLAC, OggFLAC, MP3, Ogg Vorbis
+</li><li> Odczytuje  i przechowuje w pamięci podręcznej metadane (ID3 (id3v1 oraz id3v2)), Vorbis Comments, MP4 Metadata.
+</li><li> Pozwala na przeszukiwanie metadanych
+</li><li> Udostępnia bufor odtwarzania (zapobiega przycinaniu związanym z obciążeniem sieci)
+</li><li> Funkcja odtwarzania bez przerw między utworami (gapless playback)
+</li><li> Funkcja płynnego przejścia między utworami(crossfade function)
+</li><li> Przeskakiwanie do konkretnej części utworu
+</li><li> Zapisywanie, wczytywanie oraz zarządzanie playlistami (format M3U)
+</li><li> Kontrola głośności (OSS, ALSA, Pulseaudio oraz miksery programowe)
+</li><li> Natywne wsparcie Zeroconf
+</li><li> Wspiera natywny resampling oraz oparty na libsamplerate
+</li><li> Wsparcie dla PulseAudio, ALSA, OSS, MVP, JACK, Mac OS X
+</li><li> Testowany na Linux, FreeBSD, OpenBSD, NetBSD, Solaris, Mac OS X oraz HP-UX
+</li><li> Może być używany jako źródło dla strumieniowania Icecast dla formatów Ogg Vorbis i MP3. Inne formaty mogą zostać przekonwertowane do Ogg/MP3 "w locie"
+</li><li> Zawiera wbudowany serwer strumieniowy HTTP, mogący dostarczać dźwięk w konkretnej wybranej jakości .
+</li><li> Niezależności GUI i środowiska graficznego. Muzyka odtwarzana będzie niezależnie od otwartego czy zamkniętego klienta czy też od uruchomionego środowiska graficznego.
+</li></ul>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=3" title="Edytuj sekcję: Instalacja">edytuj</a>]</span> <span class="mw-headline" id="Instalacja"> Instalacja </span></h2>
+<p>Instalacja odbywa się poprzez <a href="/Pacman" title="Pacman">Pacmana</a>:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=mpd" class="external text" rel="nofollow">mpd</a></tt></code></div>
+<p>Dodanie użytkownika <code>mpd</code> do grupy <code>users</code>:
+{{Cli|# gpasswd -a mpd users
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=4" title="Edytuj sekcję: Wstępna konfiguracja">edytuj</a>]</span> <span class="mw-headline" id="Wst.C4.99pna_konfiguracja"> Wstępna konfiguracja </span></h4>
+<p>Demona MPD należy dodać do sekcji DAEMONS pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/rc.conf</span>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>/etc/rc.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">DAEMONS=(...@mpd...)</pre>
+<p>Działanie MPD opiera się na konfiguracji znajdującej się w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">mpd.conf</span>. Domyślną konfigurację, dostarczoną w czasie instalacji, skopiować należy do katalogu <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/</span> wydając polecenie:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># cp /usr/share/doc/mpd/mpdconf.example /etc/mpd.conf</code></div>
+<p>Od tego momentu wszelkie zmiany w konfiguracji należy wprowadzać poprzez edycję pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/mpd.conf</span>
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=5" title="Edytuj sekcję: Edycja mpd.conf">edytuj</a>]</span> <span class="mw-headline" id="Edycja_mpd.conf"> Edycja <span style="font-family: monospace; color: #005500; white-space: nowrap">mpd.conf</span> </span></h4>
+<p>Plik konfiguracyjny składa się z szeregu sekcji. W tej części opisane zostaną podstawowe opcje niezbędne do działania. W dalszej części artykułu opisany zostanie szereg dodatkowych atrybutów takich jak <a href="http://wiki.archlinux.pl/Music_Player_Daemon#Opcje_dodatkowe" class="external text" rel="nofollow">Opcje dodatkowe</a>, <a href="http://wiki.archlinux.pl/Music_Player_Daemon#Strumieniowanie" class="external text" rel="nofollow">Strumieniowanie</a> czy <a href="http://wiki.archlinux.pl/Music_Player_Daemon#Resampling" class="external text" rel="nofollow">Resampling</a>.
+</p><p>W sekcji <b>Files and directories</b> ustala się katalogi i pliki niezbędne do działania MPD. Pliki te przechowują informacje o ścieżce do kolekcji muzycznej, playlistach, bazy danych, log, pid i state. Za co konkretnie odpowiadają przeczytać można bezpośrednio w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/mpd.conf</span>. Domyślnie przypisane są do katalogu domowego jednak można je umieścić wedle życzenia. Pamiętać należy o odpowiednich uprawnieniach dla tych plików i katalogów zgodnych z użytkownikiem <b>mpd</b> stworzonym w dziale <a href="http://wiki.archlinux.pl/Music_Player_Daemon#Instalacja" class="external text" rel="nofollow">Instalacja</a>. Użytkownik <b>mpd</b> powinien być właścicielem tych plików i katalogów.
+</p><p>Sekcja <b>General <b style="color:black;background-color:#a0ffff">music</b> <b style="color:black;background-color:#ff9999">daemon</b> options</b> stanowi zasadniczą część konfiguracji. Edytować należy następujące opcje:
+</p>
+<ul><li> <b>user</b> - ustawić należy na mpd;
+</li></ul>
+<pre># user "mpd"
+</pre>
+<ul><li> <b>bind_to_adress</b> - ustala adres na którym nasłuchuje demon, dzięki tej opcji można zezwolić tylko jednej maszynie na dostęp, domyślna opcja <b>any</b>;
+</li></ul>
+<pre># bind_to_adress "any"
+</pre>
+<ul><li> <b>port</b> - ustala numer portu nasłuchowego, domyślnie <b>6600</b>;
+</li></ul>
+<pre># port "6600"
+</pre>
+<ul><li> <b>log_level</b> - ustala poziom logowania wydarzeń, domyślnie <b>default</b>;
+</li></ul>
+<pre># log_level "default"
+</pre>
+<ul><li> <b>metadata_to_use</b> - ustala odczyt metadanych z plików;
+</li></ul>
+<pre># metadata_to_use "artist,album,title,track,name,genre,date,composer,performer,disc"
+</pre>
+<p>W sekcji <b>Permissions</b> ustalić można hasło dostępowe oraz domyślne opcje użytkownika który się nie zalogował. Opcje te ustalać należy wedle uznania.
+</p><p>Kolejna ważną sekcją jest <b>Audio Output</b>. Jak sama nazwa wskazuje służy do zdefiniowania odpowiedniego wyjścia dźwięku. Przykładowy zapis dla <a href="http://wiki.archlinux.pl/Open_Sound_System" class="external text" rel="nofollow">OSS</a> wygląda następująco:
+</p>
+<pre># audio_output {
+#	type		"oss"
+#	name		"OSS"
+#	device		"/dev/oss/oss_cmi878x0/pcm0"	# optional
+#       format		"44100:16:2"	                # optional
+#	mixer_device	"/dev/oss/oss_cmi878x0/mix0"	# optional
+#	mixer_control	"PCM"		                # optional
+#}
+</pre>
+<p>Wszystkie te opcje zależne są od używanego serwera dźwięku. Jak widać na załączonym wyżej listingu dostępne są opcje do ustalenia formatu odtwarzanych plików, urządzenia miksującego oraz opcji kontroli miksera. Opcje <b>device</b> oraz <b>mixer_device</b> ustala się odpowiednio dla swojego urządzenia.
+</p><p>Ta wstępna konfiguracja powinna wystarczyć do pierwszego uruchomienia MPD. Zostaje tylko stworzyć bazę plików. Do niedawna bazę należało stworzyć poprzez wydanie polecenia:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># mpd --create-db</code></div>
+<table style="background-color: #FFF4F4; border: solid 1px #C22D2D; padding: 6pt; margin: 1em auto; width: 80%">
+
+<tr>
+<td style="width: 47px"> <a href="/Plik:600px-Warning.svg.png" class="image" title="Uwaga!"><img alt="Uwaga!" src="/images/thumb/6/61/600px-Warning.svg.png/42px-600px-Warning.svg.png" width="42" height="35" /></a>
+</td><td> <span style="color: #C22D2D"><b>Uwaga!</b></span><br />Polecenie to uznane jest już za przestarzałe.
+</td></tr></table>
+<p>Należy użyć opcji stworzenia/aktualizacji bazy dostępnej przez wybranego klienta. Wszelkie możliwe błędy wywołania(poprawność składni pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">mpd.conf</span>), plus ewentualne poprawki, można śledzić wydając polecenie:
+</p>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># /usr/bin/mpd /etc/mpd.conf --verbose --stdout</code></div>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=6" title="Edytuj sekcję: Opcje dodatkowe">edytuj</a>]</span> <span class="mw-headline" id="Opcje_dodatkowe"> Opcje dodatkowe </span></h2>
+<p>Poniższy rozdział przybliża parę dodatkowych opcji dostępnych w pliku konfiguracyjnym. 
+</p><p>Sekcja <b>Audio Output</b>
+</p>
+<ul><li> <b>use_mmap</b> -  obniża obciążenie CPU, nie działa na wszystkich kartach dźwiękowych. Dostępne opcje to <b>yes</b> bądź <b>no</b>;
+</li><li> <b>auto_resample</b> - nie zmienia opcji resample. Dostępne opcje to <b>yes</b> bądź <b>no</b>;
+</li></ul>
+<p>Sekcja <b>General <b style="color:black;background-color:#a0ffff">music</b> <b style="color:black;background-color:#ff9999">daemon</b> options</b>:
+</p>
+<ul><li> <b>gapless_mp3_playback</b> - ustala opcję odtwarzania utworów bez przerw między nimi. Dostępne opcje to <b>yes</b> bądź <b>no</b>;
+</li><li> <b>save_absolute_paths_in_playlists</b> - umożliwia tworzenie playlist zgodnych z innymi odtwarzaczami, dostępne opcje to <b>yes</b> i <b>no</b>;
+</li><li> <b>auto_update</b> - po ustawieniu tej opcji kolekcja będzie się automatycznie odświeżać. Dostępne opcje to <b>yes</b> bądź <b>no</b>;
+</li></ul>
+<p>Sekcja <b>Volume control mixer</b>:
+</p>
+<ul><li> <b>mixer_type</b> - kontroluje rodzaj miksera odpowiedzialnego za głośność. Dostępne opcje to <b>hardware</b>, <b>software</b>, <b>disabled</b>;
+</li></ul>
+<p>Sekcja <b>Normalization automatic volume adjustments</b> ustala opcje związane z normalizację poziomu głośności oraz opcjami <a href="http://wiki.hydrogenaudio.org/index.php?title=Replay_Gain" class="external text" rel="nofollow">Replay Gain</a>.
+</p>
+<ul><li> <b>replaygain</b> - umożliwia korzystnie z mechanizmu Replay Gain. Dostępne opcje to <b>album</b> oraz <b>track</b>;
+</li><li> <b>replaygain_preamp</b> - opcja odpowiedzialna za dostosowanie głośności w plikach powiązanych z Replay Gain;
+</li><li> <b>volume_normalization</b> - stosuje ten sam poziom głośności dla odtwarzanych plików;
+</li></ul>
+<p>Sekcja  <b>MPD Internal Buffering</b>:
+</p>
+<ul><li> <b>audio_buffer_size</b> - ustala poziom bufora używanego w czasie dekodowania, domyślna opcja to <b>2048</b>;
+</li><li> <b>buffer_before_play</b> - pozwala na ustalenie, w procentach, poziomu zapełnienia bufora przed odtwarzaniem;
+</li></ul>
+<p>Sekcja <b>Resource Limitations</b>. Pozwala na dopasowanie paru opcji zapobiegających zbytniemu wykorzystywaniu zasobów przez MPD:
+</p>
+<ul><li> <b>connection_timeout</b> - ustala czas bezczynności po którym sesja zostaje odłączona;
+</li><li> <b>max_connections</b> - ustawia maksymalną ilość połączeń;
+</li><li> <b>max_playlist_length</b> - pozwala na ustalenie maksymalnej długości playlisty(ilość utworów);
+</li><li> <b>max_command_list_size</b> - ustala maksymalną liczbę długości polecenia;
+</li><li> <b>max_output_buffer_size</b> - określa maksymalną wartość rozmiaru wyjściowego bufora przekazywanego do klienta;
+</li></ul>
+<p>Sekcja <b>Character Encoding</b> odpowiedzialna jest za kodowanie znaków:
+</p>
+<ul><li> <b>filesystem_charset</b> - ustala kodowanie znaków przy odczycie katalogów i plików;
+</li><li> <b>id3v1_encoding</b> - ustala kodowanie dla tagów ID3v1;		
+</li></ul>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=7" title="Edytuj sekcję: Klienci MPD">edytuj</a>]</span> <span class="mw-headline" id="Klienci_MPD"> Klienci MPD </span></h2>
+<p>Jako że MPD pełni rolę serwera do jego obsługi niezbędne są programy pełniące rolę klientów. Programy te są mniej lub bardziej rozbudowane. Dobór odpowiedniego zależy oczywiście od indywidualnych preferencji użytkownika. Oto lista paru najpopularniejszych klientów:
+</p>
+<ul><li> <a href="http://wiki.archlinux.pl/Sonata" class="external text" rel="nofollow">Sonata</a> - graficzny klient GTk+ napisany w Pythonie z natywną obsługą LastFM.
+</li></ul>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=sonata" class="external text" rel="nofollow">sonata</a></tt></code></div>
+<ul><li> <a href="http://ario-player.sourceforge.net/index.php" class="external text" rel="nofollow">Ario</a> - kolejny graficzny klient GTK2 zbliżony obsługą do Rhythmbox'a.
+</li></ul>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=ario" class="external text" rel="nofollow">ario</a></tt></code></div>
+<ul><li> <a href="http://gmpc.wikia.com//index.php?title=GMPC" class="external text" rel="nofollow">GMPC</a> - graficzny klient dla środowiska Gnome.
+</li></ul>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=gmpc" class="external text" rel="nofollow">gmpc</a></tt></code></div>
+<ul><li> <a href="http://gimmix.berlios.de/" class="external text" rel="nofollow">Gimmix</a> - graficzny klient GTK+2 napisany w języku C;
+</li></ul>
+<p>Pakiet dostępny w <a href="http://aur.archlinux.org/packages.php?O=0&amp;K=gimmix&amp;do_Search=Go" class="external text" rel="nofollow">AUR</a>.
+</p>
+<ul><li> <a href="http://hem.bredband.net/kaw/ncmpc/" class="external text" rel="nofollow">ncmpc</a> - konsolowy klient oparty o ncurses.
+</li></ul>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=ncmpc" class="external text" rel="nofollow">ncmpc</a></tt></code></div>
+<ul><li> <a href="http://unkart.ovh.org/ncmpcpp/" class="external text" rel="nofollow">Ncmpcpp</a> - rozszerzenie programu ncmpc z wieloma rozbudowanymi dodatkowymi opcjami.
+</li></ul>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=ncmpcpp" class="external text" rel="nofollow">ncmpcpp</a></tt></code></div>
+<ul><li> <a href="http://mpd.wikia.com/wiki/Client:Mpc" class="external text" rel="nofollow">mpc</a> - podstawowy konsolowy klient (must have).
+</li></ul>
+<div style="padding: 0.5em; line-height: 1.1; background-color: #333; color: #eee; border: 1px solid #08c"><code style="background: transparent; white-space: pre-wrap; overflow-x: auto"># pacman -S <tt><a href="http://www.archlinux.org/packages/?q=mpc" class="external text" rel="nofollow">mpc</a></tt></code></div>
+<p>Lista innych wszelkiej maści klientów dostępna pod adresem <a href="http://mpd.wikia.com/wiki/Clients" class="external text" rel="nofollow">MPD - Lista klientów</a>.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=8" title="Edytuj sekcję: Strumieniowanie">edytuj</a>]</span> <span class="mw-headline" id="Strumieniowanie"> Strumieniowanie </span></h2>
+<p>Jedną z zalet MPD jest możliwość strumieniowania dźwięku poprzez protokół HTTP. Wyobraź sobie że siedzisz w pracy przed komputerem ze słuchawkami na uszach, a ze słuchawek leci Twoja playlista skompowana w domu. "How cool is that!?". Aby to osiągnąć wystarczy odpowiednio skonfigurować MPD. Dzięki temu możliwe jest słuchanie własnej kolekcji muzycznej przez najzwyklejszą w świecie przeglądarkę internetową(lub odtwarzacz obsługujący odtwarzanie poprzez URL) gdziekolwiek tam, gdzie jest dostęp do sieci Internet. To stanowi podstawę do stworzenia własnego amatorskiego radia internetowego.
+</p><p>Na początek parę uwag:
+</p>
+<ul><li> aby słuchać strumieni przez HTTP potrzebny jest zewnętrzny adres IP lub odpowiednio skonfigurowany ruter;
+</li><li> pamiętać należy że słuchanie przy pomocy przeglądarki(lub odtwarzacza) nie umożliwia ingerencji w strukturę playlisty, to tylko strumieniowanie(albo aż strumieniowanie);
+</li><li> aby móc ingerować w playlistę należy połączyć się ze swoim komputerem hostującym serwer MPD przez np. SSH i w konsoli odpalić ncmpcpp lub innego klienta konsolowego;
+</li></ul>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Poniższa metoda strumieniowania korzysta z wbudowanego w MPD serwera HTTP. Jest jeszcze sposób zawierający strumieniowanie przy pomocy serwera IceCast. Jednak ten rozdział dotyczy wbudowanego serwera HTTP. Po informacje dotyczące IceCast odsyłam na stronę <a href="http://mpd.wikia.com/wiki/Configuration#IceCast" class="external text" rel="nofollow">MPD - strumieniowanie przy pomocy IceCast/Shoutcast</a></div>
+<p>Wbudowany serwer strumieniowy HTTP w MPD istnieje od wersji oznaczonej numerem 0.15. Aby z niego skorzystać wystarczy zapoznać się z odpowiednią opcją w sekcji <b>Audio Output</b>:
+</p>
+<pre># audio_output {
+#	type		"httpd"
+#	name		"Stream"
+#	encoder		"vorbis"		# optional, vorbis or lame
+#	port		"8000"
+#      #quality		"5.0"			# do not define if bitrate is defined
+#	bitrate		"192"			# do not define if quality is defined
+#	format		"44100:16:2"
+#}
+</pre>
+<p>Powyższy listing prezentuje sekcję dotyczącą strumienia HTTP. I tak po kolei:
+</p>
+<ul><li> <b>type "httpd"</b> - wartość stała definiująca aktywność serwera HTTP, nie należy tu nic zmieniać;
+</li><li> <b>name "Stream"</b> - nazwa naszego strumienia, nazwę można wpisać wedle uznania;
+</li><li> <b>encoder "vorbis"</b> - definiuje rodzaj używanego kodeka, <b>vorbis</b>(OGG) lub <b>lame</b>(MP3);
+</li><li> <b>port "8000"</b> - ustala port na którym nadawany jest strumień, domyślnie można zostawić port <b>8000</b>;
+</li><li> <b>quality "5.0"</b> - ustala jakość strumienia, nie ustawiać tej opcji jeśli zdefiniowana jest wartość bitrate;
+</li><li> <b>bitrate "192"</b> - również ustala jakość strumienia, nie ustawiać jeśli zdefiniowana jest wartoćś quality;
+</li><li> <b>format "44100:16:2"</b> - wartość formatu strumienia, można zostawić domyślną opcję;
+</li></ul>
+<table style="background-color: #FFF4F4; border: solid 1px #C22D2D; padding: 6pt; margin: 1em auto; width: 80%">
+
+<tr>
+<td style="width: 47px"> <a href="/Plik:600px-Warning.svg.png" class="image" title="Uwaga!"><img alt="Uwaga!" src="/images/thumb/6/61/600px-Warning.svg.png/42px-600px-Warning.svg.png" width="42" height="35" /></a>
+</td><td> <span style="color: #C22D2D"><b>Uwaga!</b></span><br />Pamiętać należy od nie definiowaniu naraz wartości <b>quality</b> i <b>bitrate</b>. Jeśli jedna z nich jest zdefiniowana drugą należy pozostawić nieaktywną.
+</td></tr></table>
+<table style="background-color: #FFF4F4; border: solid 1px #C22D2D; padding: 6pt; margin: 1em auto; width: 80%">
+
+<tr>
+<td style="width: 47px"> <a href="/Plik:600px-Warning.svg.png" class="image" title="Uwaga!"><img alt="Uwaga!" src="/images/thumb/6/61/600px-Warning.svg.png/42px-600px-Warning.svg.png" width="42" height="35" /></a>
+</td><td> <span style="color: #C22D2D"><b>Uwaga!</b></span><br />Zadbać należy o odpowiedni wpis w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/hosts.allow</span> dla możliwości zdalnego dostępu.
+</td></tr></table>
+<table style="background-color: #FFF4F4; border: solid 1px #C22D2D; padding: 6pt; margin: 1em auto; width: 80%">
+
+<tr>
+<td style="width: 47px"> <a href="/Plik:600px-Warning.svg.png" class="image" title="Uwaga!"><img alt="Uwaga!" src="/images/thumb/6/61/600px-Warning.svg.png/42px-600px-Warning.svg.png" width="42" height="35" /></a>
+</td><td> <span style="color: #C22D2D"><b>Uwaga!</b></span><br />Należy zadbać o dostępność portu <b>8000</b>. Dodać należy odpowiednią regułę do <b><a href="http://wiki.archlinux.pl/Iptables" class="external text" rel="nofollow">iptables</a></b> jeśli takowe są używane.
+</td></tr></table>
+<table style="background-color: #FFF4F4; border: solid 1px #C22D2D; padding: 6pt; margin: 1em auto; width: 80%">
+
+<tr>
+<td style="width: 47px"> <a href="/Plik:600px-Warning.svg.png" class="image" title="Uwaga!"><img alt="Uwaga!" src="/images/thumb/6/61/600px-Warning.svg.png/42px-600px-Warning.svg.png" width="42" height="35" /></a>
+</td><td> <span style="color: #C22D2D"><b>Uwaga!</b></span><br />Należy pamiętać o dostępności portu <b>8000</b> jeśli serwer MPD jest za ruterem/NAT'em.
+</td></tr></table>
+<p>Jeśli wszystkie powyższe opcje i uwagi są spełnione nie pozostaje nic innego jak sprawdzić działanie strumieniowania przez HTTP. W tym celu można uruchomić przeglądarkę internetową(lub odtwarzacz) i w pasek adresu wpisać adres maszyny hostującej MPD. Na przykład <a href="http://192.168.0.86:8000/" class="external free" rel="nofollow">http://192.168.0.86:8000/</a>. Oczywiście adres możliwie zmieniony. Po chwili przeznaczonej na buforowanie powinna z głośników popłynąć muzyka.
+</p>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Czasem do adresu trzeba dodać nazwę strumienia <a href="http://192.168.0.86:8000/Stream.ogg" class="external free" rel="nofollow">http://192.168.0.86:8000/Stream.ogg</a></div>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=9" title="Edytuj sekcję: Resampling">edytuj</a>]</span> <span class="mw-headline" id="Resampling"> Resampling </span></h2>
+<p>MPD umożliwia resamplowanie plików muzycznych "w locie". Dzieję się to tak przy pomocy dwóch opcji w sekcji <b>Audio Output</b>:
+</p>
+<ul><li> <b>audio_output_format</b> - umożliwia zdefiniowanie wartości resamplingu. Domyślnie ustalona jest wartość <b>44100:16:2</b>, nic nie stoi na przeszkodzie by tą wartość zmienić na np. <b>48000:24:2</b> lub nawet <b>96000:24:2</b>;	
+</li><li> <b>samplerate_converter</b> - ustala jakość konwersji, najlepiej ustalić wartość <b>Best Sinc Interpolator</b>;
+</li></ul>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Jako że toczy się dyskusja nad sensem takich zabiegów ewentualne różnice w jakości dźwięku należy dopasować do posiadanego źródła dźwięku jak i klasy sprzętu odsłuchowego.</div>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=10" title="Edytuj sekcję: Współpraca z conky">edytuj</a>]</span> <span class="mw-headline" id="Wsp.C3.B3.C5.82praca_z_conky"> Współpraca z conky </span></h2>
+<p><a href="http://wiki.archlinux.pl/Conky" class="external text" rel="nofollow">Conky</a> jako doskonała aplikacja wyświetlająca wszelkiej maści informacje systemowe umożliwia również wyświetlanie informacji dotyczących aktualnie odtwarzanego utworu. Jego wykonawcy, nazwy utworu, albumu z którego pochodzi, czasu trwania czy też jakości pliku(bitrate).
+Służą do tego proste opcje dodawane do pliku konfiguracyjnego conky:
+</p>
+<ul><li> <b>if_mpd_playing</b> - jeśli MPD odtwarza lub nie, wyświetla wszystko pomiędzy frazą <b>$if_mpd_playing</b> a zamykającą ją frazą <b>$endif</b>;
+</li><li> <b>mpd_album</b> - wyświetla tytuł aktualnie odtwarzanego albumu;
+</li><li> <b>mpd_artist</b> - wyświetla artystę;
+</li><li> <b>mpd_bar</b> - wyświetla pasek postępu odtwarzanego utworu;
+</li><li> <b>mpd_bitrate</b> - pokazuje aktualny bitrate;
+</li><li> <b>mpd_elapsed</b> - aktualny czas trwania;
+</li><li> <b>mpd_file</b> - nazwa pliku muzycznego;
+</li><li> <b>mpd_length</b> - całkowity czas trwania utworu;
+</li><li> <b>mpd_name</b> - nazwa serwera MPD;
+</li><li> <b>mpd_percent</b> - czas wyświetlany w procentach;
+</li><li> <b>mpd_random</b> - wyświetla czy playlista ma aktywną opcję <b>Random</b>;
+</li><li> <b>mpd_repeat</b> - wyświetla czy playlista ma aktywną opcję <b>Repeat</b>;
+</li><li> <b>mpd_smart</b> - pokazuje informacje w stylu <b>Artysta - Tytuł</b>;
+</li><li> <b>mpd_status</b> - status MPD, czy odtwarza, pauza itp.;
+</li><li> <b>mpd_title</b> - tytuł aktualnego utworu;
+</li><li> <b>mpd_track</b> - aktualny numer utworu;
+</li><li> <b>mpd_vol</b> - pokazuje aktualny poziom głośności;
+</li></ul>
+<p>Istnieje możliwość wyświetlania okładki aktualnie odtwarzanego utworu. Po takowy skrypt odsyłam do <a href="http://www.google.pl" class="external text" rel="nofollow">Google</a>.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=11" title="Edytuj sekcję: Scrobblowanie Last.FM">edytuj</a>]</span> <span class="mw-headline" id="Scrobblowanie_Last.FM"> Scrobblowanie Last.FM </span></h2>
+<p>Istnieje możliwość scrobblowania odtwarzanych utworów. Oczywiście graficzni klienci mają wbudowaną tą funkcję(jak np. Sonata), jednak w tym rozdziale przedstawione zostanie parę skryptów/demonów odpowiedzialnych za scrobblowanie niezależnie od używanego klienta.
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=12" title="Edytuj sekcję: Mpdscribble">edytuj</a>]</span> <span class="mw-headline" id="Mpdscribble"> Mpdscribble </span></h4>
+<p><a href="http://mpd.wikia.com/wiki/Client:Mpdscribble" class="external text" rel="nofollow">Mpdscribble</a> to demon działające w tle. Działa na podstawie pliku konfiguracyjnego <span style="font-family: monospace; color: #005500; white-space: nowrap">~/.mpdscribble/mpdscribble.conf</span>:
+</p>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>~/.mpdscribble/mpdscribble.conf</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">[mpdscribble] 
+ host = &lt;your mpd host&gt; # defaults to $MPD_HOST or localhost
+ port = &lt;your mpd port&gt; # defaults to $MPD_PORT or 6600
+ log = ~/.mpdscribble/mpdscribble.log
+ journal = ~/.mpdscribble/mpdscribble.cache
+ verbose = 2
+ sleep = 1
+ musicdir = &lt;your <b style="color:black;background-color:#a0ffff">music</b> directory&gt;
+
+ [last.fm]
+ # last.fm section, comment if you don't use last.fm
+ url = <a href="http://post.audioscrobbler.com" class="external free" rel="nofollow">http://post.audioscrobbler.com</a>
+ username = &lt;your last.fm username&gt;
+ password = &lt;your last.fm password&gt;
+
+ [libre.fm]
+ # libre.fm section, comment if you don't use libre.fm
+ url = <a href="http://turtle.libre.fm/" class="external free" rel="nofollow">http://turtle.libre.fm/</a>
+ username = &lt;your libre.fm username&gt;
+ password = &lt;your libre.fm password&gt;</pre>
+<div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Dodatkowo należy stworzyć pliki <span style="font-family: monospace; color: #005500; white-space: nowrap">~/.mpdscribble/mpdscribble.log</span> oraz <span style="font-family: monospace; color: #005500; white-space: nowrap">~/.mpdscribble/mpdscribble.cache</span></div>
+<p>Pakiet dostępny jest w <a href="http://aur.archlinux.org/packages.php?O=0&amp;K=mpdscribble&amp;do_Search=Go" class="external text" rel="nofollow">AUR</a>.
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=13" title="Edytuj sekcję: Lastfmsubmitd">edytuj</a>]</span> <span class="mw-headline" id="Lastfmsubmitd"> Lastfmsubmitd </span></h4>
+<p>To demon dostępny w repozytorium community. Należy edytować plik <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/lastfmsubmitd.conf</span> i dodać <code>lastfmsubmitd</code> wraz z <code>lastmp</code> do sekcji DAEMONS pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/rc.conf</span>.
+</p>
+<h4><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=14" title="Edytuj sekcję: Scrobby">edytuj</a>]</span> <span class="mw-headline" id="Scrobby"> Scrobby </span></h4>
+<p><a href="http://unkart.ovh.org/scrobby/" class="external text" rel="nofollow">Scrobby</a> to prosty program do scrobblowania. Wystarczy wyedytować plik <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/scrobby.conf</span> i dodać go do sekcji DAEMONS pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc/rc.conf</span>. Dostępny w <a href="http://aur.archlinux.org/packages.php?ID=21097" class="external text" rel="nofollow">AUR</a>.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=15" title="Edytuj sekcję: Globalne skróty klawiszowe">edytuj</a>]</span> <span class="mw-headline" id="Globalne_skr.C3.B3ty_klawiszowe"> Globalne skróty klawiszowe </span></h2>
+<p>MPD można sterować przy pomocy skrótów klawiszowych. Dzieje się tak przy pomocy konsolowego programu mpc. Po listę dostępnych opcji odsyłam do manuala <code>man mpc</code>. Wystarczy tylko przypisać odpowiednią komendę do skrótu klawiszowego(lub napisać prosty skrypt) w swoim menedżerze okien bądź środowisku graficznym np.:
+</p>
+<ul><li> <b>mpc play</b> - rozpoczyna odtwarzanie;
+</li><li> <b>mpc stop</b> - zatrzymuje odtwarzanie;
+</li><li> <b>mpc pause</b> - włącza pauzę;
+</li><li> <b>mpc next</b> - odtwarza następny utwór z playlisty;
+</li><li> <b>mpc prev</b> - odtwarza poprzedni utwór z playlisty;
+</li></ul>
+<h2><span class="editsection">[<a href="/index.php?title=Music_Player_Daemon&amp;action=edit&amp;section=16" title="Edytuj sekcję: Zobacz również">edytuj</a>]</span> <span class="mw-headline" id="Zobacz_r.C3.B3wnie.C5.BC"> Zobacz również </span></h2>
+<ul><li> <a href="http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki" class="external text" rel="nofollow">Strona projektu</a>
+</li><li> <a href="http://wiki.archlinux.org/index.php/Mpd" class="external text" rel="nofollow">Arch MPD Wiki</a>
+</li><li> <a href="http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki" class="external text" rel="nofollow">Strona MPD</a>
+</li><li> <a href="http://mpd.wikia.com/wiki/Install" class="external text" rel="nofollow">Instalacja MPD</a>
+</li><li> <a href="http://mpd.wikia.com/wiki/Configuration" class="external text" rel="nofollow">Konfiguracja MPD</a>
+</li><li> <a href="http://mpd.wikia.com/wiki/Clients" class="external text" rel="nofollow">Lista klientów MPD</a>
+</li><li> <a href="http://mpd.wikia.com/wiki/Hacks" class="external text" rel="nofollow">Lista dodatkowych wtyczek</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 426/1000000
+Post-expand include size: 11993/2097152 bytes
+Template argument size: 5045/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key archlinux_db-wiki_:pcache:idhash:309-0!1!0!!pl!2 and timestamp 20110629154259 -->
+<div class="printfooter">
+Źródło „<a href="http://wiki.archlinux.pl/Music_Player_Daemon">http://wiki.archlinux.pl/Music_Player_Daemon</a>”</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/Specjalna:Kategorie" title="Specjalna:Kategorie">Kategorie</a>: <span dir='ltr'><a href="/Kategoria:HOWTO" title="Kategoria:HOWTO">HOWTO</a></span> | <span dir='ltr'><a href="/Kategoria:Demony_i_us%C5%82ugi" title="Kategoria:Demony i usługi">Demony i usługi</a></span> | <span dir='ltr'><a href="/Kategoria:Audio" title="Kategoria:Audio">Audio</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Widok</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/Music_Player_Daemon" title="Zobacz stronę treści [c]" accesskey="c">Strona</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Dyskusja:Music_Player_Daemon&amp;action=edit&amp;redlink=1" title="Dyskusja o zawartości tej strony. [t]" accesskey="t">Dyskusja</a></li>
+				 <li id="ca-edit"><a href="/index.php?title=Music_Player_Daemon&amp;action=edit" title="Możesz edytować tę stronę. Przed zapisaniem zmian użyj przycisku podgląd. [e]" accesskey="e">Edytuj</a></li>
+				 <li id="ca-history"><a href="/index.php?title=Music_Player_Daemon&amp;action=history" title="Starsze wersje tej strony. [h]" accesskey="h">Historia i autorzy</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Osobiste</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Specjalna:Zaloguj&amp;returnto=Music_Player_Daemon" title="Zachęcamy do zalogowania się, choć nie jest to obowiązkowe. [o]" accesskey="o">Logowanie i rejestracja</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/skins/common/images/wiki.png);" href="/Strona_g%C5%82%C3%B3wna" title="Strona główna"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Nawigacja</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/Strona_g%C5%82%C3%B3wna" title="Przejdź na stronę główną [z]" accesskey="z">Strona główna</a></li>
+				<li id="n-portal"><a href="/wiki.archlinux.pl:Portal_spo%C5%82eczno%C5%9Bci" title="O projekcie, co możesz zrobić, gdzie możesz znaleźć informacje">Portal społeczności</a></li>
+				<li id="n-currentevents"><a href="/wiki.archlinux.pl:Aktualno%C5%9Bci" title="Informacje o aktualnych wydarzeniach">Bieżące wydarzenia</a></li>
+				<li id="n-recentchanges"><a href="/Specjalna:Ostatnie_zmiany" title="Lista ostatnich zmian na wiki.archlinux.pl. [r]" accesskey="r">Ostatnie zmiany</a></li>
+				<li id="n-randompage"><a href="/Specjalna:Losowa_strona" title="Pokaż stronę wybraną losowo [x]" accesskey="x">Losowa strona</a></li>
+				<li id="n-help"><a href="/Pomoc:Spis_tre%C5%9Bci" title="Tutaj możesz się wielu rzeczy dowiedzieć.">Pomoc</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Szukaj</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Specjalna:Szukaj"/>
+				<input id="searchInput" title="Przeszukaj wiki.archlinux.pl" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Przejdź" title="Przejdź do strony o dokładnie takim tytule, o ile istnieje" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Szukaj" title="Szukaj wprowadzonego tekstu w treści stron" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Narzędzia</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Specjalna:Linkuj%C4%85ce/Music_Player_Daemon" title="Pokaż listę wszystkich stron linkujących do tej strony [j]" accesskey="j">Linkujące</a></li>
+				<li id="t-recentchangeslinked"><a href="/Specjalna:Zmiany_w_linkuj%C4%85cych/Music_Player_Daemon" title="Ostatnie zmiany w stronach, do których ta strona linkuje [k]" accesskey="k">Zmiany w dolinkowanych</a></li>
+<li id="t-specialpages"><a href="/Specjalna:Strony_specjalne" title="Lista wszystkich specjalnych stron [q]" accesskey="q">Strony specjalne</a></li>
+				<li id="t-print"><a href="/index.php?title=Music_Player_Daemon&amp;printable=yes" rel="alternate" title="Wersja do wydruku [p]" accesskey="p">Wersja do druku</a></li>				<li id="t-permalink"><a href="/index.php?title=Music_Player_Daemon&amp;oldid=2763" title="Stały link do tej wersji strony">Link do tej wersji</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"><img src="/skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> Tę stronę ostatnio zmodyfikowano 09:35, 20 mar 2011.</li>
+		<li id="viewcount">Tę stronę obejrzano 1423 razy.</li>
+		<li id="copyright">Treść udostępniana na licencji <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" class="external ">GNU Free Documentation License 1.2</a>.</li>
+		<li id="privacy"><a href="/wiki.archlinux.pl:Zasady_ochrony_prywatno%C5%9Bci" title="wiki.archlinux.pl:Zasady ochrony prywatności">Zasady ochrony prywatności</a></li>
+		<li id="about"><a href="/wiki.archlinux.pl:O_wiki.archlinux.pl" title="wiki.archlinux.pl:O wiki.archlinux.pl">O wiki.archlinux.pl</a></li>
+		<li id="disclaimer"><a href="/wiki.archlinux.pl:Informacje_prawne" title="wiki.archlinux.pl:Informacje prawne">Informacje prawne</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.239 secs. --></body></html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="http://wiki.archlinux.pl/PKGBUILD"><div style="background:#fff;border:1px solid #999;margin:-1px -1px 0;padding:0;"><div style="background:#ddd;border:1px solid #999;color:#000;font:13px arial,sans-serif;font-weight:normal;margin:12px;padding:8px;text-align:left">To jest kopia z pamięci podręcznej Google adresu <a href="http://wiki.archlinux.pl/PKGBUILD" style="text-decoration:underline;color:#00c">http://wiki.archlinux.pl/PKGBUILD</a>. Zdjęcie przedstawia stan strony z 25 Lip 2011 14:32:42 GMT. <a href="http://wiki.archlinux.pl/PKGBUILD" style="text-decoration:underline;color:#00c">Aktualna strona</a> może wyglądać inaczej. <a href="http://www.google.com/intl/pl/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Więcej informacji</a><br><br><div style="float:right"><a href="http://webcache.googleusercontent.com/search?q=cache:GtlKLp6SxMoJ:wiki.archlinux.pl/PKGBUILD+http://wiki.archlinux.pl+Bezpiecze%C5%84stwo&amp;hl=pl&amp;client=firefox-a&amp;gl=pl&strip=1" style="text-decoration:underline;color:#00c">Wersja tekstowa</a></div>
+<div>Znaleziono tyko w linkach do tej strony: <span style="font-weight:bold">http</span>&nbsp;<span style="font-weight:bold">wiki</span>&nbsp;<span style="font-weight:bold">archlinux</span>&nbsp;<span style="font-weight:bold">pl</span>&nbsp;<span style="font-weight:bold">bezpieczeństwo</span>&nbsp;&nbsp;</div></div></div><div style="position:relative">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pl" dir="ltr">
+<head>
+<title>PKGBUILD – wiki.archlinux.pl</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.0" />
+<link rel="alternate" type="application/x-wiki" title="Edytuj" href="/index.php?title=PKGBUILD&amp;action=edit" />
+<link rel="edit" title="Edytuj" href="/index.php?title=PKGBUILD&amp;action=edit" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="wiki.archlinux.pl (pl)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/index.php?title=PKGBUILD&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" />
+<link rel="alternate" type="application/atom+xml" title="Kanał Atom wiki.archlinux.pl" href="/index.php?title=Specjalna:Ostatnie_zmiany&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/archlinux/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/archlinux/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/archlinux/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/archlinux/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/skins/archlinux/archnavbar.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/archlinux/arch.css?270" media="screen" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Archlinux.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="archlinux",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.archlinux.pl",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="PKGBUILD",
+wgTitle="PKGBUILD",
+wgAction="view",
+wgArticleId=372,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="pl",
+wgContentLanguage="pl",
+wgBreakFrames=false,
+wgCurRevisionId=3057,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=[",	.", " 	,"],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Strona główna",
+wgFormattedNamespaces={"-2": "Media", "-1": "Specjalna", "0": "", "1": "Dyskusja", "2": "Użytkownik", "3": "Dyskusja użytkownika", "4": "wiki.archlinux.pl", "5": "Dyskusja wiki.archlinux.pl", "6": "Plik", "7": "Dyskusja pliku", "8": "MediaWiki", "9": "Dyskusja MediaWiki", "10": "Szablon", "11": "Dyskusja szablonu", "12": "Pomoc", "13": "Dyskusja pomocy", "14": "Kategoria", "15": "Dyskusja kategorii"},
+wgNamespaceIds={"media": -2, "specjalna": -1, "": 0, "dyskusja": 1, "użytkownik": 2, "dyskusja_użytkownika": 3, "wiki.archlinux.pl": 4, "dyskusja_wiki.archlinux.pl": 5, "plik": 6, "dyskusja_pliku": 7, "mediawiki": 8, "dyskusja_mediawiki": 9, "szablon": 10, "dyskusja_szablonu": 11, "pomoc": 12, "dyskusja_pomocy": 13, "kategoria": 14, "dyskusja_kategorii": 15, "grafika": 6, "dyskusja_grafiki": 7, "image": 6, "image_talk": 7},
+wgSiteName="wiki.archlinux.pl",
+wgCategories=["HOWTO", "Zarządzanie pakietami"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=archlinux&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-PKGBUILD skin-archlinux">
+<div id="archnavbar"><!-- Arch Linux global navigation bar -->
+	<div id="archnavbarlogo">
+		<p><a id="logo" href="http://archlinux.pl"></a></p>
+	</div>
+	<div id="archnavbarmenu">
+		<ul id="archnavbarlist">
+			<li id="anb-start"><a href="http://archlinux.pl">Start</a></li><li id="anb-pakiety"><a href="http://archlinux.pl/?page=Packages">Pakiety</a></li><li id="anb-forum"><a href="http://bbs.archlinux.pl">Forum</a></li><li id="anb-wiki" class="anb-selected"><a href="http://wiki.archlinux.pl">Wiki</a></li><li id="anb-planeta"><a href="http://planeta.archlinux.pl">Planeta</a></li><li id="anb-pobierz"><a href="http://wiki.archlinux.pl/Pobieranie">Pobierz</a></li>		</ul>
+	</div>
+</div><!-- #archnavbar -->
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">PKGBUILD</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">Z wiki.archlinux.pl</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Skocz do: <a href="#column-one">nawigacji</a>, <a href="#searchInput">wyszukiwania</a></div>
+		<!-- start content -->
+<p><br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Spis treści</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Wprowadzenie"><span class="tocnumber">1</span> <span class="toctext">Wprowadzenie</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Budowanie_pakiet.C3.B3w"><span class="tocnumber">2</span> <span class="toctext">Budowanie pakietów</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Zmienne"><span class="tocnumber">3</span> <span class="toctext">Zmienne</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Wersje_rozwojowe_oprogramowania"><span class="tocnumber">3.1</span> <span class="toctext">Wersje rozwojowe oprogramowania</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Funkcje"><span class="tocnumber">4</span> <span class="toctext">Funkcje</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Funkcja_build.28.29"><span class="tocnumber">4.1</span> <span class="toctext">Funkcja build()</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Funkcja_package.28.29"><span class="tocnumber">4.2</span> <span class="toctext">Funkcja package()</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Przyk.C5.82ad"><span class="tocnumber">4.3</span> <span class="toctext">Przykład</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Pakiety_dzielone"><span class="tocnumber">5</span> <span class="toctext">Pakiety dzielone</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Zobacz_r.C3.B3wnie.C5.BC"><span class="tocnumber">6</span> <span class="toctext">Zobacz również</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "pokaż"; var tocHideText = "ukryj"; showTocToggle(); } </script>
+<h2><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=1" title="Edytuj sekcję: Wprowadzenie">edytuj</a>]</span> <span class="mw-headline" id="Wprowadzenie"> Wprowadzenie </span></h2>
+<p>Plik <span style="font-family: monospace; color: #005500; white-space: nowrap">PKGBUILD</span> jest właściwym dla dystrybucji Arch Linux plikiem opisującym budowę pakietu. Ten artykuł opisuje używane w nich zmienne.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=2" title="Edytuj sekcję: Budowanie pakietów">edytuj</a>]</span> <span class="mw-headline" id="Budowanie_pakiet.C3.B3w"> Budowanie pakietów </span></h2>
+<p>Pakiety w dystrybucji Arch Linux budowane są przy pomocy narzędzia <a href="/Makepkg" title="Makepkg">Makepkg</a> pobierającego instrukcje budowy z pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">PKGBUILD</span>. Program ten poszukuje pliku instrukcji w aktualnym katalogu, następnie przetwarza je i kompiluje bądź w inny sposób tworzy pliki mające wejść w skład pakietu. Plikiem wynikowym jest archiwum <span style="font-family: monospace; color: #005500; white-space: nowrap">nazwa_pakietu.pkg.tar.xz</span> zawierające pliki binarne oraz instrukcje instalacji dla <a href="/Pacman" title="Pacman">Pacmana</a>.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=3" title="Edytuj sekcję: Zmienne">edytuj</a>]</span> <span class="mw-headline" id="Zmienne"> Zmienne </span></h2>
+<p>Poniżej znajduje się lista zmiennych używanych w plikach <span style="font-family: monospace; color: #005500; white-space: nowrap">PKGBUILD</span>:
+</p>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgname</span>&nbsp;</dt><dd> Nazwa pakietu. Powinna składać się wyłącznie z <b>małych liter oraz cyfr</b>, powinna również odzwierciedlać nazwę archiwum kodu źródłowego paczkowanego oprogramowania. Np. dla programu StumpWM właściwą zawartością tej zmiennej jest <b>stumpwm</b> ponieważ kod źródłowy programu udostępniony jest w archiwum o nazwie <b>stumpwm</b>-0.9.7.tgz.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span>&nbsp;</dt><dd> Wersja oprogramowania zawartego budowanym pakiecie. Może zawierać litery, cyfry oraz kropki, <b>nie może</b> zawierać myślnika (-). Należy zamiast niego użyć podkreślnika, np dla wersji oprogramowania zapisanej jako <code>0.99-10</code> prawidłową wartością tej zmiennej jest <code>0.99_10</code>. Pozwoli to zachować czytelność oraz ułatwi wykorzystanie tej zmiennej w innych częściach pliku, np: <span style="font-family: monospace; color: #000055; white-space: nowrap">source=($pkgname-${pkgver//_/-}.tar.gz)</span>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgrel</span>&nbsp;</dt><dd> Numer wersji pakietu - składa się wyłącznie z cyfr tworzących liczbę całkowitą nie mniejszą niż 1. W czasie budowy pierwszej wersji pakietu nadawana jest jej wartość 1. Po naniesieniu kolejnych poprawek i ulepszeń w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">PKGBUILD</span> wartość ta zwiększana jest o 1 i udostępniana jest nowa wersja pakietu. Wraca ona do wartości początkowej 1 kiedy autor paczkowanego oprogramowania opublikuje nową wersję.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgdesc</span>&nbsp;</dt><dd> Opis pakietu. Nie powinien być dłuższy niż 80 znaków. Należy unikać używania nazwy oprogramowania do jego opisu, np fraza <code>"Stumpwm jest managerem okien napisanym w języku Lisp"</code> powinna zostać zapisana: <code>"Manager okien napisany w języku Lisp"</code>.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">epoch</span>&nbsp;</dt><dd> Zmienna używana do wymuszenia aktualizacji pakietu. Prawidłową wartością tej zmiennej jest liczba naturalna, domyślną wartością jest zero. Pakiet z wartością <span style="font-family: monospace; color: #000055; white-space: nowrap">epoch</span> większą niż pakiet zainstalowany w systemie zostanie zainstalowany nawet jeśli porównanie ich wersji nie skutkowało by tą operacją. Mechanizm ten omija porównanie wersji pakietów - umożliwia to między innymi zmianę schematu zapisu numeru wersji czy aktualizację pakietów z wersją zapisaną z użyciem liter.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">arch</span>&nbsp;</dt><dd> Lista architektur sprzętu dla których przeznaczony jest pakiet. Może zawierać wartości: <b>i686</b>, <b>x86_64</b>, obie wcześniejsze: <span style="font-family: monospace; color: #000055; white-space: nowrap">arch=('i686' 'x86_64')</span>, lub <b>any</b> dla pakietów nie związanych z żadną platformą.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">url</span>&nbsp;</dt><dd> URL oficjalnej strony budowanego oprogramowania.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">license</span>&nbsp;</dt><dd> Licencja (lub licencje) na której udostępniane jest oprogramowanie. W repozytorium [core] znajduje się pakiet <tt><a href="http://www.archlinux.org/packages/?q=licenses" class="external text" rel="nofollow">licenses</a></tt> który zawiera popularne licencje. Instalowane są one do katalogu <span style="font-family: monospace; color: #005500; white-space: nowrap">/usr/share/licenses/common</span>. Jeśli oprogramowanie korzysta z jednej z tych licencji, wartość tej zmiennej powinna zostać ustawiona na nazwę odpowiedniego pliku z tego katalogu. W przypadku kiedy odpowiednia licencja się tam nie znajduje należy wykonać poniższe czynności:
+<ol><li> W katalogu <span style="font-family: monospace; color: #005500; white-space: nowrap">/usr/share/licenses/</span> należy utworzyć katalog o nazwie takiej jaką nosi pakiet i umieścić w nim plik(i) licencji: <span style="font-family: monospace; color: #005500; white-space: nowrap">/usr/share/licenses/<b>pkgname</b>/LICENSE</span>.
+</li><li> Jeśli archiwum źródłowe nie zawiera pliku licencji, ale dostępna jest z innego źródła (np ze strony WWW), należy jej treść umieścić w pliku dołączonym do pakietu.
+</li><li> Dołączyć wartość <b>custom</b> do tablicy <span style="font-family: monospace; color: #000055; white-space: nowrap">license</span>, z opcjonalną nazwą licencji (<b>custom:nazwa licencji</b>). Licencja taka zostanie włączona w skład pakietu <tt><a href="http://www.archlinux.org/packages/?q=licenses" class="external text" rel="nofollow">licenses</a></tt> jeśli wystąpi w dwóch lub większej liczbie pakietów w oficjalnych repozytoriach (włącznie z <span style="font-family: monospace; color: #000055; white-space: nowrap">[community]</span>).
+</li></ol>
+<ul><li> Licencje <a href="http://en.wikipedia.org/wiki/BSD_License" class="extiw" title="wikipedia:BSD License">BSD</a>, <a href="http://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>, <a href="http://en.wikipedia.org/wiki/ZLIB_license" class="extiw" title="wikipedia:ZLIB license">zlib/png</a> oraz <a href="http://en.wikipedia.org/wiki/Python_License" class="extiw" title="wikipedia:Python License">Python</a>, mimo iż są stosunkowo popularne, nie mogły zostać włączone w pakiet <tt><a href="http://www.archlinux.org/packages/?q=licenses" class="external text" rel="nofollow">licenses</a></tt>. Z punktu widzenia zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">license</span> są one traktowane jako licencje popularne (tzn nie poprzedzamy ich <b>custom</b>, należy użyć samej nazwy licencji np <span style="font-family: monospace; color: #000055; white-space: nowrap">license=('BSD')</span>). Treść tych licencji umieszczamy w pliku dołączonym do pakietu. W przypadku kiedy oprogramowanie publikowane jest na więcej niż jednej licencji każda z nich powinna znaleźć się w zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">licenses</span> np <span style="font-family: monospace; color: #000055; white-space: nowrap">license=('GPL' 'custom:name of license')</span>.
+</li><li> Licencje Gnu (GPL, LGPL) mają różne wersje oraz odmiany, do ich nazywania stosujemy schemat:
+<ul><li> (L)GPL - (L)GPLv2 lub późniejsza
+</li><li> (L)GPL2 - wyłącznie (L)GPL2
+</li><li> (L)GPL3 - (L)GPL3 lub późniejsza
+</li></ul>
+</li></ul>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">groups</span>&nbsp;</dt><dd> Grupa do której należy pakiet. Instalując na przykład grupę <tt><a href="http://www.archlinux.org/packages/?q=kdebase" class="external text" rel="nofollow">kdebase</a></tt> zainstalujesz wszystkie pakiety do niej należące.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">depends</span>&nbsp;</dt><dd> Zależności. Tablica pakietów które muszą zostać zainstalowane aby oprogramowanie działało prawidłowo. Należy użyć operatora <b>&gt;=</b> aby zapisać wymóg minimalnej wersji dla zależności (np <span style="font-family: monospace; color: #000055; white-space: nowrap">depends=('foobar&gt;=1.8.0')</span>). Nie należy podawać w tej tablicy pakietów, które występują już w zależnościach innych wymaganych do instalacji pakietów. Dla przykładu: pakiet <code>gtk2</code> wymaga pakietu <code>glib2</code>, który z kolei wymaga <code>glibc</code>. W zależnościach dla <code>gtk2</code> podajemy <code>glib2</code>, ale nie <code>glibc</code> gdyż ten i tak zainstalowany zostanie przy instalacji <code>glib2</code>.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">makedepends</span>&nbsp;</dt><dd> Lista pakietów wymaganych do zbudowania (kompilacji, innego przetworzenia plików źródłowych etc.) oprogramowania, lecz nie wymaganych do jego prawidłowej pracy. Podobnie jak w przypadku <span style="font-family: monospace; color: #000055; white-space: nowrap">depends</span>, operator <b>&gt;=</b> służy do opcjonalnego zaznaczenia minimalnej wymaganej wersji pakietu.
+</dd></dl>
+<dl><dd> <div style="padding: 5px; margin: 0.50em 0; background-color: #FFDDDD; border: thin solid #FFBBBB"><strong> Ostrzeżenie: </strong> Do tej zmiennej <b>nie należy</b> włączać pakietów z grupy <a href="http://www.archlinux.org/groups/i686/base-devel/" class="external text" rel="nofollow">"base-devel"</a>. Powinna ona zostać zainstalowana przed przystąpieniem do budowania pakietów. </div>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">checkdepends</span>&nbsp;</dt><dd> Lista pakietów wymaganych do uruchomienia testów aplikacji. Zmienna ta jest interpretowana wyłącznie w przypadku kiedy plik PKGBUILD zawiera funkcję <span style="font-family: monospace; color: #000055; white-space: nowrap">check()</span> oraz włączymy jej wykonanie.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">optdepends</span>&nbsp;</dt><dd> Zależności opcjonalne. Lista pakietów nie wymaganych do prawidłowego działania oprogramowania, lecz umożliwiających korzystanie z pewnych jego funkcji. Każdy z tych pakietów powinien zostać opatrzony krótkim komentarzem. Przykładowa zawartość <span style="font-family: monospace; color: #000055; white-space: nowrap">optdepends</span>:
+</dd></dl>
+<pre>optdepends=('cups: printing support'
+'sane: scanners support'
+'libgphoto2: digital cameras support'
+'alsa-lib: sound support'
+'giflib: GIF images support'
+'libjpeg: JPEG images support'
+'libpng: PNG images support')
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">provides</span>&nbsp;</dt><dd> Lista pakietów których funkcjonalności dostarcza budowany pakiet (lub pakiet wirtualny np <code>cron</code> lub <code>sh</code>). W przypadku użycia tej zmiennej należy podać również wersję oprogramowania (<span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span>) lub nawet wersję pakietu (<span style="font-family: monospace; color: #000055; white-space: nowrap">pkgrel</span>), jeśli może mieć to wpływ na proces rozwiązywania zależności. Zmienna ta będzie mieć wartość <span style="font-family: monospace; color: #000055; white-space: nowrap">provides=('qt=3.3.8')</span> jeśli na przykład budowana jest zmodyfikowana, lecz funkcjonalnie zgodna z oryginalną, wersja pakietu qt o nazwie <code>qt-foobar</code> w wersji 3.3.8. Pominięcie numeru wersji spowoduje niepomyślne rozwiązanie zależności pakietów wymagających qt w określonej wersji (np 3.3.8 lub większej). Do zmiennej tej automatycznie dołączana jest nazwa pakietu zawarta w <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgname</span>, nie wolno podawać jej bezpośrednio.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">conflicts</span>&nbsp;</dt><dd> Lista pakietów których obecność w systemie może spowodować nieprawidłowe działanie oprogramowania. Podobnie jak w przypadku <span style="font-family: monospace; color: #000055; white-space: nowrap">depends</span>, operator <b>&gt;=</b> służy do opcjonalnego zaznaczenia minimalnej wersji pakietu.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">replaces</span>&nbsp;</dt><dd> Lista przestarzałych pakietów. Pakiety te zostaną zastąpione budowanym pakietem podczas jego instalacji. Pacman zastąpi nazwy pakietów z tej listy nazwą nowego pakietu tuż po zsynchronizowaniu baz danych repozytoriów komendą <span style="font-family: monospace; color: #000055; white-space: nowrap">pacman -Sy</span>, a przed rozpoczęciem procesu rozwiązywania zależności. Nie należy używać tej zmiennej jeśli budowane oprogramowanie ma być alternatywnym (równoważnym funkcjonalnie zamiennikiem) dla oprogramowania w innym pakiecie, do tego służy zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">conflicts</span>, która przetwarzana jest podczas samej instalacji pakietu. Przykładem zastosowania tej zmiennej jest pakiet <tt><a href="http://www.archlinux.org/packages/?q=wireshark" class="external text" rel="nofollow">wireshark</a></tt>, który zastąpił przestarzały <code>ethereal</code>: <span style="font-family: monospace; color: #000055; white-space: nowrap">replaces=('ethereal')</span>.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">backup</span>&nbsp;</dt><dd> Lista plików których zawartość ma zostać zachowana podczas usuwania pakietu. Pliki takie nie są usuwane lecz zostają skopiowane do nowego pliku o identycznej nazwie oraz rozszerzeniem <span style="font-family: monospace; color: #005500; white-space: nowrap">.pacsave</span>. Jest to funkcjonalność często używana do zachowywania plików konfiguracyjnych ze ścieżki <span style="font-family: monospace; color: #005500; white-space: nowrap">/etc</span>. Ścieżki w tej zmiennej powinny być ścieżkami względnymi (np <span style="font-family: monospace; color: #005500; white-space: nowrap">etc/pacman.conf</span>).
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">options</span>&nbsp;</dt><dd> Lista opcji programu <a href="/Makepkg" title="Makepkg">Makepkg</a>. Pozwala zmodyfikować domyślne ustawienia <span style="font-family: monospace; color: #000055; white-space: nowrap">makepkg</span> dla budowanego pakietu. Aby ustawić (włączyć) opcję, wystarczy dołączyć ją do tej listy, aby zanegować działanie opcji należy poprzedzić ją znakiem wykrzyknika (<b>!</b>). Opcje które mogą znaleźć się na tej liście:
+<ul><li> <b>strip</b> - Usuń symbole z plików wykonywalnych oraz bibliotek (dane dla np debuggera)
+</li><li> <b>docs</b> - Nie usuwaj katalogów z dokumentacją (<span style="font-family: monospace; color: #005500; white-space: nowrap">/doc</span>)
+</li><li> <b>libtool</b> - Nie usuwaj plików narzędzia <code>libtool</code> (pliki <span style="font-family: monospace; color: #005500; white-space: nowrap">.la</span>)
+</li><li> <b>emptydirs</b> - Nie usuwaj pustych katalogów
+</li><li> <b>zipman</b> - Skompresuj pliki pomocy (<code>man</code> oraz <code>info</code>) używając <code>gzip</code>
+</li><li> <b>ccache</b> - Użyj do kompilacji narzędzia <a href="http://ccache.samba.org/" class="external text" rel="nofollow">ccache</a>. Często używana w formie zanegowanej <span style="font-family: monospace; color: #000055; white-space: nowrap">!ccache</span> w przypadku występowanie problemów podczas kompilacji z użyciem tego narzędzia.
+</li><li> <b>distcc</b> - Użyj do kompilacji narzędzia <a href="http://distcc.samba.org/" class="external text" rel="nofollow">distcc</a>. Często używana w formie zanegowanej <span style="font-family: monospace; color: #000055; white-space: nowrap">!distcc</span> w przypadku występowanie problemów podczas kompilacji z użyciem tego narzędzia.
+</li><li> <b>makeflags</b> - Użyj ustawień <span style="font-family: monospace; color: #000055; white-space: nowrap">makeflags</span> użytkownika. Forma zanegowana spowoduje użycie domyślnych ustawień <span style="font-family: monospace; color: #000055; white-space: nowrap">makeflags</span>, co pozwala zapobiec wystąpieniu błędów kompilacji.
+</li><li> <b>force</b> - Wymuś instalację pakietu podczas aktualizacji systemu. Pakiet zostanie zainstalowany niezależnie od tego jaki nosi numer wersji. Pozwala to np na wykonanie <a href="/Pacman#Downgrade_pakiet.C3.B3w" title="Pacman">downgrade pakietu</a>, czy zmianę schematu zapisu wersji oprogramowania.
+</li></ul>
+</dd><dd> <div style="padding: 5px; margin: 0.50em 0; background-color: #DDDDFF; border: thin solid #BBBBFF"><strong> Notka: </strong>Opcja ta nie jest interpretowana przez pacmana od wersji 3.5.0. Należy w zamian używać zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">epoch</span>.</div>
+<ul><li> <b>buildflags</b> - Ustaw zmienne <span style="font-family: monospace; color: #000055; white-space: nowrap">CFLAGS</span>, <span style="font-family: monospace; color: #000055; white-space: nowrap">CXXFLAGS</span>, <span style="font-family: monospace; color: #000055; white-space: nowrap">LDFLAGS</span> na wartości zapisane w <span style="font-family: monospace; color: #005500; white-space: nowrap">makepkg.conf</span>. Forma zanegowana spowoduje wyczyszczenie tych zmiennych, co pozwala zapobiec wystąpieniu błędów kompilacji.
+</li><li> <b>makeflags</b> - Ustaw zmienną <span style="font-family: monospace; color: #000055; white-space: nowrap">MAKEFLAGS</span> na wartość z <span style="font-family: monospace; color: #005500; white-space: nowrap">makepkg.conf</span>. Forma zanegowana spowoduje wyczyszczenie tej zmiennej, co pozwala zapobiec wystąpieniu błędów kompilacji.
+</li></ul>
+</dd></dl>
+<p><br />
+</p>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">install</span>&nbsp;</dt><dd> Nazwa pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">.install</span> który ma zostać dołączony do pakietu. Podczas instalacji, usuwania lub aktualizacji pakietu <a href="/Pacman" title="Pacman">pacman</a> uruchomi odpowiednią funkcję z tego pliku.
+</dd></dl>
+<table class="wikitable" width="100%">
+<caption>Wykaz funkcji dla plików <span style="font-family: monospace; color: #005500; white-space: nowrap">.install</span>
+</caption>
+<tr>
+<th> nazwa funkcji </th><th> działanie </th><th> parametry przekazywane do funkcji
+</th></tr>
+<tr>
+<td> pre_install
+</td><td> Funkcja ta zostanie wywołana tuż przed instalacją (rozpakowaniem) pakietu
+</td><td> numer wersji nowego pakietu
+</td></tr>
+<tr>
+<td> post_install
+</td><td> Funkcja zostanie wywołana po instalacji pakietu. Często wykorzystywana do wyświetlenia informacji o zależnościach opcjonalnych, konieczności ręcznej modyfikacji plików konfiguracyjnych przez użytkownika, sposobie korzystania z oprogramowania itp
+</td><td> numer wersji nowego pakietu
+</td></tr>
+<tr>
+<td> pre_upgrade
+</td><td> Funkcja zostanie wywołana tuż przed aktualizacją pakietu
+</td><td> numer wersji nowego pakietu, numer wersji starego pakietu
+</td></tr>
+<tr>
+<td> post_upgrade
+</td><td> Funkcja zostanie wywołana po aktualizacji pakietu. Podobnie jak funkcja <span style="font-family: monospace; color: #000055; white-space: nowrap">post_install</span> jest ona często wykorzystywana do wyświetlania dodatkowych informacji
+</td><td> numer wersji nowego pakietu, numer wersji starego pakietu
+</td></tr>
+<tr>
+<td> pre_remove
+</td><td> Funkcja zostanie wywołana tuż przed usunięciem pakietu
+</td><td> numer wersji usuwanego pakietu
+</td></tr>
+<tr>
+<td> post_remove
+</td><td> Funkcja zostanie wywołana po usunięciu pakietu
+</td><td> numer wersji usuwanego pakietu
+</td></tr></table>
+<dl><dd> <div style="padding: 5px; margin: 0.50em 0; background-color: #B7D99B; border: thin solid #518B20"><strong> Wskazówka: </strong>Szablon pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">.install</span> znajduje się w <span style="font-family: monospace; color: #005500; white-space: nowrap">/usr/share/pacman/proto.install</span>.</div>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">changelog</span>&nbsp;</dt><dd> Plik <code>changelog</code> który ma zostać włączony do pakietu. Powinien on być umieszczony w katalogu w którym znajduje się plik PKGBUILD. Zalecaną nazwą tego pliku jest nazwa pakietu plus rozszerzenie <span style="font-family: monospace; color: #005500; white-space: nowrap">.changelog</span>, pozwoli to na efektywniejsze wykorzystanie zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgname</span>: <span style="font-family: monospace; color: #000055; white-space: nowrap">changelog=$pkgname.changelog</span>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">source</span>&nbsp;</dt><dd> Lista plików koniecznych do zbudowania pakietu. Muszą być to pełne <a href="http://pl.wikipedia.org/wiki/Uniform_Resource_Locator" class="external text" rel="nofollow">URLe</a> plików źródłowych. Pliki nie dostępne z serwerów FTP czy WWW (np własne patche) należy umieścić w katalogu w którym znajduje się PKGBUILD, dodać je do listy <span style="font-family: monospace; color: #000055; white-space: nowrap">sources</span> oraz odpowiednio zmodyfikować zmienną <span style="font-family: monospace; color: #000055; white-space: nowrap">md5sums</span>. Jeśli zaistnieje potrzeba podania ścieżki do pliku źródłowego, należy pamiętać o konieczności używania w tej zmiennej ścieżek relatywnych do katalogu w którym znajduje się PKGBUILD. <div style="padding: 5px; margin: 0.50em 0; background-color: #FFDDDD; border: thin solid #FFBBBB"><strong> Ostrzeżenie: </strong>Pakiet nie zostanie zbudowany jeśli któryś z tych plików nie istnieje w lokalnym systemie plików lub nie jest możliwy do pobrania. </div>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">noextract</span>&nbsp;</dt><dd> Lista archiwów źródłowych które nie powinny być rozpakowane przez <a href="/Makepkg" title="Makepkg">Makepkg</a>. Pozwala to między innymi ominąć problem nie wspierania niektórych formatów archiwów przez bibliotekę <a href="http://code.google.com/p/libarchive/wiki/LibarchiveFormats" class="external text" rel="nofollow">libarchive</a>. Jeśli zaistnieje taka potrzeba należy dołączyć do zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">makedepends</span> zależność potrzebną do rozpakowania archiwum, a w funkcji <span style="font-family: monospace; color: #000055; white-space: nowrap">build()</span> jako pierwszy umieścić kod je rozpakowujący.
+</dd></dl>
+<pre>...
+makedepends=(... unzip)
+...
+build() {
+  cd $srcdir/$pkgname-$pkgver
+  unzip archiwum.zip
+  ...
+}
+</pre>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">md5sums</span>&nbsp;</dt><dd> Sumy kontrolne MD5 plików źródłowych. Muszą one odpowiadać kolejnością plikom na liście <span style="font-family: monospace; color: #000055; white-space: nowrap">sources</span>. Tuż po pobraniu/znalezieniu plików źródłowych <a href="/Makepkg" title="Makepkg">Makepkg</a> wygeneruje ich sumy MD5 oraz porówna je z wartościami odczytanymi z tej zmiennej. Budowa pakietu zostanie przerwana jeśli zostaną znalezione pomiędzy nimi różnice. Algorytm <a href="http://pl.wikipedia.org/wiki/MD5" class="external text" rel="nofollow">MD5</a> nie jest uważany za bezpieczny, warto rozważyć zastosowanie innego algorytmu. <div style="padding: 5px; margin: 0.50em 0; background-color: #B7D99B; border: thin solid #518B20"><strong> Wskazówka: </strong>Prostą metodą na znalezienie sum kontrolnych plików źródłowych jest wykorzystanie komendy <span style="font-family: monospace; color: #000055; white-space: nowrap">makepkg -g</span>. </div>
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">sha1sums</span>&nbsp;</dt><dd> Lista 160-bitowych sum kontrolnych plików źródłowych obliczonych algorytmem SHA-1. Można użyć ich w zastępstwie sum MD5, warto jednak użyć bezpieczniejszego algorytmu. Aby włączyć sprawdzanie oraz obliczanie tego typu sum należy odpowiednio zmodyfikować zmienną <a href="/Makepkg#Zawarto.C5.9B.C4.87_pakietu" title="Makepkg">INTEGRITY_CHECK</a> w pliku <span style="font-family: monospace; color: #000055; white-space: nowrap">makepkg.conf</span>.
+</dd></dl>
+<dl><dt> <span style="font-family: monospace; color: #000055; white-space: nowrap">sha256sums, sha384sums, sha512sums</span>&nbsp;</dt><dd> Listy odpowiednio 256, 384 lub 512 bitowych sum kontrolnych plików źródłowych obliczonych algorytmem SHA-2. Uważa się je za bezpieczniejsze od sum MD5 oraz SHA-1. Aby włączyć sprawdzanie oraz obliczanie tego typu sum należy odpowiednio zmodyfikować zmienną <a href="/Makepkg#Zawarto.C5.9B.C4.87_pakietu" title="Makepkg">INTEGRITY_CHECK</a> w pliku <span style="font-family: monospace; color: #000055; white-space: nowrap">makepkg.conf</span>.
+</dd></dl>
+<h3><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=4" title="Edytuj sekcję: Wersje rozwojowe oprogramowania">edytuj</a>]</span> <span class="mw-headline" id="Wersje_rozwojowe_oprogramowania">Wersje rozwojowe oprogramowania</span></h3>
+<p>Makepkg ułatwia budowanie pakietów wersji rozwojowych oprogramowania - potrafi automatycznie ustawić zmienną <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span>. Aby skorzystać z tego mechanizmu należy wykorzystać dodatkowe zmienne, odpowiednie dla SCM (VCS) z którego pobieramy źródła. Należy również upewnić się, że pakiet potrzebny do pracy z wybranym SCM zamajduje się na liście <span style="font-family: monospace; color: #000055; white-space: nowrap">makedepends</span>. Fakt wykorzystania poniższych zmiennych zmienia sposób w jaki <span style="font-family: monospace; color: #000055; white-space: nowrap">makepkg</span> interpretuje PKGBUILD - zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">sources</span> oraz zmienne zawierające sumy kontrolne nie są interpretowane.
+</p>
+<dl><dt> CVS&nbsp;</dt><dd> Zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span> zostanie ustawiona na datę budowy pakietu.
+<ul><li> <b>_cvsroot</b> - adres repozytorium (root)
+</li><li> <b>_cvsmod</b> - moduł do pobrania.
+</li></ul>
+</dd></dl>
+<dl><dt> SVN&nbsp;</dt><dd> Zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span> zostanie ustawiona na numer najnowszej wersji repozytorium
+<ul><li> <b>_svntrunk</b> - adres repozytorium (root)
+</li><li> <b>_svnmod</b> - moduł do pobrania
+</li></ul>
+</dd></dl>
+<dl><dt> Git&nbsp;</dt><dd> Zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span> zostanie ustawiona przy pomocy komendy <span style="font-family: monospace; color: #000055; white-space: nowrap">describe</span>, myślniki zostaną zastąpione podkreślnikami.
+<ul><li> <b>_gitroot</b> - adres repozytorium
+</li><li> <b>_gitname</b> - tag lub gałąź do pobrania
+</li></ul>
+</dd></dl>
+<dl><dt> Mercurial&nbsp;</dt><dd> Zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span> zostanie ustawiona na numer najnowszej wersji repozytorium (tip)
+<ul><li> <b>_hgroot</b> - adres repozytorium
+</li><li> <b>_hgname</b> - repozytorium do pobrania
+</li></ul>
+</dd></dl>
+<dl><dt> Darcs&nbsp;</dt><dd> Zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span> zostanie ustawiona na datę budowy pakietu.
+<ul><li> <b>_darcstrunk</b> - adres repozytorium (trunk)
+</li><li> <b>_darcsmod</b> - moduł do pobrania.
+</li></ul>
+</dd></dl>
+<dl><dt> Bazaar&nbsp;</dt><dd> Zmienna <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgver</span> zostanie ustawiona na numer najnowszej wersji repozytorium (revno)
+<ul><li> <b>_bzrtrunk</b> - adres repozytorium
+</li><li> <b>_bzrmod</b> - moduł do pobrania
+</li></ul>
+</dd></dl>
+<p><br />
+Kolejność występowania zmiennych w pliku <span style="font-family: monospace; color: #005500; white-space: nowrap">PKGBUILD</span> jest zazwyczaj identyczna z tą przedstawioną na powyższej liście. Nie jest to jednak regułą, wymaga się jedynie aby treść pliku zachowała poprawną składnię <a href="/Bash" title="Bash">Basha</a>.
+</p>
+<h2><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=5" title="Edytuj sekcję: Funkcje">edytuj</a>]</span> <span class="mw-headline" id="Funkcje"> Funkcje </span></h2>
+<p>Proces budowy pakietu opisujemy funkcjami <a href="/Bash" title="Bash">Bash</a>. Zostaną wywołane przez <a href="/Makepkg" title="Makepkg">makepkg</a> podczas budowania pakietu. Przetworzenie plików źródłowych opisujemy w funkcji <span style="font-family: monospace; color: #000055; white-space: nowrap">build</span>, w przypadku pakietów dzielonych piszemy również opcjonalne funkcje <span style="font-family: monospace; color: #000055; white-space: nowrap">package</span>.
+</p><p>Wykorzystać możemy zmienne zdefiniowane wewnątrz PKGBUILD (<span style="font-family: monospace; color: #000055; white-space: nowrap">pkgname, pkgver</span> etc), oraz ustawione przez <a href="/Makepkg" title="Makepkg">makepkg</a> zmienne:
+</p>
+<ul><li> <span style="font-family: monospace; color: #000055; white-space: nowrap">startdir</span>&nbsp;: Bezwzględna ścieżka do katalogu w którym znajduje się PKGBUILD.
+</li><li> <span style="font-family: monospace; color: #000055; white-space: nowrap">srcdir</span>&nbsp;: Bezwzględna ścieżka do katalogu w którym znajdują się pliki źródłowe (rozpakowane archiwa).
+</li><li> <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgdir</span>&nbsp;: Bezwzględna ścieżka do katalogu zawierającego pliki wynikowe które wejdą w skład pakietu. Będzie to katalog root w naszym pakiecie.
+</li></ul>
+<p>Własne zmienne należy deklarować jako lokalne (używając słowa kluczowego <span style="font-family: monospace; color: #000055; white-space: nowrap">local</span>).
+</p>
+<h3><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=6" title="Edytuj sekcję: Funkcja build()">edytuj</a>]</span> <span class="mw-headline" id="Funkcja_build.28.29"> Funkcja build() </span></h3>
+<p>Zadaniem tej funkcji jest faktyczna budowa oprogramowania wchodzącego w skład pakietu. Najczęściej sprowadza się to do odpowiedniego wywołania <span style="font-family: monospace; color: #000055; white-space: nowrap">configure</span> oraz <span style="font-family: monospace; color: #000055; white-space: nowrap">make</span>. Wszelkie narzędzia wykorzystane w tej funkcji, a nie znajdujące się w pakiecie <a href="http://www.archlinux.org/groups/i686/base-devel/" class="external text" rel="nofollow">"base-devel"</a> dopisujemy do zmiennej <span style="font-family: monospace; color: #000055; white-space: nowrap">makedepends</span>.
+</p>
+<h3><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=7" title="Edytuj sekcję: Funkcja package()">edytuj</a>]</span> <span class="mw-headline" id="Funkcja_package.28.29"> Funkcja package() </span></h3>
+<p>W tej funkcji przygotowujemy katalog <span style="font-family: monospace; color: #000055; white-space: nowrap">pkgdir</span> do końcowej kompresji. Wykorzystujemy <span style="font-family: monospace; color: #000055; white-space: nowrap">make install, mkdir, cp</span> lub inne polecenia aby odpowiednio rozmieścić w nim pliki utworzone w funkcji <span style="font-family: monospace; color: #000055; white-space: nowrap">build()</span>.
+</p><p>Wykorzystanie <span style="font-family: monospace; color: #000055; white-space: nowrap">fakeroot</span> zostanie ograniczone wyłącznie do tej funkcji, budowa pakietu odbędzie się z prawami użytkownika uruchamiającego <span style="font-family: monospace; color: #000055; white-space: nowrap">makepkg</span>.
+</p>
+<h3><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=8" title="Edytuj sekcję: Przykład">edytuj</a>]</span> <span class="mw-headline" id="Przyk.C5.82ad"> Przykład </span></h3>
+<div style="padding: 0.25em; margin: 0.50em 0 0 0; background-color: #E7FFE7; border: thin dashed #7F7F7F; border-bottom: thin solid #7F7F7F"><strong>File: <tt>PKGBUILD</tt></strong></div>
+<pre style="padding: 0.25em; margin: 0 0 0.50em 0; background-color: #F7F7F7; border: thin dashed #7F7F7F; border-top: none">
+# Maintainer: Joe User &lt;joe.user@example.com&gt;
+
+pkgname=patch
+pkgver=2.5.4
+pkgrel=3
+pkgdesc=&quot;A utility to apply patch files to original sources&quot;
+arch=('i686' 'x86_64')
+url=&quot;http://www.gnu.org/software/patch/patch.html&quot;
+license=('GPL')
+groups=('base-devel')
+depends=('glibc' 'ed')
+source=(ftp://ftp.gnu.org/gnu/$pkgname/$pkgname-$pkgver.tar.gz)
+md5sums=('ee5ae84d115f051d87fcaaef3b4ae782')
+
+build() {
+  cd $srcdir/$pkgname-$pkgver
+  ./configure --prefix=/usr
+  make
+}
+
+package() {
+  cd $srcdir/$pkgname-$pkgver
+  make prefix=$pkgdir/usr install
+}
+</pre>
+<h2><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=9" title="Edytuj sekcję: Pakiety dzielone">edytuj</a>]</span> <span class="mw-headline" id="Pakiety_dzielone"> Pakiety dzielone </span></h2>
+<h2><span class="editsection">[<a href="/index.php?title=PKGBUILD&amp;action=edit&amp;section=10" title="Edytuj sekcję: Zobacz również">edytuj</a>]</span> <span class="mw-headline" id="Zobacz_r.C3.B3wnie.C5.BC">Zobacz również</span></h2>
+<ul><li> <a href="http://www.archlinux.org/pacman/PKGBUILD.5.html" class="external text" rel="nofollow">Man PKGBUILD</a>
+</li><li> <a href="http://www.archlinux.org/pacman/makepkg.conf.5.html" class="external text" rel="nofollow">Man makepkg.conf</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 1054/1000000
+Post-expand include size: 16178/2097152 bytes
+Template argument size: 4473/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key archlinux_db-wiki_:pcache:idhash:372-0!1!0!!pl!2 and timestamp 20110526121943 -->
+<div class="printfooter">
+Źródło „<a href="http://wiki.archlinux.pl/PKGBUILD">http://wiki.archlinux.pl/PKGBUILD</a>”</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/Specjalna:Kategorie" title="Specjalna:Kategorie">Kategorie</a>: <span dir='ltr'><a href="/Kategoria:HOWTO" title="Kategoria:HOWTO">HOWTO</a></span> | <span dir='ltr'><a href="/Kategoria:Zarz%C4%85dzanie_pakietami" title="Kategoria:Zarządzanie pakietami">Zarządzanie pakietami</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Widok</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/PKGBUILD" title="Zobacz stronę treści [c]" accesskey="c">Strona</a></li>
+				 <li id="ca-talk"><a href="/Dyskusja:PKGBUILD" title="Dyskusja o zawartości tej strony. [t]" accesskey="t">Dyskusja</a></li>
+				 <li id="ca-edit"><a href="/index.php?title=PKGBUILD&amp;action=edit" title="Możesz edytować tę stronę. Przed zapisaniem zmian użyj przycisku podgląd. [e]" accesskey="e">Edytuj</a></li>
+				 <li id="ca-history"><a href="/index.php?title=PKGBUILD&amp;action=history" title="Starsze wersje tej strony. [h]" accesskey="h">Historia i autorzy</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Osobiste</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Specjalna:Zaloguj&amp;returnto=PKGBUILD" title="Zachęcamy do zalogowania się, choć nie jest to obowiązkowe. [o]" accesskey="o">Logowanie i rejestracja</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/skins/common/images/wiki.png);" href="/Strona_g%C5%82%C3%B3wna" title="Strona główna"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Nawigacja</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/Strona_g%C5%82%C3%B3wna" title="Przejdź na stronę główną [z]" accesskey="z">Strona główna</a></li>
+				<li id="n-portal"><a href="/wiki.archlinux.pl:Portal_spo%C5%82eczno%C5%9Bci" title="O projekcie, co możesz zrobić, gdzie możesz znaleźć informacje">Portal społeczności</a></li>
+				<li id="n-currentevents"><a href="/wiki.archlinux.pl:Aktualno%C5%9Bci" title="Informacje o aktualnych wydarzeniach">Bieżące wydarzenia</a></li>
+				<li id="n-recentchanges"><a href="/Specjalna:Ostatnie_zmiany" title="Lista ostatnich zmian na wiki.archlinux.pl. [r]" accesskey="r">Ostatnie zmiany</a></li>
+				<li id="n-randompage"><a href="/Specjalna:Losowa_strona" title="Pokaż stronę wybraną losowo [x]" accesskey="x">Losowa strona</a></li>
+				<li id="n-help"><a href="/Pomoc:Spis_tre%C5%9Bci" title="Tutaj możesz się wielu rzeczy dowiedzieć.">Pomoc</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Szukaj</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Specjalna:Szukaj"/>
+				<input id="searchInput" title="Przeszukaj wiki.archlinux.pl" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Przejdź" title="Przejdź do strony o dokładnie takim tytule, o ile istnieje" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Szukaj" title="Szukaj wprowadzonego tekstu w treści stron" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Narzędzia</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Specjalna:Linkuj%C4%85ce/PKGBUILD" title="Pokaż listę wszystkich stron linkujących do tej strony [j]" accesskey="j">Linkujące</a></li>
+				<li id="t-recentchangeslinked"><a href="/Specjalna:Zmiany_w_linkuj%C4%85cych/PKGBUILD" title="Ostatnie zmiany w stronach, do których ta strona linkuje [k]" accesskey="k">Zmiany w dolinkowanych</a></li>
+<li id="t-specialpages"><a href="/Specjalna:Strony_specjalne" title="Lista wszystkich specjalnych stron [q]" accesskey="q">Strony specjalne</a></li>
+				<li id="t-print"><a href="/index.php?title=PKGBUILD&amp;printable=yes" rel="alternate" title="Wersja do wydruku [p]" accesskey="p">Wersja do druku</a></li>				<li id="t-permalink"><a href="/index.php?title=PKGBUILD&amp;oldid=3057" title="Stały link do tej wersji strony">Link do tej wersji</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"><img src="/skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.2" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> Tę stronę ostatnio zmodyfikowano 21:01, 17 kwi 2011.</li>
+		<li id="viewcount">Tę stronę obejrzano 1224 razy.</li>
+		<li id="copyright">Treść udostępniana na licencji <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" class="external ">GNU Free Documentation License 1.2</a>.</li>
+		<li id="privacy"><a href="/wiki.archlinux.pl:Zasady_ochrony_prywatno%C5%9Bci" title="wiki.archlinux.pl:Zasady ochrony prywatności">Zasady ochrony prywatności</a></li>
+		<li id="about"><a href="/wiki.archlinux.pl:O_wiki.archlinux.pl" title="wiki.archlinux.pl:O wiki.archlinux.pl">O wiki.archlinux.pl</a></li>
+		<li id="disclaimer"><a href="/wiki.archlinux.pl:Informacje_prawne" title="wiki.archlinux.pl:Informacje prawne">Informacje prawne</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.066 secs. --></body></html>
